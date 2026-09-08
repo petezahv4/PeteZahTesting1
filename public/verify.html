@@ -7,33 +7,33 @@
   <script>
     (function () {
       var k = String.fromCharCode(112, 122, 45, 101, 103);
-      var g = "dl10";
+      var g = "dl13";
       try {
         var u = new URL(location.href);
         if (u.searchParams.get("_eg") === g) {
           u.searchParams.delete("_eg");
           history.replaceState(null, "", u.pathname + u.search + u.hash);
+          try {
+            localStorage.setItem(k, g);
+          } catch (e) {}
+          window.__PZ_EG__ = g;
           return;
         }
-        if (localStorage.getItem(k) === g) return;
+        if (localStorage.getItem(k) === g) {
+          window.__PZ_EG__ = g;
+          return;
+        }
       } catch (e) {
         return;
       }
       window.__pzEgMig = 1;
-      try {
-        document.documentElement.style.background = "#020810";
-        document.write(
-          '<body style="margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#020810;color:hsla(0,0%,100%,0.5);font:13px system-ui,sans-serif">Updating…</body>'
-        );
-      } catch (e) {}
-      try {
-        window.stop();
-      } catch (e) {}
+      window.__PZ_EG__ = g;
       var old = String.fromCharCode(36, 115, 99, 114, 97, 109, 106, 101, 116);
       var neu = String.fromCharCode(36, 100, 117, 115, 107, 108, 105, 110, 101);
       try {
         indexedDB.deleteDatabase(old);
         indexedDB.deleteDatabase(neu);
+        indexedDB.deleteDatabase(String.fromCharCode(36, 118, 111, 108, 116, 101, 100, 103, 101));
       } catch (e) {}
       var jobs = [];
       if (navigator.serviceWorker) {
@@ -67,12 +67,12 @@
         } catch (e) {}
         var n = new URL(location.href);
         n.searchParams.set("_eg", g);
-        location.replace(n.toString());
+        location.replace(n.pathname + n.search + n.hash);
       }
       Promise.all(jobs)
         .catch(function () {})
         .then(finish);
-      setTimeout(finish, 1800);
+      setTimeout(finish, 1200);
     })();
   </script>
   <script>

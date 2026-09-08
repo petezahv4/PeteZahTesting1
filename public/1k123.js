@@ -8,7 +8,7 @@ if (navigator.userAgent.includes('Firefox')) {
 var _base = self.location.pathname.replace(/[^/]*$/, '');
 var _p = _base + ['q', '9vx/'].join('');
 var _f = ['sj', '.all', '.js'].join('');
-var _v = ['dl', '12'].join('');
+var _v = ['dl', '13'].join('');
 try {
   importScripts(_p + _f + '?v=' + _v);
 } catch (e) {}

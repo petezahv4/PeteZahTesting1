@@ -19,6 +19,7 @@ import VantaBackground from "@/components/VantaBackground";
 import ObfuscatedText from "@/components/ObfuscatedText";
 import { CoverImg } from "@/lib/mediaCover";
 import { hrefs, marks } from "@/lib/uiMarks";
+import { generateGameId } from "@/lib/gameId";
 
 type Props = {
   variant?: "overlay" | "page";
@@ -195,7 +196,7 @@ export default function TrendingDashboard({
               const id =
                 typeof g.id === "string" && g.id
                   ? g.id
-                  : `${label}-${url}`.replace(/[^a-zA-Z0-9]/g, "-").toLowerCase();
+                  : generateGameId({ label, url });
               return {
                 id,
                 label,

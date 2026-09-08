@@ -171,17 +171,22 @@ async function migrateEngineOnce(): Promise<void> {
       u.searchParams.delete("_eg");
       history.replaceState(null, "", u.pathname + u.search + u.hash);
     }
-    if (localStorage.getItem(engKey()) === ENGINE_GEN) return;
+    const stamp =
+      (typeof window !== "undefined" && (window as any).__PZ_EG__) ||
+      [ENGINE_GEN, (window as any).__PZ_CACHE__].filter(Boolean).join("-") ||
+      ENGINE_GEN;
+    if (localStorage.getItem(engKey()) === stamp) return;
+    await clearServiceWorkers();
+    await deleteDb(oldDbName());
+    await deleteDb(String.fromCharCode(36, 100, 117, 115, 107, 108, 105, 110, 101));
+    await deleteDb(String.fromCharCode(36, 118, 111, 108, 116, 101, 100, 103, 101));
+    await deleteDb(dbName());
+    try {
+      localStorage.setItem(engKey(), stamp);
+    } catch {}
   } catch {
     return;
   }
-  await clearServiceWorkers();
-  await deleteDb(oldDbName());
-  await deleteDb(String.fromCharCode(36, 100, 117, 115, 107, 108, 105, 110, 101));
-  await deleteDb(dbName());
-  try {
-    localStorage.setItem(engKey(), ENGINE_GEN);
-  } catch {}
 }
 
 async function repairPxStore() {
@@ -322,6 +327,10 @@ function loadScriptOnce(src: string): Promise<void> {
 let ensurePromise: Promise<void> | null = null;
 
 export async function armPx(): Promise<void> {
+  if ((window as any).__pzEgMig) {
+    await new Promise<void>(() => {});
+    return;
+  }
   if ((window as any).__pz) return;
   if (ensurePromise) return ensurePromise;
 

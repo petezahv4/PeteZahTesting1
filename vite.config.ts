@@ -100,19 +100,27 @@ function gameAssetsPassthrough(mode: string): Plugin {
   };
 }
 
-async function minifyEngineMigrateHtml(html: string): Promise<string> {
+async function minifyEngineMigrateHtml(html: string, stamp?: string): Promise<string> {
+  let next = html;
+  if (stamp) {
+    next = next.replace(
+      /var g = "dl\d+"/g,
+      `var g = ${JSON.stringify(stamp)}`,
+    );
+  }
   const re = /<script>([\s\S]*?__pzEgMig[\s\S]*?)<\/script>/;
-  const m = html.match(re);
-  if (!m) return html;
+  const m = next.match(re);
+  if (!m) return next;
   const { code } = await transformWithEsbuild(m[1], "eg-migrate.js", {
     minify: true,
     legalComments: "none",
   });
-  return html.replace(m[0], `<script>${code.trim()}</script>`);
+  return next.replace(m[0], `<script>${code.trim()}</script>`);
 }
 
 function minifyEngineMigrate(): Plugin {
   let outDir = "dist";
+  const stamp = `dl13-${Date.now().toString(36)}`;
   return {
     name: "minify-engine-migrate",
     apply: "build",
@@ -120,12 +128,15 @@ function minifyEngineMigrate(): Plugin {
       outDir = config.build.outDir;
     },
     async transformIndexHtml(html) {
-      return minifyEngineMigrateHtml(html);
+      return minifyEngineMigrateHtml(html, stamp);
     },
     async closeBundle() {
       const verifyPath = path.resolve(outDir, "verify.html");
       if (!existsSync(verifyPath)) return;
-      writeFileSync(verifyPath, await minifyEngineMigrateHtml(readFileSync(verifyPath, "utf8")));
+      writeFileSync(
+        verifyPath,
+        await minifyEngineMigrateHtml(readFileSync(verifyPath, "utf8"), stamp),
+      );
     },
   };
 }

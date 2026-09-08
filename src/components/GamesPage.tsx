@@ -7,16 +7,13 @@ import { armAdAudio } from "@/lib/exoclick";
 import { originHttpHost } from "@/lib/siteOrigin";
 import { resolveGameViaHref } from "@/lib/proxyTarget";
 import { normalizeGameVia, type GameVia } from "@/lib/mochiPath";
+import { generateGameId } from "@/lib/gameId";
 import { hrefs, marks } from "@/lib/uiMarks";
 import { isLiteDevice } from "@/lib/liteDevice";
 import ObfuscatedText from "./ObfuscatedText";
 
 const CATEGORIES = ["All", "Action", "Racing", "Strategy", "Sports", "Skill", "Shooting", "2 Player", "Io"];
 const PINNED_LABELS = [marks.request(), "Minecraft", "Roblox"];
-
-function generateGameId(game: { label: string; url: string }) {
-  return `${game.label}-${game.url}`.replace(/[^a-zA-Z0-9]/g, "-").toLowerCase();
-}
 
 function pinnedRank(label: string) {
   const i = PINNED_LABELS.findIndex((p) => p.toLowerCase() === String(label || "").toLowerCase());

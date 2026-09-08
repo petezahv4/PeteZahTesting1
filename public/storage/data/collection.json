@@ -20,7 +20,7 @@
     },
     {
       "label": "Tag",
-      "url": "/iframe.html?url=/storage/ag/originals/tag",
+      "url": "/iframe.html?url=/storage/ag/originals/tag/index.html",
       "imageUrl": "/storage/images/main/taggame.jpg",
       "categories": [
         "2 player"
@@ -28,7 +28,7 @@
     },
     {
       "label": "Poly Track v0.4.1",
-      "url": "/iframe.html?url=/storage/ag/originals/polytrack",
+      "url": "/iframe.html?url=/storage/ag/originals/polytrack/index.html",
       "imageUrl": "/storage/images/main/polytrack-v2.jpeg",
       "categories": [
         "racing"
@@ -36,7 +36,7 @@
     },
     {
       "label": "Ragdoll Archers",
-      "url": "/iframe.html?url=/storage/ag/originals/ragdoll-archers",
+      "url": "/iframe.html?url=/storage/ag/originals/ragdoll-archers/index.html",
       "imageUrl": "/storage/images/main/ragdoll.jpg",
       "categories": [
         "2 player",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Ragdoll Hit",
-      "url": "/iframe.html?url=/storage/ag/originals/ragdoll-hit",
+      "url": "/iframe.html?url=/storage/ag/originals/ragdoll-hit/index.html",
       "imageUrl": "/storage/images/main/ragdoll-hit.jpeg",
       "categories": [
         "2 player",
@@ -54,7 +54,7 @@
     },
     {
       "label": "Super Star Car",
-      "url": "/iframe.html?url=/storage/ag/originals/superstarcar",
+      "url": "/iframe.html?url=/storage/ag/originals/superstarcar/index.html",
       "imageUrl": "/storage/images/main/superstarcar.jpeg",
       "categories": [
         "skill",
@@ -63,7 +63,7 @@
     },
     {
       "label": "Clash Royale",
-      "url": "/iframe.html?url=/storage/ag/originals/clash-royale",
+      "url": "/iframe.html?url=/storage/ag/originals/clash-royale/index.html",
       "imageUrl": "/storage/images/main/clash.jpeg",
       "categories": [
         "skill",
@@ -72,7 +72,7 @@
     },
     {
       "label": "Drive Mad",
-      "url": "/iframe.html?url=/storage/ag/arsenic/drive-mad",
+      "url": "/iframe.html?url=/storage/ag/arsenic/drive-mad/index.html",
       "imageUrl": "/storage/images/main3/drivemad.png",
       "categories": [
         "Strategy"
@@ -80,7 +80,7 @@
     },
     {
       "label": "Retro Bowl",
-      "url": "/iframe.html?url=/storage/ag/arsenic/retro-bowl",
+      "url": "/iframe.html?url=/storage/ag/arsenic/retro-bowl/index.html",
       "imageUrl": "/storage/images/main3/retrobowl.png",
       "categories": [
         "Action",
@@ -89,7 +89,7 @@
     },
     {
       "label": "Sky Riders",
-      "url": "/iframe.html?url=/storage/ag/arsenic/sky-riders/",
+      "url": "/iframe.html?url=/storage/ag/arsenic/sky-riders/index.html",
       "imageUrl": "/storage/images/main3/skyriders.png",
       "categories": [
         "action",
@@ -133,7 +133,7 @@
     },
     {
       "label": "Fortnite",
-      "url": "/iframe.html?url=/storage/ag/apps/geforce",
+      "url": "/iframe.html?url=/storage/ag/apps/geforce/index.html",
       "imageUrl": "/storage/images/main/fakefortnight.jpg",
       "categories": [
         "shooting"
@@ -157,7 +157,7 @@
     },
     {
       "label": "Highway Racer",
-      "url": "/iframe.html?url=/storage/ag/originals/highway-racer",
+      "url": "/iframe.html?url=/storage/ag/originals/highway-racer/index.html",
       "imageUrl": "/storage/images/main/highway-racer.jpeg",
       "categories": [
         "racing"
@@ -165,7 +165,7 @@
     },
     {
       "label": "Highway Racer 2",
-      "url": "/iframe.html?url=/storage/ag/originals/highway-race2",
+      "url": "/iframe.html?url=/storage/ag/originals/highway-race2/index.html",
       "imageUrl": "/storage/images/main/highway-racer2.jpeg",
       "categories": [
         "racing"
@@ -173,7 +173,7 @@
     },
     {
       "label": "Stickman Hook",
-      "url": "/iframe.html?url=/storage/ag/originals/stickman-hook",
+      "url": "/iframe.html?url=/storage/ag/originals/stickman-hook/index.html",
       "imageUrl": "/storage/images/main/stickmanhook.jpg",
       "categories": [
         "skill"
@@ -191,7 +191,7 @@
     },
     {
       "label": "5b",
-      "url": "/iframe.html?url=/storage/ag/arsenic/5b",
+      "url": "/iframe.html?url=/storage/ag/arsenic/5b/index.html",
       "imageUrl": "/storage/images/main3/5b.png",
       "categories": [
         "Action"
@@ -199,7 +199,7 @@
     },
     {
       "label": "Animal Arena",
-      "url": "/iframe.html?url=/storage/ag/arsenic/animal-arena",
+      "url": "/iframe.html?url=/storage/ag/arsenic/animal-arena/index.html",
       "imageUrl": "/storage/images/main3/animalarena.png",
       "categories": [
         "Action",
@@ -208,7 +208,7 @@
     },
     {
       "label": "Animals Volleyball",
-      "url": "/iframe.html?url=/storage/ag/arsenic/animals-volleyball",
+      "url": "/iframe.html?url=/storage/ag/arsenic/animals-volleyball/index.html",
       "imageUrl": "/storage/images/main3/animalsvolleyball.png",
       "categories": [
         "Sports"
@@ -216,7 +216,7 @@
     },
     {
       "label": "Bacon May Die",
-      "url": "/iframe.html?url=/storage/ag/arsenic/bacon-may-die",
+      "url": "/iframe.html?url=/storage/ag/arsenic/bacon-may-die/index.html",
       "imageUrl": "/storage/images/main3/baconmaydie.png",
       "categories": [
         "Action"
@@ -224,7 +224,7 @@
     },
     {
       "label": "Ball Dodge",
-      "url": "/iframe.html?url=/storage/ag/arsenic/ball-dodge",
+      "url": "/iframe.html?url=/storage/ag/arsenic/ball-dodge/index.html",
       "imageUrl": "/storage/images/main3/balldodge.png",
       "categories": [
         "Skill"
@@ -232,7 +232,7 @@
     },
     {
       "label": "Bank Robbery",
-      "url": "/iframe.html?url=/storage/ag/arsenic/bank-robbery",
+      "url": "/iframe.html?url=/storage/ag/arsenic/bank-robbery/index.html",
       "imageUrl": "/storage/images/main3/bankrobbery.png",
       "categories": [
         "Action"
@@ -240,7 +240,7 @@
     },
     {
       "label": "Basket Random",
-      "url": "/iframe.html?url=/storage/ag/arsenic/basket-random",
+      "url": "/iframe.html?url=/storage/ag/arsenic/basket-random/index.html",
       "imageUrl": "/storage/images/main3/basketrandom.png",
       "categories": [
         "Sports"
@@ -248,7 +248,7 @@
     },
     {
       "label": "Battle Wheels",
-      "url": "/iframe.html?url=/storage/ag/arsenic/battle-wheels",
+      "url": "/iframe.html?url=/storage/ag/arsenic/battle-wheels/index.html",
       "imageUrl": "/storage/images/main3/battlewheels.png",
       "categories": [
         "Action",
@@ -257,7 +257,7 @@
     },
     {
       "label": "Bitlife",
-      "url": "/iframe.html?url=/storage/ag/arsenic/bitlife",
+      "url": "/iframe.html?url=/storage/ag/arsenic/bitlife/index.html",
       "imageUrl": "/storage/images/main3/bitlife.png",
       "categories": [
         "Strategy"
@@ -265,7 +265,7 @@
     },
     {
       "label": "Blumgi Ball",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-ball",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-ball/index.html",
       "imageUrl": "/storage/images/main3/blumgiball.png",
       "categories": [
         "Skill"
@@ -273,7 +273,7 @@
     },
     {
       "label": "Blumgi Bloom",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-bloom",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-bloom/index.html",
       "imageUrl": "/storage/images/main3/blumgibloom.png",
       "categories": [
         "Skill"
@@ -281,7 +281,7 @@
     },
     {
       "label": "Blumgi Castle",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-castle",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-castle/index.html",
       "imageUrl": "/storage/images/main3/blumgicastle.png",
       "categories": [
         "Action"
@@ -289,7 +289,7 @@
     },
     {
       "label": "Blumgi Dragon",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-dragon",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-dragon/index.html",
       "imageUrl": "/storage/images/main3/blumgidragon.png",
       "categories": [
         "Action"
@@ -297,7 +297,7 @@
     },
     {
       "label": "Blumgi Paintball",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-paintball",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-paintball/index.html",
       "imageUrl": "/storage/images/main3/blumgipaintball.png",
       "categories": [
         "Action",
@@ -306,7 +306,7 @@
     },
     {
       "label": "Blumgi Racers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-racers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-racers/index.html",
       "imageUrl": "/storage/images/main3/blumgiracers.png",
       "categories": [
         "Racing"
@@ -314,7 +314,7 @@
     },
     {
       "label": "Blumgi Rocket",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-rocket",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-rocket/index.html",
       "imageUrl": "/storage/images/main3/blumgirocket.png",
       "categories": [
         "Action"
@@ -322,7 +322,7 @@
     },
     {
       "label": "Blumgi Slime",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-slime",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-slime/index.html",
       "imageUrl": "/storage/images/main3/blumgislime.png",
       "categories": [
         "Action"
@@ -330,7 +330,7 @@
     },
     {
       "label": "Blumgi Soccer",
-      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-soccer",
+      "url": "/iframe.html?url=/storage/ag/arsenic/blumgi-soccer/index.html",
       "imageUrl": "/storage/images/main3/blumgisoccer.png",
       "categories": [
         "Sports"
@@ -338,7 +338,7 @@
     },
     {
       "label": "Bobble",
-      "url": "/iframe.html?url=/storage/ag/arsenic/bobble",
+      "url": "/iframe.html?url=/storage/ag/arsenic/bobble/index.html",
       "imageUrl": "/storage/images/main3/bobble.png",
       "categories": [
         "Skill"
@@ -346,7 +346,7 @@
     },
     {
       "label": "Breaking the Bank",
-      "url": "/iframe.html?url=/storage/ag/arsenic/breaking-the-bank",
+      "url": "/iframe.html?url=/storage/ag/arsenic/breaking-the-bank/index.html",
       "imageUrl": "/storage/images/main3/breakingthebank.png",
       "categories": [
         "Action"
@@ -354,7 +354,7 @@
     },
     {
       "label": "buenos aires",
-      "url": "/iframe.html?url=/storage/ag/arsenic/buenos-aires",
+      "url": "/iframe.html?url=/storage/ag/arsenic/buenos-aires/index.html",
       "imageUrl": "/storage/images/main3/buenosaires.png",
       "categories": [
         "Action"
@@ -362,7 +362,7 @@
     },
     {
       "label": "Bullet Bros",
-      "url": "/iframe.html?url=/storage/ag/arsenic/bullet-bros",
+      "url": "/iframe.html?url=/storage/ag/arsenic/bullet-bros/index.html",
       "imageUrl": "/storage/images/main3/bulletbros.png",
       "categories": [
         "Action"
@@ -370,7 +370,7 @@
     },
     {
       "label": "Territorial.io",
-      "url": "/iframe.html?url=/storage/ag/originals/territorial",
+      "url": "/iframe.html?url=/storage/ag/originals/territorial/index.html",
       "imageUrl": "/storage/images/main/territorialio.jpg",
       "categories": [
         "io"
@@ -378,7 +378,7 @@
     },
     {
       "label": "Slither.io",
-      "url": "/iframe.html?url=/storage/ag/originals/slither",
+      "url": "/iframe.html?url=/storage/ag/originals/slither/index.html",
       "imageUrl": "/storage/images/main/slitherio.jpg",
       "categories": [
         "io"
@@ -386,7 +386,7 @@
     },
     {
       "label": "Agar.io",
-      "url": "/iframe.html?url=/storage/ag/originals/agar",
+      "url": "/iframe.html?url=/storage/ag/originals/agar/index.html",
       "imageUrl": "/storage/images/main/agario.jpg",
       "categories": [
         "io"
@@ -394,7 +394,7 @@
     },
     {
       "label": "Yohoho.io",
-      "url": "/iframe.html?url=/storage/ag/originals/yohoho/",
+      "url": "/iframe.html?url=/storage/ag/originals/yohoho/index.html",
       "imageUrl": "/storage/ag/originals/yohoho/IMG_5302.jpeg",
       "categories": [
         "io"
@@ -402,7 +402,7 @@
     },
     {
       "label": "Hole.io",
-      "url": "/iframe.html?url=/storage/ag/originals/holeio/",
+      "url": "/iframe.html?url=/storage/ag/originals/holeio/index.html",
       "imageUrl": "/storage/images/main/hole.jpg",
       "categories": [
         "io"
@@ -410,7 +410,7 @@
     },
     {
       "label": "Skribbl.io",
-      "url": "/iframe.html?url=/storage/ag/originals/skribbl/",
+      "url": "/iframe.html?url=/storage/ag/originals/skribbl/index.html",
       "imageUrl": "/storage/ag/originals/skribbl/IMG_5303.jpeg",
       "categories": [
         "io"
@@ -426,7 +426,7 @@
     },
     {
       "label": "Arras.io",
-      "url": "/iframe.html?url=/storage/ag/originals/arras",
+      "url": "/iframe.html?url=/storage/ag/originals/arras/index.html",
       "imageUrl": "/storage/images/main/arras.jpg",
       "categories": [
         "io"
@@ -434,7 +434,7 @@
     },
     {
       "label": "Hexanaut.io",
-      "url": "/iframe.html?url=/storage/ag/originals/hexa",
+      "url": "/iframe.html?url=/storage/ag/originals/hexa/index.html",
       "imageUrl": "/storage/images/main/hexa.jpg",
       "categories": [
         "io"
@@ -442,7 +442,7 @@
     },
     {
       "label": "Deeeep.io",
-      "url": "/iframe.html?url=/storage/ag/originals/dieeeeeep",
+      "url": "/iframe.html?url=/storage/ag/originals/dieeeeeep/index.html",
       "imageUrl": "/storage/images/main/dieeeep.jpg",
       "categories": [
         "io"
@@ -450,7 +450,7 @@
     },
     {
       "label": "Paper.io",
-      "url": "/iframe.html?url=/storage/ag/originals/paperio",
+      "url": "/iframe.html?url=/storage/ag/originals/paperio/index.html",
       "imageUrl": "/storage/images/main/paper.jpg",
       "categories": [
         "io"
@@ -458,7 +458,7 @@
     },
     {
       "label": "Paper.io 2",
-      "url": "/iframe.html?url=/storage/ag/originals/paperio2",
+      "url": "/iframe.html?url=/storage/ag/originals/paperio2/index.html",
       "imageUrl": "/storage/images/main/paper2.jpg",
       "categories": [
         "io"
@@ -466,7 +466,7 @@
     },
     {
       "label": "Candy Crush",
-      "url": "/iframe.html?url=/storage/ag/arsenic/candy-crush",
+      "url": "/iframe.html?url=/storage/ag/arsenic/candy-crush/index.html",
       "imageUrl": "/storage/images/main3/candycrush.png",
       "categories": [
         "Skill"
@@ -474,7 +474,7 @@
     },
     {
       "label": "chicago",
-      "url": "/iframe.html?url=/storage/ag/arsenic/chicago",
+      "url": "/iframe.html?url=/storage/ag/arsenic/chicago/index.html",
       "imageUrl": "/storage/images/main3/chicago.png",
       "categories": [
         "Action",
@@ -483,7 +483,7 @@
     },
     {
       "label": "Chicken Merge",
-      "url": "/iframe.html?url=/storage/ag/arsenic/chicken-merge",
+      "url": "/iframe.html?url=/storage/ag/arsenic/chicken-merge/index.html",
       "imageUrl": "/storage/images/main3/chickenmerge.png",
       "categories": [
         "Skill"
@@ -491,7 +491,7 @@
     },
     {
       "label": "Choppy Orc",
-      "url": "/iframe.html?url=/storage/ag/arsenic/choppy-orc",
+      "url": "/iframe.html?url=/storage/ag/arsenic/choppy-orc/index.html",
       "imageUrl": "/storage/images/main3/choppyorc.png",
       "categories": [
         "Skill"
@@ -499,7 +499,7 @@
     },
     {
       "label": "Cluster Rush",
-      "url": "/iframe.html?url=/storage/ag/arsenic/cluster-rush",
+      "url": "/iframe.html?url=/storage/ag/arsenic/cluster-rush/index.html",
       "imageUrl": "/storage/images/main3/clusterrush.png",
       "categories": [
         "Io"
@@ -507,7 +507,7 @@
     },
     {
       "label": "Cookie Clicker",
-      "url": "/iframe.html?url=/storage/ag/arsenic/cookie-clicker",
+      "url": "/iframe.html?url=/storage/ag/arsenic/cookie-clicker/index.html",
       "imageUrl": "/storage/images/main3/cookieclicker.png",
       "categories": [
         "Action"
@@ -515,7 +515,7 @@
     },
     {
       "label": "Core Ball",
-      "url": "/iframe.html?url=/storage/ag/arsenic/core-ball",
+      "url": "/iframe.html?url=/storage/ag/arsenic/core-ball/index.html",
       "imageUrl": "/storage/images/main3/coreball.png",
       "categories": [
         "Action"
@@ -523,7 +523,7 @@
     },
     {
       "label": "Cow Bay",
-      "url": "/iframe.html?url=/storage/ag/arsenic/cow-bay",
+      "url": "/iframe.html?url=/storage/ag/arsenic/cow-bay/index.html",
       "imageUrl": "/storage/images/main3/cowbay.png",
       "categories": [
         "Action"
@@ -531,7 +531,7 @@
     },
     {
       "label": "Crazy Bikes",
-      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-bikes",
+      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-bikes/index.html",
       "imageUrl": "/storage/images/main3/crazybikes.png",
       "categories": [
         "Racing"
@@ -539,7 +539,7 @@
     },
     {
       "label": "Crazy Cars",
-      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-cars",
+      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-cars/index.html",
       "imageUrl": "/storage/images/main3/crazycars.png",
       "categories": [
         "Racing"
@@ -547,7 +547,7 @@
     },
     {
       "label": "Crazy Cattle 3D",
-      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-cattle-3d",
+      "url": "/iframe.html?url=/storage/ag/arsenic/crazy-cattle-3d/index.html",
       "imageUrl": "/storage/images/main3/crazycattle3d.png",
       "categories": [
         "Racing"
@@ -555,7 +555,7 @@
     },
     {
       "label": "Crossy Road",
-      "url": "/iframe.html?url=/storage/ag/arsenic/crossy-road",
+      "url": "/iframe.html?url=/storage/ag/arsenic/crossy-road/index.html",
       "imageUrl": "/storage/images/main3/crossyroad.png",
       "categories": [
         "Skill"
@@ -563,7 +563,7 @@
     },
     {
       "label": "CS:GO Clicker",
-      "url": "/iframe.html?url=/storage/ag/arsenic/csgo-clicker",
+      "url": "/iframe.html?url=/storage/ag/arsenic/csgo-clicker/index.html",
       "imageUrl": "/storage/images/main3/csgoclicker.png",
       "categories": [
         "Action",
@@ -572,7 +572,7 @@
     },
     {
       "label": "Dadish",
-      "url": "/iframe.html?url=/storage/ag/arsenic/dadish",
+      "url": "/iframe.html?url=/storage/ag/arsenic/dadish/index.html",
       "imageUrl": "/storage/images/main3/dadish.png",
       "categories": [
         "Action"
@@ -580,7 +580,7 @@
     },
     {
       "label": "Dadish 3D",
-      "url": "/iframe.html?url=/storage/ag/arsenic/dadish-3d",
+      "url": "/iframe.html?url=/storage/ag/arsenic/dadish-3d/index.html",
       "imageUrl": "/storage/images/main3/dadish3d.png",
       "categories": [
         "Action"
@@ -588,7 +588,7 @@
     },
     {
       "label": "Day of Meat: Castle",
-      "url": "/iframe.html?url=/storage/ag/arsenic/day-of-meat-castle",
+      "url": "/iframe.html?url=/storage/ag/arsenic/day-of-meat-castle/index.html",
       "imageUrl": "/storage/images/main3/dayofmeatcastle.png",
       "categories": [
         "Action"
@@ -596,7 +596,7 @@
     },
     {
       "label": "Day of Meat: Radiation",
-      "url": "/iframe.html?url=/storage/ag/arsenic/day-of-meat-radiation",
+      "url": "/iframe.html?url=/storage/ag/arsenic/day-of-meat-radiation/index.html",
       "imageUrl": "/storage/images/main3/dayofmeatradiation.png",
       "categories": [
         "Action"
@@ -604,7 +604,7 @@
     },
     {
       "label": "Doors Online",
-      "url": "/iframe.html?url=/storage/ag/arsenic/doors-online",
+      "url": "/iframe.html?url=/storage/ag/arsenic/doors-online/index.html",
       "imageUrl": "/storage/images/main3/doorsonline.png",
       "categories": [
         "Action"
@@ -612,7 +612,7 @@
     },
     {
       "label": "Double Panda",
-      "url": "/iframe.html?url=/storage/ag/arsenic/double-panda",
+      "url": "/iframe.html?url=/storage/ag/arsenic/double-panda/index.html",
       "imageUrl": "/storage/images/main3/doublepanda.png",
       "categories": [
         "Action"
@@ -620,7 +620,7 @@
     },
     {
       "label": "dreadhead parkour",
-      "url": "/iframe.html?url=/storage/ag/arsenic/dreadhead-parkour",
+      "url": "/iframe.html?url=/storage/ag/arsenic/dreadhead-parkour/index.html",
       "imageUrl": "/storage/images/main3/dreadheadparkour.png",
       "categories": [
         "Action"
@@ -628,7 +628,7 @@
     },
     {
       "label": "Drift Boss",
-      "url": "/iframe.html?url=/storage/ag/arsenic/drift-boss",
+      "url": "/iframe.html?url=/storage/ag/arsenic/drift-boss/index.html",
       "imageUrl": "/storage/images/main3/driftboss.png",
       "categories": [
         "Io"
@@ -636,7 +636,7 @@
     },
     {
       "label": "Ducklings.io",
-      "url": "/iframe.html?url=/storage/ag/arsenic/ducklings-io",
+      "url": "/iframe.html?url=/storage/ag/arsenic/ducklings-io/index.html",
       "imageUrl": "/storage/images/main3/ducklingsio.png",
       "categories": [
         "Action"
@@ -644,7 +644,7 @@
     },
     {
       "label": "Dune",
-      "url": "/iframe.html?url=/storage/ag/arsenic/dune",
+      "url": "/iframe.html?url=/storage/ag/arsenic/dune/index.html",
       "imageUrl": "/storage/images/main3/dune.png",
       "categories": [
         "Action"
@@ -652,7 +652,7 @@
     },
     {
       "label": "Economical",
-      "url": "/iframe.html?url=/storage/ag/arsenic/economical",
+      "url": "/iframe.html?url=/storage/ag/arsenic/economical/index.html",
       "imageUrl": "/storage/images/main3/economical.png",
       "categories": [
         "Skill"
@@ -660,7 +660,7 @@
     },
     {
       "label": "Escaping the Prison",
-      "url": "/iframe.html?url=/storage/ag/arsenic/escaping-the-prison",
+      "url": "/iframe.html?url=/storage/ag/arsenic/escaping-the-prison/index.html",
       "imageUrl": "/storage/images/main3/escapingtheprison.png",
       "categories": [
         "Racing"
@@ -668,7 +668,7 @@
     },
     {
       "label": "fantasy fest",
-      "url": "/iframe.html?url=/storage/ag/arsenic/fantasy-fest",
+      "url": "/iframe.html?url=/storage/ag/arsenic/fantasy-fest/index.html",
       "imageUrl": "/storage/images/main3/fantasyfest.png",
       "categories": [
         "Racing"
@@ -676,7 +676,7 @@
     },
     {
       "label": "Fleeing the Complex",
-      "url": "/iframe.html?url=/storage/ag/arsenic/fleeing-the-complex",
+      "url": "/iframe.html?url=/storage/ag/arsenic/fleeing-the-complex/index.html",
       "imageUrl": "/storage/images/main3/fleeingthecomplex.png",
       "categories": [
         "Action",
@@ -685,7 +685,7 @@
     },
     {
       "label": "Flip Bros",
-      "url": "/iframe.html?url=/storage/ag/arsenic/flip-bros",
+      "url": "/iframe.html?url=/storage/ag/arsenic/flip-bros/index.html",
       "imageUrl": "/storage/images/main3/flipbros.png",
       "categories": [
         "Action",
@@ -694,7 +694,7 @@
     },
     {
       "label": "Four Colors",
-      "url": "/iframe.html?url=/storage/ag/arsenic/four-colors",
+      "url": "/iframe.html?url=/storage/ag/arsenic/four-colors/index.html",
       "imageUrl": "/storage/images/main3/fourcolors.png",
       "categories": [
         "Strategy"
@@ -702,7 +702,7 @@
     },
     {
       "label": "Funny Shooter 2",
-      "url": "/iframe.html?url=/storage/ag/arsenic/funny-shooter-2",
+      "url": "/iframe.html?url=/storage/ag/arsenic/funny-shooter-2/index.html",
       "imageUrl": "/storage/images/main3/funnyshooter2.png",
       "categories": [
         "Shooting"
@@ -710,7 +710,7 @@
     },
     {
       "label": "Geometry Dash",
-      "url": "/iframe.html?url=/storage/ag/arsenic/geometry-dash",
+      "url": "/iframe.html?url=/storage/ag/arsenic/geometry-dash/index.html",
       "imageUrl": "/storage/images/main3/geometrydash.png",
       "categories": [
         "Action",
@@ -719,7 +719,7 @@
     },
     {
       "label": "Gladihoppers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/gladihoppers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/gladihoppers/index.html",
       "imageUrl": "/storage/images/main3/gladihoppers.png",
       "categories": [
         "Action",
@@ -728,7 +728,7 @@
     },
     {
       "label": "GoBattle",
-      "url": "/iframe.html?url=/storage/ag/arsenic/gobattle",
+      "url": "/iframe.html?url=/storage/ag/arsenic/gobattle/index.html",
       "imageUrl": "/storage/images/main3/gobattle.png",
       "categories": [
         "Action",
@@ -737,7 +737,7 @@
     },
     {
       "label": "Gobble",
-      "url": "/iframe.html?url=/storage/ag/arsenic/gobble",
+      "url": "/iframe.html?url=/storage/ag/arsenic/gobble/index.html",
       "imageUrl": "/storage/images/main3/gobble.png",
       "categories": [
         "Io"
@@ -745,7 +745,7 @@
     },
     {
       "label": "gold digger fr vr",
-      "url": "/iframe.html?url=/storage/ag/arsenic/gold-digger-fr-vr",
+      "url": "/iframe.html?url=/storage/ag/arsenic/gold-digger-fr-vr/index.html",
       "imageUrl": "/storage/images/main3/golddiggerfrvr.png",
       "categories": [
         "Action",
@@ -754,7 +754,7 @@
     },
     {
       "label": "Goober World",
-      "url": "/iframe.html?url=/storage/ag/arsenic/goober-world",
+      "url": "/iframe.html?url=/storage/ag/arsenic/goober-world/index.html",
       "imageUrl": "/storage/images/main3/gooberworld.png",
       "categories": [
         "Action",
@@ -763,7 +763,7 @@
     },
     {
       "label": "greece love odyssey",
-      "url": "/iframe.html?url=/storage/ag/arsenic/greece-love-odyssey",
+      "url": "/iframe.html?url=/storage/ag/arsenic/greece-love-odyssey/index.html",
       "imageUrl": "/storage/images/main3/greeceloveodyssey.png",
       "categories": [
         "Action",
@@ -772,7 +772,7 @@
     },
     {
       "label": "Happy Wheels",
-      "url": "/iframe.html?url=/storage/ag/arsenic/happy-wheels",
+      "url": "/iframe.html?url=/storage/ag/arsenic/happy-wheels/index.html",
       "imageUrl": "/storage/images/main3/happywheels.png",
       "categories": [
         "Action",
@@ -781,7 +781,7 @@
     },
     {
       "label": "hawaii",
-      "url": "/iframe.html?url=/storage/ag/arsenic/hawaii",
+      "url": "/iframe.html?url=/storage/ag/arsenic/hawaii/index.html",
       "imageUrl": "/storage/images/main3/hawaii.png",
       "categories": [
         "Action",
@@ -790,7 +790,7 @@
     },
     {
       "label": "Idle Breakout",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-breakout",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-breakout/index.html",
       "imageUrl": "/storage/images/main3/idlebreakout.png",
       "categories": [
         "Action"
@@ -798,7 +798,7 @@
     },
     {
       "label": "Idle Farming Business",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-farming-business",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-farming-business/index.html",
       "imageUrl": "/storage/images/main3/idlefarmingbusiness.png",
       "categories": [
         "Strategy"
@@ -806,7 +806,7 @@
     },
     {
       "label": "Idle Gang",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-gang",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-gang/index.html",
       "imageUrl": "/storage/images/main3/idlegang.png",
       "categories": [
         "Strategy"
@@ -814,7 +814,7 @@
     },
     {
       "label": "Idle Light City",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-light-city",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-light-city/index.html",
       "imageUrl": "/storage/images/main3/idlelightcity.png",
       "categories": [
         "Strategy"
@@ -822,7 +822,7 @@
     },
     {
       "label": "Idle Mining Empire",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-mining-empire",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-mining-empire/index.html",
       "imageUrl": "/storage/images/main3/idleminingempire.png",
       "categories": [
         "Strategy"
@@ -830,7 +830,7 @@
     },
     {
       "label": "Idle Startup Tycoon",
-      "url": "/iframe.html?url=/storage/ag/arsenic/idle-startup-tycoon",
+      "url": "/iframe.html?url=/storage/ag/arsenic/idle-startup-tycoon/index.html",
       "imageUrl": "/storage/images/main3/idlestartuptycoon.png",
       "categories": [
         "Strategy"
@@ -838,7 +838,7 @@
     },
     {
       "label": "Infiltrating the Airship",
-      "url": "/iframe.html?url=/storage/ag/arsenic/infiltrating-the-airship",
+      "url": "/iframe.html?url=/storage/ag/arsenic/infiltrating-the-airship/index.html",
       "imageUrl": "/storage/images/main3/infiltratingtheairship.png",
       "categories": [
         "Strategy"
@@ -846,7 +846,7 @@
     },
     {
       "label": "Iron Snout",
-      "url": "/iframe.html?url=/storage/ag/arsenic/iron-snout",
+      "url": "/iframe.html?url=/storage/ag/arsenic/iron-snout/index.html",
       "imageUrl": "/storage/images/main3/ironsnout.png",
       "categories": [
         "Action",
@@ -855,7 +855,7 @@
     },
     {
       "label": "Jacksmith",
-      "url": "/iframe.html?url=/storage/ag/arsenic/jacksmith",
+      "url": "/iframe.html?url=/storage/ag/arsenic/jacksmith/index.html",
       "imageUrl": "/storage/images/main3/jacksmith.png",
       "categories": [
         "Action"
@@ -863,7 +863,7 @@
     },
     {
       "label": "Jump Only",
-      "url": "/iframe.html?url=/storage/ag/arsenic/jump-only",
+      "url": "/iframe.html?url=/storage/ag/arsenic/jump-only/index.html",
       "imageUrl": "/storage/images/main3/jumponly.png",
       "categories": [
         "Skill"
@@ -871,7 +871,7 @@
     },
     {
       "label": "JustFall.LOL",
-      "url": "/iframe.html?url=/storage/ag/arsenic/justfalllol",
+      "url": "/iframe.html?url=/storage/ag/arsenic/justfalllol/index.html",
       "imageUrl": "/storage/images/main3/justfalllol.png",
       "categories": [
         "Action",
@@ -880,7 +880,7 @@
     },
     {
       "label": "KS 2 Teams",
-      "url": "/iframe.html?url=/storage/ag/arsenic/ks-2-teams",
+      "url": "/iframe.html?url=/storage/ag/arsenic/ks-2-teams/index.html",
       "imageUrl": "/storage/images/main3/ks2teams.png",
       "categories": [
         "Io"
@@ -888,7 +888,7 @@
     },
     {
       "label": "Level Devil",
-      "url": "/iframe.html?url=/storage/ag/arsenic/level-devil",
+      "url": "/iframe.html?url=/storage/ag/arsenic/level-devil/index.html",
       "imageUrl": "/storage/images/main3/leveldevil.png",
       "categories": [
         "2 Player"
@@ -896,7 +896,7 @@
     },
     {
       "label": "Master Checkers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/master-checkers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/master-checkers/index.html",
       "imageUrl": "/storage/images/main3/mastercheckers.png",
       "categories": [
         "Strategy"
@@ -904,7 +904,7 @@
     },
     {
       "label": "Master Chess",
-      "url": "/iframe.html?url=/storage/ag/arsenic/master-chess",
+      "url": "/iframe.html?url=/storage/ag/arsenic/master-chess/index.html",
       "imageUrl": "/storage/images/main3/masterchess.png",
       "categories": [
         "Strategy"
@@ -912,7 +912,7 @@
     },
     {
       "label": "Merge the Numbers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/merge-the-numbers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/merge-the-numbers/index.html",
       "imageUrl": "/storage/images/main3/mergethenumbers.png",
       "categories": [
         "Strategy"
@@ -920,7 +920,7 @@
     },
     {
       "label": "Merge Tycoon",
-      "url": "/iframe.html?url=/storage/ag/arsenic/merge-tycoon",
+      "url": "/iframe.html?url=/storage/ag/arsenic/merge-tycoon/index.html",
       "imageUrl": "/storage/images/main3/mergetycoon.png",
       "categories": [
         "Strategy"
@@ -928,7 +928,7 @@
     },
     {
       "label": "Monkey Mart",
-      "url": "/iframe.html?url=/storage/ag/arsenic/monkey-mart",
+      "url": "/iframe.html?url=/storage/ag/arsenic/monkey-mart/index.html",
       "imageUrl": "/storage/images/main3/monkeymart.png",
       "categories": [
         "Action",
@@ -937,7 +937,7 @@
     },
     {
       "label": "Monster Tracks",
-      "url": "/iframe.html?url=/storage/ag/arsenic/monster-tracks",
+      "url": "/iframe.html?url=/storage/ag/arsenic/monster-tracks/index.html",
       "imageUrl": "/storage/images/main3/monstertracks.png",
       "categories": [
         "Action",
@@ -946,7 +946,7 @@
     },
     {
       "label": "One Chance",
-      "url": "/iframe.html?url=/storage/ag/arsenic/one-chance",
+      "url": "/iframe.html?url=/storage/ag/arsenic/one-chance/index.html",
       "imageUrl": "/storage/images/main3/onechance.png",
       "categories": [
         "Action",
@@ -955,7 +955,7 @@
     },
     {
       "label": "OvO",
-      "url": "/iframe.html?url=/storage/ag/arsenic/ovo",
+      "url": "/iframe.html?url=/storage/ag/arsenic/ovo/index.html",
       "imageUrl": "/storage/images/main3/ovo.png",
       "categories": [
         "Action",
@@ -964,7 +964,7 @@
     },
     {
       "label": "OvO Dimensions",
-      "url": "/iframe.html?url=/storage/ag/arsenic/ovo-dimensions",
+      "url": "/iframe.html?url=/storage/ag/arsenic/ovo-dimensions/index.html",
       "imageUrl": "/storage/images/main3/ovodimensions.png",
       "categories": [
         "Action",
@@ -973,7 +973,7 @@
     },
     {
       "label": "Physibox",
-      "url": "/iframe.html?url=/storage/ag/arsenic/physibox",
+      "url": "/iframe.html?url=/storage/ag/arsenic/physibox/index.html",
       "imageUrl": "/storage/images/main3/physibox.png",
       "categories": [
         "Racing"
@@ -981,7 +981,7 @@
     },
     {
       "label": "Poly Track",
-      "url": "/iframe.html?url=/storage/ag/arsenic/poly-track",
+      "url": "/iframe.html?url=/storage/ag/arsenic/poly-track/index.html",
       "imageUrl": "/storage/images/main3/polytrack.png",
       "categories": [
         "Shooting"
@@ -989,7 +989,7 @@
     },
     {
       "label": "Poor Bunny",
-      "url": "/iframe.html?url=/storage/ag/arsenic/poor-bunny",
+      "url": "/iframe.html?url=/storage/ag/arsenic/poor-bunny/index.html",
       "imageUrl": "/storage/images/main3/poorbunny.png",
       "categories": [
         "Sports"
@@ -997,7 +997,7 @@
     },
     {
       "label": "Poor Eddie",
-      "url": "/iframe.html?url=/storage/ag/arsenic/poor-eddie",
+      "url": "/iframe.html?url=/storage/ag/arsenic/poor-eddie/index.html",
       "imageUrl": "/storage/images/main3/pooreddie.png",
       "categories": [
         "Racing"
@@ -1005,7 +1005,7 @@
     },
     {
       "label": "Push Your Luck",
-      "url": "/iframe.html?url=/storage/ag/arsenic/push-your-luck",
+      "url": "/iframe.html?url=/storage/ag/arsenic/push-your-luck/index.html",
       "imageUrl": "/storage/images/main3/pushyourluck.png",
       "categories": [
         "Sports"
@@ -1013,7 +1013,7 @@
     },
     {
       "label": "Race Survival Arena King",
-      "url": "/iframe.html?url=/storage/ag/arsenic/race-survival-arena-king",
+      "url": "/iframe.html?url=/storage/ag/arsenic/race-survival-arena-king/index.html",
       "imageUrl": "/storage/images/main3/racesurvivalarenaking.png",
       "categories": [
         "Action",
@@ -1022,7 +1022,7 @@
     },
     {
       "label": "Recoil",
-      "url": "/iframe.html?url=/storage/ag/arsenic/recoil",
+      "url": "/iframe.html?url=/storage/ag/arsenic/recoil/index.html",
       "imageUrl": "/storage/images/main3/recoil.png",
       "categories": [
         "Action",
@@ -1031,7 +1031,7 @@
     },
     {
       "label": "Retro Highway",
-      "url": "/iframe.html?url=/storage/ag/arsenic/retro-highway",
+      "url": "/iframe.html?url=/storage/ag/arsenic/retro-highway/index.html",
       "imageUrl": "/storage/images/main3/retrohighway.png",
       "categories": [
         "Action",
@@ -1040,7 +1040,7 @@
     },
     {
       "label": "rio",
-      "url": "/iframe.html?url=/storage/ag/arsenic/rio",
+      "url": "/iframe.html?url=/storage/ag/arsenic/rio/index.html",
       "imageUrl": "/storage/images/main3/rio.png",
       "categories": [
         "Action",
@@ -1049,37 +1049,37 @@
     },
     {
       "label": "Rocket Soccer Derby",
-      "url": "/iframe.html?url=/storage/ag/arsenic/rocket-soccer-derby",
+      "url": "/iframe.html?url=/storage/ag/arsenic/rocket-soccer-derby/index.html",
       "imageUrl": "/storage/images/main3/rocketsoccerderby.png",
       "categories": []
     },
     {
       "label": "Rooftop Snipers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/rooftop-snipers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/rooftop-snipers/index.html",
       "imageUrl": "/storage/images/main3/rooftopsnipers.png",
       "categories": []
     },
     {
       "label": "Run 3",
-      "url": "/iframe.html?url=/storage/ag/arsenic/run-3",
+      "url": "/iframe.html?url=/storage/ag/arsenic/run-3/index.html",
       "imageUrl": "/storage/images/main3/run3.png",
       "categories": []
     },
     {
       "label": "Sausage Flip",
-      "url": "/iframe.html?url=/storage/ag/arsenic/sausage-flip",
+      "url": "/iframe.html?url=/storage/ag/arsenic/sausage-flip/index.html",
       "imageUrl": "/storage/images/main3/sausageflip.png",
       "categories": []
     },
     {
       "label": "seoul",
-      "url": "/iframe.html?url=/storage/ag/arsenic/seoul",
+      "url": "/iframe.html?url=/storage/ag/arsenic/seoul/index.html",
       "imageUrl": "/storage/images/main3/seoul.png",
       "categories": []
     },
     {
       "label": "Shadow Trick",
-      "url": "/iframe.html?url=/storage/ag/arsenic/shadow-trick",
+      "url": "/iframe.html?url=/storage/ag/arsenic/shadow-trick/index.html",
       "imageUrl": "/storage/images/main3/shadowtrick.png",
       "categories": [
         "Action",
@@ -1088,7 +1088,7 @@
     },
     {
       "label": "Skiddy Taxi",
-      "url": "/iframe.html?url=/storage/ag/arsenic/skiddy-taxi",
+      "url": "/iframe.html?url=/storage/ag/arsenic/skiddy-taxi/index.html",
       "imageUrl": "/storage/images/main3/skiddytaxi.png",
       "categories": [
         "Racing"
@@ -1096,7 +1096,7 @@
     },
     {
       "label": "Sky Riders",
-      "url": "/iframe.html?url=/storage/ag/arsenic/sky-riders",
+      "url": "/iframe.html?url=/storage/ag/arsenic/sky-riders/index.html",
       "imageUrl": "/storage/images/main3/skyriders.png",
       "categories": [
         "Racing"
@@ -1104,7 +1104,7 @@
     },
     {
       "label": "Slow Roads",
-      "url": "/iframe.html?url=/storage/ag/arsenic/slow-roads",
+      "url": "/iframe.html?url=/storage/ag/arsenic/slow-roads/index.html",
       "imageUrl": "/storage/images/main3/slowroads.png",
       "categories": [
         "Racing"
@@ -1112,7 +1112,7 @@
     },
     {
       "label": "Snow Rider 3D",
-      "url": "/iframe.html?url=/storage/ag/arsenic/snow-rider-3d",
+      "url": "/iframe.html?url=/storage/ag/arsenic/snow-rider-3d/index.html",
       "imageUrl": "/storage/images/main3/snowrider3d.png",
       "categories": [
         "Racing",
@@ -1121,7 +1121,7 @@
     },
     {
       "label": "Soccer Random",
-      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-random",
+      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-random/index.html",
       "imageUrl": "/storage/images/main3/soccerrandom.png",
       "categories": [
         "Sports"
@@ -1129,7 +1129,7 @@
     },
     {
       "label": "Soccer Skills Champions League",
-      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-champions-league",
+      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-champions-league/index.html",
       "imageUrl": "/storage/images/main3/soccerskillschampionsleague.png",
       "categories": [
         "Sports",
@@ -1138,7 +1138,7 @@
     },
     {
       "label": "Soccer Skills Euro Cup",
-      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-euro-cup",
+      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-euro-cup/index.html",
       "imageUrl": "/storage/images/main3/soccerskillseurocup.png",
       "categories": [
         "Sports",
@@ -1147,7 +1147,7 @@
     },
     {
       "label": "Soccer Skills World Cup",
-      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-world-cup",
+      "url": "/iframe.html?url=/storage/ag/arsenic/soccer-skills-world-cup/index.html",
       "imageUrl": "/storage/images/main3/soccerskillsworldcup.png",
       "categories": [
         "Sports",
@@ -1156,7 +1156,7 @@
     },
     {
       "label": "Space Major Miner",
-      "url": "/iframe.html?url=/storage/ag/arsenic/space-major-miner",
+      "url": "/iframe.html?url=/storage/ag/arsenic/space-major-miner/index.html",
       "imageUrl": "/storage/images/main3/spacemajorminer.png",
       "categories": [
         "Action"
@@ -1164,7 +1164,7 @@
     },
     {
       "label": "Space Thing",
-      "url": "/iframe.html?url=/storage/ag/arsenic/space-thing",
+      "url": "/iframe.html?url=/storage/ag/arsenic/space-thing/index.html",
       "imageUrl": "/storage/images/main3/spacething.png",
       "categories": [
         "Action"
@@ -1172,7 +1172,7 @@
     },
     {
       "label": "Space Wars Battleground",
-      "url": "/iframe.html?url=/storage/ag/arsenic/space-wars-battleground",
+      "url": "/iframe.html?url=/storage/ag/arsenic/space-wars-battleground/index.html",
       "imageUrl": "/storage/images/main3/spacewarsbattleground.png",
       "categories": [
         "Action",
@@ -1181,7 +1181,7 @@
     },
     {
       "label": "Speed King",
-      "url": "/iframe.html?url=/storage/ag/arsenic/speed-king",
+      "url": "/iframe.html?url=/storage/ag/arsenic/speed-king/index.html",
       "imageUrl": "/storage/images/main3/speedking.png",
       "categories": [
         "Racing"
@@ -1189,7 +1189,7 @@
     },
     {
       "label": "Stack",
-      "url": "/iframe.html?url=/storage/ag/arsenic/stack",
+      "url": "/iframe.html?url=/storage/ag/arsenic/stack/index.html",
       "imageUrl": "/storage/images/main3/stack.png",
       "categories": [
         "Skill"
@@ -1197,7 +1197,7 @@
     },
     {
       "label": "Stealing the Diamond",
-      "url": "/iframe.html?url=/storage/ag/arsenic/stealing-the-diamond",
+      "url": "/iframe.html?url=/storage/ag/arsenic/stealing-the-diamond/index.html",
       "imageUrl": "/storage/images/main3/stealingthediamond.png",
       "categories": [
         "Action"
@@ -1205,7 +1205,7 @@
     },
     {
       "label": "Stickman Bike",
-      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-bike",
+      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-bike/index.html",
       "imageUrl": "/storage/images/main3/stickmanbike.png",
       "categories": [
         "Action",
@@ -1214,7 +1214,7 @@
     },
     {
       "label": "Stickman Hook",
-      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-hook",
+      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-hook/index.html",
       "imageUrl": "/storage/images/main3/stickmanhook.png",
       "categories": [
         "Action",
@@ -1223,7 +1223,7 @@
     },
     {
       "label": "Stickman Hook Halloween",
-      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-hook-halloween",
+      "url": "/iframe.html?url=/storage/ag/arsenic/stickman-hook-halloween/index.html",
       "imageUrl": "/storage/images/main3/stickmanhookhalloween.png",
       "categories": [
         "Action",
@@ -1232,7 +1232,7 @@
     },
     {
       "label": "Subway Surfers",
-      "url": "/iframe.html?url=/storage/ag/arsenic/subway-surfers",
+      "url": "/iframe.html?url=/storage/ag/arsenic/subway-surfers/index.html",
       "imageUrl": "/storage/images/main3/subwaysurfers.png",
       "categories": [
         "Action"
@@ -1240,7 +1240,7 @@
     },
     {
       "label": "Super Fowlst",
-      "url": "/iframe.html?url=/storage/ag/arsenic/super-fowlst",
+      "url": "/iframe.html?url=/storage/ag/arsenic/super-fowlst/index.html",
       "imageUrl": "/storage/images/main3/superfowlst.png",
       "categories": [
         "Action"
@@ -1248,7 +1248,7 @@
     },
     {
       "label": "Super Liquid Soccer",
-      "url": "/iframe.html?url=/storage/ag/arsenic/super-liquid-soccer",
+      "url": "/iframe.html?url=/storage/ag/arsenic/super-liquid-soccer/index.html",
       "imageUrl": "/storage/images/main3/superliquidsoccer.png",
       "categories": [
         "Sports"
@@ -1256,7 +1256,7 @@
     },
     {
       "label": "Super Tunnel Rush",
-      "url": "/iframe.html?url=/storage/ag/arsenic/super-tunnel-rush",
+      "url": "/iframe.html?url=/storage/ag/arsenic/super-tunnel-rush/index.html",
       "imageUrl": "/storage/images/main3/supertunnelrush.png",
       "categories": [
         "Action"
@@ -1264,7 +1264,7 @@
     },
     {
       "label": "Swingo",
-      "url": "/iframe.html?url=/storage/ag/arsenic/swingo",
+      "url": "/iframe.html?url=/storage/ag/arsenic/swingo/index.html",
       "imageUrl": "/storage/images/main3/swingo.png",
       "categories": [
         "Io"
@@ -1272,7 +1272,7 @@
     },
     {
       "label": "Table Tennis World Tour",
-      "url": "/iframe.html?url=/storage/ag/arsenic/table-tennis-world-tour",
+      "url": "/iframe.html?url=/storage/ag/arsenic/table-tennis-world-tour/index.html",
       "imageUrl": "/storage/images/main3/tabletennisworldtour.png",
       "categories": [
         "Action",
@@ -1281,7 +1281,7 @@
     },
     {
       "label": "Tag",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tag",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tag/index.html",
       "imageUrl": "/storage/images/main3/tag.png",
       "categories": [
         "Action"
@@ -1289,7 +1289,7 @@
     },
     {
       "label": "Tanuki Sunset",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tanuki-sunset",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tanuki-sunset/index.html",
       "imageUrl": "/storage/images/main3/tanukisunset.png",
       "categories": [
         "Action",
@@ -1298,7 +1298,7 @@
     },
     {
       "label": "The Impossible Quiz 2",
-      "url": "/iframe.html?url=/storage/ag/arsenic/the-impossible-quiz-2",
+      "url": "/iframe.html?url=/storage/ag/arsenic/the-impossible-quiz-2/index.html",
       "imageUrl": "/storage/images/main3/theimpossiblequiz2.png",
       "categories": [
         "Sports"
@@ -1306,7 +1306,7 @@
     },
     {
       "label": "Tightrope Theatre",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tightrope-theatre",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tightrope-theatre/index.html",
       "imageUrl": "/storage/images/main3/tightropetheatre.png",
       "categories": [
         "Skill"
@@ -1314,7 +1314,7 @@
     },
     {
       "label": "Time Shooter 2",
-      "url": "/iframe.html?url=/storage/ag/arsenic/time-shooter-2",
+      "url": "/iframe.html?url=/storage/ag/arsenic/time-shooter-2/index.html",
       "imageUrl": "/storage/images/main3/timeshooter2.png",
       "categories": [
         "Action"
@@ -1322,7 +1322,7 @@
     },
     {
       "label": "Tiny Fishing",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tiny-fishing",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tiny-fishing/index.html",
       "imageUrl": "/storage/images/main3/tinyfishing.png",
       "categories": [
         "Action"
@@ -1330,7 +1330,7 @@
     },
     {
       "label": "tokyo",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tokyo",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tokyo/index.html",
       "imageUrl": "/storage/images/main3/tokyo.png",
       "categories": [
         "Action"
@@ -1338,7 +1338,7 @@
     },
     {
       "label": "tomb of the mask",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tomb-of-the-mask",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tomb-of-the-mask/index.html",
       "imageUrl": "/storage/images/main3/tombofthemask.png",
       "categories": [
         "Racing"
@@ -1346,7 +1346,7 @@
     },
     {
       "label": "Tower Defense Mingling",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tower-defense-mingling",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tower-defense-mingling/index.html",
       "imageUrl": "/storage/images/main3/towerdefensemingling.png",
       "categories": [
         "Racing"
@@ -1354,7 +1354,7 @@
     },
     {
       "label": "tunnel rush 2",
-      "url": "/iframe.html?url=/storage/ag/arsenic/tunnel-rush-2",
+      "url": "/iframe.html?url=/storage/ag/arsenic/tunnel-rush-2/index.html",
       "imageUrl": "/storage/images/main3/tunnelrush2.png",
       "categories": [
         "Strategy"
@@ -1362,7 +1362,7 @@
     },
     {
       "label": "Turbo Moto Racer",
-      "url": "/iframe.html?url=/storage/ag/arsenic/turbo-moto-racer",
+      "url": "/iframe.html?url=/storage/ag/arsenic/turbo-moto-racer/index.html",
       "imageUrl": "/storage/images/main3/turbomotoracer.png",
       "categories": [
         "Action"
@@ -1370,7 +1370,7 @@
     },
     {
       "label": "Under the Red Sky",
-      "url": "/iframe.html?url=/storage/ag/arsenic/under-the-red-sky",
+      "url": "/iframe.html?url=/storage/ag/arsenic/under-the-red-sky/index.html",
       "imageUrl": "/storage/images/main3/undertheredsky.png",
       "categories": [
         "Action",
@@ -1379,7 +1379,7 @@
     },
     {
       "label": "underwater",
-      "url": "/iframe.html?url=/storage/ag/arsenic/underwater",
+      "url": "/iframe.html?url=/storage/ag/arsenic/underwater/index.html",
       "imageUrl": "/storage/images/main3/underwater.png",
       "categories": [
         "Action",
@@ -1388,7 +1388,7 @@
     },
     {
       "label": "Unicycle Hero",
-      "url": "/iframe.html?url=/storage/ag/arsenic/unicycle-hero",
+      "url": "/iframe.html?url=/storage/ag/arsenic/unicycle-hero/index.html",
       "imageUrl": "/storage/images/main3/unicyclehero.png",
       "categories": [
         "Action",
@@ -1397,7 +1397,7 @@
     },
     {
       "label": "Unicycle Legend",
-      "url": "/iframe.html?url=/storage/ag/arsenic/unicycle-legend",
+      "url": "/iframe.html?url=/storage/ag/arsenic/unicycle-legend/index.html",
       "imageUrl": "/storage/images/main3/unicyclelegend.png",
       "categories": [
         "Sports"
@@ -1405,7 +1405,7 @@
     },
     {
       "label": "vegas queens",
-      "url": "/iframe.html?url=/storage/ag/arsenic/vegas-queens",
+      "url": "/iframe.html?url=/storage/ag/arsenic/vegas-queens/index.html",
       "imageUrl": "/storage/images/main3/vegasqueens.png",
       "categories": [
         "Io"
@@ -1413,7 +1413,7 @@
     },
     {
       "label": "venge io",
-      "url": "/iframe.html?url=/storage/ag/arsenic/venge-io",
+      "url": "/iframe.html?url=/storage/ag/arsenic/venge-io/index.html",
       "imageUrl": "/storage/images/main3/vengeio.png",
       "categories": [
         "Action",
@@ -1422,7 +1422,7 @@
     },
     {
       "label": "Vex 3",
-      "url": "/iframe.html?url=/storage/ag/arsenic/vex-3",
+      "url": "/iframe.html?url=/storage/ag/arsenic/vex-3/index.html",
       "imageUrl": "/storage/images/main3/vex3.png",
       "categories": [
         "Action"
@@ -1430,7 +1430,7 @@
     },
     {
       "label": "Vex X3M",
-      "url": "/iframe.html?url=/storage/ag/arsenic/vex-x3m",
+      "url": "/iframe.html?url=/storage/ag/arsenic/vex-x3m/index.html",
       "imageUrl": "/storage/images/main3/vexx3m.png",
       "categories": [
         "Action"
@@ -1438,7 +1438,7 @@
     },
     {
       "label": "Volley Random",
-      "url": "/iframe.html?url=/storage/ag/arsenic/volley-random",
+      "url": "/iframe.html?url=/storage/ag/arsenic/volley-random/index.html",
       "imageUrl": "/storage/images/main3/volleyrandom.png",
       "categories": [
         "Io"
@@ -1446,43 +1446,43 @@
     },
     {
       "label": "Water Polo Ragdoll",
-      "url": "/iframe.html?url=/storage/ag/arsenic/water-polo-ragdoll",
+      "url": "/iframe.html?url=/storage/ag/arsenic/water-polo-ragdoll/index.html",
       "imageUrl": "/storage/images/main3/waterpoloragdoll.png",
       "categories": []
     },
     {
       "label": "Watermelon Game",
-      "url": "/iframe.html?url=/storage/ag/arsenic/watermelon-game",
+      "url": "/iframe.html?url=/storage/ag/arsenic/watermelon-game/index.html",
       "imageUrl": "/storage/images/main3/watermelongame.png",
       "categories": []
     },
     {
       "label": "Yohoho.io",
-      "url": "/iframe.html?url=/storage/ag/arsenic/yohoho-io",
+      "url": "/iframe.html?url=/storage/ag/arsenic/yohoho-io/index.html",
       "imageUrl": "/storage/images/main3/yohohoio.png",
       "categories": []
     },
     {
       "label": "Yokai Dungeon",
-      "url": "/iframe.html?url=/storage/ag/arsenic/yokai-dungeon",
+      "url": "/iframe.html?url=/storage/ag/arsenic/yokai-dungeon/index.html",
       "imageUrl": "/storage/images/main3/yokaidungeon.png",
       "categories": []
     },
     {
       "label": "Zombie Rush",
-      "url": "/iframe.html?url=/storage/ag/arsenic/zombie-rush",
+      "url": "/iframe.html?url=/storage/ag/arsenic/zombie-rush/index.html",
       "imageUrl": "/storage/images/main3/zombierush.png",
       "categories": []
     },
     {
       "label": "Zooplop",
-      "url": "/iframe.html?url=/storage/ag/arsenic/zooplop",
+      "url": "/iframe.html?url=/storage/ag/arsenic/zooplop/index.html",
       "imageUrl": "/storage/images/main3/zooplop.png",
       "categories": []
     },
     {
       "label": "1",
-      "url": "/iframe.html?url=/storage/ag/echo/1",
+      "url": "/iframe.html?url=/storage/ag/echo/1/index.html",
       "imageUrl": "/storage/ag/echo/1/favicon.ico",
       "categories": [
         "Io"
@@ -1490,7 +1490,7 @@
     },
     {
       "label": "10 minutes till dawn",
-      "url": "/iframe.html?url=/storage/ag/echo/10-minutes-till-dawn",
+      "url": "/iframe.html?url=/storage/ag/echo/10-minutes-till-dawn/index.html",
       "imageUrl": "/storage/ag/echo/10-minutes-till-dawn/icon.png",
       "categories": [
         "Action",
@@ -1499,7 +1499,7 @@
     },
     {
       "label": "100ng",
-      "url": "/iframe.html?url=/storage/ag/echo/100ng",
+      "url": "/iframe.html?url=/storage/ag/echo/100ng/index.html",
       "imageUrl": "/storage/ag/echo/100ng/100ng-logo.png",
       "categories": [
         "Skill"
@@ -1507,7 +1507,7 @@
     },
     {
       "label": "1v1lol",
-      "url": "/iframe.html?url=/storage/ag/echo/1v1lol",
+      "url": "/iframe.html?url=/storage/ag/echo/1v1lol/index.html",
       "imageUrl": "/storage/ag/echo/1v1lol/logo.png",
       "categories": [
         "Action",
@@ -1516,7 +1516,7 @@
     },
     {
       "label": "1v1space",
-      "url": "/iframe.html?url=/storage/ag/echo/1v1space",
+      "url": "/iframe.html?url=/storage/ag/echo/1v1space/index.html",
       "imageUrl": "/storage/ag/echo/1v1space/splash.png",
       "categories": [
         "Action",
@@ -1526,7 +1526,7 @@
     },
     {
       "label": "2048",
-      "url": "/iframe.html?url=/storage/ag/echo/2048",
+      "url": "/iframe.html?url=/storage/ag/echo/2048/index.html",
       "imageUrl": "/storage/ag/echo/2048/favicon.ico",
       "categories": [
         "Skill"
@@ -1534,7 +1534,7 @@
     },
     {
       "label": "2048 multitask",
-      "url": "/iframe.html?url=/storage/ag/echo/2048-multitask",
+      "url": "/iframe.html?url=/storage/ag/echo/2048-multitask/index.html",
       "imageUrl": "/storage/ag/echo/2048-multitask/favicon.ico",
       "categories": [
         "Skill"
@@ -1542,7 +1542,7 @@
     },
     {
       "label": "astray",
-      "url": "/iframe.html?url=/storage/ag/echo/astray",
+      "url": "/iframe.html?url=/storage/ag/echo/astray/index.html",
       "imageUrl": "/storage/ag/echo/astray/ball.png",
       "categories": [
         "Action"
@@ -1550,7 +1550,7 @@
     },
     {
       "label": "avalanche",
-      "url": "/iframe.html?url=/storage/ag/echo/avalanche",
+      "url": "/iframe.html?url=/storage/ag/echo/avalanche/index.html",
       "imageUrl": "/storage/ag/echo/avalanche/avalanche.png",
       "categories": [
         "Action"
@@ -1558,7 +1558,7 @@
     },
     {
       "label": "awesometanks2",
-      "url": "/iframe.html?url=/storage/ag/echo/awesometanks2",
+      "url": "/iframe.html?url=/storage/ag/echo/awesometanks2/index.html",
       "imageUrl": "/storage/ag/echo/awesometanks2/awesometanks2.jpg",
       "categories": [
         "Action"
@@ -1566,7 +1566,7 @@
     },
     {
       "label": "backrooms 2d",
-      "url": "/iframe.html?url=/storage/ag/echo/backrooms-2d",
+      "url": "/iframe.html?url=/storage/ag/echo/backrooms-2d/index.html",
       "imageUrl": "/storage/ag/echo/backrooms-2d/splash.png",
       "categories": [
         "Action"
@@ -1574,7 +1574,7 @@
     },
     {
       "label": "backrooms2d",
-      "url": "/iframe.html?url=/storage/ag/echo/backrooms2d",
+      "url": "/iframe.html?url=/storage/ag/echo/backrooms2d/index.html",
       "imageUrl": "/storage/ag/echo/backrooms2d/BF18A6F3-4A1B-4AF7-B383-B9A359A1DBDF.jpeg",
       "categories": [
         "Io",
@@ -1583,7 +1583,7 @@
     },
     {
       "label": "bad ice cream",
-      "url": "/iframe.html?url=/storage/ag/echo/bad-ice-cream",
+      "url": "/iframe.html?url=/storage/ag/echo/bad-ice-cream/index.html",
       "imageUrl": "/storage/ag/echo/bad-ice-cream/bad-ice-cream.png",
       "categories": [
         "Action",
@@ -1592,7 +1592,7 @@
     },
     {
       "label": "baldis basics",
-      "url": "/iframe.html?url=/storage/ag/echo/baldis-basics",
+      "url": "/iframe.html?url=/storage/ag/echo/baldis-basics/index.html",
       "imageUrl": "/storage/ag/echo/baldis-basics/splash.png",
       "categories": [
         "Action"
@@ -1600,7 +1600,7 @@
     },
     {
       "label": "balldodge",
-      "url": "/iframe.html?url=/storage/ag/echo/balldodge",
+      "url": "/iframe.html?url=/storage/ag/echo/balldodge/index.html",
       "imageUrl": "/storage/ag/echo/balldodge/1D9A05FA-1D29-40D3-8DA3-F9A30AD7470E.jpeg",
       "categories": [
         "Action"
@@ -1608,7 +1608,7 @@
     },
     {
       "label": "ballistic chickens",
-      "url": "/iframe.html?url=/storage/ag/echo/ballistic-chickens",
+      "url": "/iframe.html?url=/storage/ag/echo/ballistic-chickens/index.html",
       "imageUrl": "/storage/ag/echo/ballistic-chickens/logo.png",
       "categories": [
         "Action"
@@ -1616,7 +1616,7 @@
     },
     {
       "label": "basketbros io",
-      "url": "/iframe.html?url=/storage/ag/echo/basketbros-io",
+      "url": "/iframe.html?url=/storage/ag/echo/basketbros-io/index.html",
       "imageUrl": "/storage/ag/echo/basketbros-io/favicon.png",
       "categories": [
         "Action"
@@ -1624,7 +1624,7 @@
     },
     {
       "label": "battleforgondor",
-      "url": "/iframe.html?url=/storage/ag/echo/battleforgondor",
+      "url": "/iframe.html?url=/storage/ag/echo/battleforgondor/index.html",
       "imageUrl": "/storage/ag/echo/battleforgondor/battleforgondor.JPG",
       "categories": [
         "Action"
@@ -1632,7 +1632,7 @@
     },
     {
       "label": "bigredbutton",
-      "url": "/iframe.html?url=/storage/ag/echo/bigredbutton",
+      "url": "/iframe.html?url=/storage/ag/echo/bigredbutton/index.html",
       "imageUrl": "/storage/ag/echo/bigredbutton/bigredbutton.png",
       "categories": [
         "Action"
@@ -1640,7 +1640,7 @@
     },
     {
       "label": "blacholesquare",
-      "url": "/iframe.html?url=/storage/ag/echo/blacholesquare",
+      "url": "/iframe.html?url=/storage/ag/echo/blacholesquare/index.html",
       "imageUrl": "/storage/ag/echo/blacholesquare/icon.png",
       "categories": [
         "Action"
@@ -1648,7 +1648,7 @@
     },
     {
       "label": "blackknight",
-      "url": "/iframe.html?url=/storage/ag/echo/blackknight",
+      "url": "/iframe.html?url=/storage/ag/echo/blackknight/index.html",
       "imageUrl": "/storage/ag/echo/blackknight/blackknight.png",
       "categories": [
         "Action"
@@ -1656,7 +1656,7 @@
     },
     {
       "label": "blockpost",
-      "url": "/iframe.html?url=/storage/ag/echo/blockpost",
+      "url": "/iframe.html?url=/storage/ag/echo/blockpost/index.html",
       "imageUrl": "/storage/ag/echo/blockpost/thumb.png",
       "categories": [
         "Action"
@@ -1664,7 +1664,7 @@
     },
     {
       "label": "bloonstd",
-      "url": "/iframe.html?url=/storage/ag/echo/bloonstd",
+      "url": "/iframe.html?url=/storage/ag/echo/bloonstd/index.html",
       "imageUrl": "/storage/ag/echo/bloonstd/bloonstd.jpg",
       "categories": [
         "Action"
@@ -1672,7 +1672,7 @@
     },
     {
       "label": "bloonstd2",
-      "url": "/iframe.html?url=/storage/ag/echo/bloonstd2",
+      "url": "/iframe.html?url=/storage/ag/echo/bloonstd2/index.html",
       "imageUrl": "/storage/ag/echo/bloonstd2/bloonstd2.png",
       "categories": [
         "Action",
@@ -1681,19 +1681,19 @@
     },
     {
       "label": "bloxors",
-      "url": "/iframe.html?url=/storage/ag/echo/bloxors",
+      "url": "/iframe.html?url=/storage/ag/echo/bloxors/index.html",
       "imageUrl": "/storage/ag/echo/bloxors/favicon.ico",
       "categories": []
     },
     {
       "label": "bobtherobber2",
-      "url": "/iframe.html?url=/storage/ag/echo/bobtherobber2",
+      "url": "/iframe.html?url=/storage/ag/echo/bobtherobber2/index.html",
       "imageUrl": "/storage/ag/echo/bobtherobber2/favicon.ico",
       "categories": []
     },
     {
       "label": "bonkio",
-      "url": "/iframe.html?url=/storage/ag/echo/bonkio",
+      "url": "/iframe.html?url=/storage/ag/echo/bonkio/index.html",
       "imageUrl": "/storage/ag/echo/bonkio/image.png",
       "categories": [
         "Io"
@@ -1701,7 +1701,7 @@
     },
     {
       "label": "boxhead2play",
-      "url": "/iframe.html?url=/storage/ag/echo/boxhead2play",
+      "url": "/iframe.html?url=/storage/ag/echo/boxhead2play/index.html",
       "imageUrl": "/storage/ag/echo/boxhead2play/boxhead2play.jpg",
       "categories": [
         "Action",
@@ -1710,7 +1710,7 @@
     },
     {
       "label": "boxing random",
-      "url": "/iframe.html?url=/storage/ag/echo/boxing-random",
+      "url": "/iframe.html?url=/storage/ag/echo/boxing-random/index.html",
       "imageUrl": "/storage/ag/echo/boxing-random/512x340.jpg",
       "categories": [
         "Sports",
@@ -1719,7 +1719,7 @@
     },
     {
       "label": "breakingthebank",
-      "url": "/iframe.html?url=/storage/ag/echo/breakingthebank",
+      "url": "/iframe.html?url=/storage/ag/echo/breakingthebank/index.html",
       "imageUrl": "/storage/ag/echo/breakingthebank/breakingthebank.png",
       "categories": [
         "Action"
@@ -1727,7 +1727,7 @@
     },
     {
       "label": "btd5",
-      "url": "/iframe.html?url=/storage/ag/echo/btd5",
+      "url": "/iframe.html?url=/storage/ag/echo/btd5/index.html",
       "imageUrl": "/storage/ag/echo/btd5/BT5_Deluxe_logo.png",
       "categories": [
         "Strategy"
@@ -1735,7 +1735,7 @@
     },
     {
       "label": "btts",
-      "url": "/iframe.html?url=/storage/ag/echo/btts",
+      "url": "/iframe.html?url=/storage/ag/echo/btts/index.html",
       "imageUrl": "/storage/ag/echo/btts/icon.png",
       "categories": [
         "Strategy"
@@ -1743,7 +1743,7 @@
     },
     {
       "label": "burger and frights",
-      "url": "/iframe.html?url=/storage/ag/echo/burger-and-frights",
+      "url": "/iframe.html?url=/storage/ag/echo/burger-and-frights/index.html",
       "imageUrl": "/storage/ag/echo/burger-and-frights/icon.png",
       "categories": [
         "Action"
@@ -1751,7 +1751,7 @@
     },
     {
       "label": "bus and subway",
-      "url": "/iframe.html?url=/storage/ag/echo/bus and subway",
+      "url": "/iframe.html?url=/storage/ag/echo/bus%20and%20subway/index.html",
       "imageUrl": "/storage/ag/echo/bus and subway/favicon.ico",
       "categories": [
         "Racing"
@@ -1759,7 +1759,7 @@
     },
     {
       "label": "canyondefense",
-      "url": "/iframe.html?url=/storage/ag/echo/canyondefense",
+      "url": "/iframe.html?url=/storage/ag/echo/canyondefense/index.html",
       "imageUrl": "/storage/ag/echo/canyondefense/canyondefense.png",
       "categories": [
         "Strategy"
@@ -1767,7 +1767,7 @@
     },
     {
       "label": "cars simulator",
-      "url": "/iframe.html?url=/storage/ag/echo/cars-simulator",
+      "url": "/iframe.html?url=/storage/ag/echo/cars-simulator/index.html",
       "imageUrl": "/storage/ag/echo/cars-simulator/splash.png",
       "categories": [
         "Racing"
@@ -1775,7 +1775,7 @@
     },
     {
       "label": "champion island",
-      "url": "/iframe.html?url=/storage/ag/echo/champion-island",
+      "url": "/iframe.html?url=/storage/ag/echo/champion-island/index.html",
       "imageUrl": "/storage/ag/echo/champion-island/favicon.ico",
       "categories": [
         "Sports"
@@ -1783,7 +1783,7 @@
     },
     {
       "label": "championarcher",
-      "url": "/iframe.html?url=/storage/ag/echo/championarcher",
+      "url": "/iframe.html?url=/storage/ag/echo/championarcher/index.html",
       "imageUrl": "/storage/ag/echo/championarcher/championarcher.png",
       "categories": [
         "Action",
@@ -1792,7 +1792,7 @@
     },
     {
       "label": "checkers",
-      "url": "/iframe.html?url=/storage/ag/echo/checkers",
+      "url": "/iframe.html?url=/storage/ag/echo/checkers/index.html",
       "imageUrl": "/storage/ag/echo/checkers/image.png",
       "categories": [
         "Strategy"
@@ -1800,7 +1800,7 @@
     },
     {
       "label": "chess",
-      "url": "/iframe.html?url=/storage/ag/echo/chess",
+      "url": "/iframe.html?url=/storage/ag/echo/chess/index.html",
       "imageUrl": "/storage/ag/echo/chess/84391856-3910-4B44-AF7E-ACF1056658C2.jpeg",
       "categories": [
         "Strategy"
@@ -1808,7 +1808,7 @@
     },
     {
       "label": "chrome dino",
-      "url": "/iframe.html?url=/storage/ag/echo/chrome-dino",
+      "url": "/iframe.html?url=/storage/ag/echo/chrome-dino/index.html",
       "imageUrl": "/storage/ag/echo/chrome-dino/favicon.ico",
       "categories": [
         "Skill"
@@ -1816,7 +1816,7 @@
     },
     {
       "label": "cnpingpong",
-      "url": "/iframe.html?url=/storage/ag/echo/cnpingpong",
+      "url": "/iframe.html?url=/storage/ag/echo/cnpingpong/index.html",
       "imageUrl": "/storage/ag/echo/cnpingpong/tabletennisultimate.png",
       "categories": [
         "Sports",
@@ -1825,13 +1825,13 @@
     },
     {
       "label": "connect3",
-      "url": "/iframe.html?url=/storage/ag/echo/connect3",
+      "url": "/iframe.html?url=/storage/ag/echo/connect3/index.html",
       "imageUrl": "/storage/ag/echo/connect3/favicon.png",
       "categories": []
     },
     {
       "label": "creativekillchamber",
-      "url": "/iframe.html?url=/storage/ag/echo/creativekillchamber",
+      "url": "/iframe.html?url=/storage/ag/echo/creativekillchamber/index.html",
       "imageUrl": "/storage/ag/echo/creativekillchamber/creativekillchamber.jpg",
       "categories": [
         "Action",
@@ -1840,7 +1840,7 @@
     },
     {
       "label": "crossyroad",
-      "url": "/iframe.html?url=/storage/ag/echo/crossyroad",
+      "url": "/iframe.html?url=/storage/ag/echo/crossyroad/index.html",
       "imageUrl": "/storage/ag/echo/crossyroad/crossyroad.png",
       "categories": [
         "Action"
@@ -1848,7 +1848,7 @@
     },
     {
       "label": "ctr",
-      "url": "/iframe.html?url=/storage/ag/echo/ctr",
+      "url": "/iframe.html?url=/storage/ag/echo/ctr/index.html",
       "imageUrl": "/storage/ag/echo/ctr/logo.png",
       "categories": [
         "Action",
@@ -1857,7 +1857,7 @@
     },
     {
       "label": "ctr holiday",
-      "url": "/iframe.html?url=/storage/ag/echo/ctr-holiday",
+      "url": "/iframe.html?url=/storage/ag/echo/ctr-holiday/index.html",
       "imageUrl": "/storage/ag/echo/ctr-holiday/favicon.ico",
       "categories": [
         "Action"
@@ -1865,7 +1865,7 @@
     },
     {
       "label": "ctr tr",
-      "url": "/iframe.html?url=/storage/ag/echo/ctr-tr",
+      "url": "/iframe.html?url=/storage/ag/echo/ctr-tr/index.html",
       "imageUrl": "/storage/ag/echo/ctr-tr/logo.png",
       "categories": [
         "Action"
@@ -1873,7 +1873,7 @@
     },
     {
       "label": "cupcake2048",
-      "url": "/iframe.html?url=/storage/ag/echo/cupcake2048",
+      "url": "/iframe.html?url=/storage/ag/echo/cupcake2048/index.html",
       "imageUrl": "/storage/ag/echo/cupcake2048/favicon.ico",
       "categories": [
         "Action"
@@ -1881,7 +1881,7 @@
     },
     {
       "label": "dante",
-      "url": "/iframe.html?url=/storage/ag/echo/dante",
+      "url": "/iframe.html?url=/storage/ag/echo/dante/index.html",
       "imageUrl": "/storage/ag/echo/dante/gzthermal-result.png",
       "categories": [
         "Action"
@@ -1889,7 +1889,7 @@
     },
     {
       "label": "deal or no deal",
-      "url": "/iframe.html?url=/storage/ag/echo/deal-or-no-deal",
+      "url": "/iframe.html?url=/storage/ag/echo/deal-or-no-deal/index.html",
       "imageUrl": "/storage/ag/echo/deal-or-no-deal/index.jpg",
       "categories": [
         "Action"
@@ -1897,7 +1897,7 @@
     },
     {
       "label": "deepest sword",
-      "url": "/iframe.html?url=/storage/ag/echo/deepest-sword",
+      "url": "/iframe.html?url=/storage/ag/echo/deepest-sword/index.html",
       "imageUrl": "/storage/ag/echo/deepest-sword/splash.jpg",
       "categories": [
         "Action"
@@ -1905,7 +1905,7 @@
     },
     {
       "label": "defend the tank",
-      "url": "/iframe.html?url=/storage/ag/echo/defend-the-tank",
+      "url": "/iframe.html?url=/storage/ag/echo/defend-the-tank/index.html",
       "imageUrl": "/storage/ag/echo/defend-the-tank/landscape.jpg",
       "categories": [
         "Racing"
@@ -1913,7 +1913,7 @@
     },
     {
       "label": "doctor acorn2",
-      "url": "/iframe.html?url=/storage/ag/echo/doctor-acorn2",
+      "url": "/iframe.html?url=/storage/ag/echo/doctor-acorn2/index.html",
       "imageUrl": "/storage/ag/echo/doctor-acorn2/icon-256.png",
       "categories": [
         "Sports"
@@ -1921,7 +1921,7 @@
     },
     {
       "label": "dodge",
-      "url": "/iframe.html?url=/storage/ag/echo/dodge",
+      "url": "/iframe.html?url=/storage/ag/echo/dodge/index.html",
       "imageUrl": "/storage/ag/echo/dodge/CEB64188-C91B-4FEE-95C1-3ACF6A8CA009.jpeg",
       "categories": [
         "Sports"
@@ -1929,7 +1929,7 @@
     },
     {
       "label": "doge2048",
-      "url": "/iframe.html?url=/storage/ag/echo/doge2048",
+      "url": "/iframe.html?url=/storage/ag/echo/doge2048/index.html",
       "imageUrl": "/storage/ag/echo/doge2048/favicon.png",
       "categories": [
         "Sports"
@@ -1937,7 +1937,7 @@
     },
     {
       "label": "doodle jump",
-      "url": "/iframe.html?url=/storage/ag/echo/doodle-jump",
+      "url": "/iframe.html?url=/storage/ag/echo/doodle-jump/index.html",
       "imageUrl": "/storage/ag/echo/doodle-jump/doodle.png",
       "categories": [
         "Action"
@@ -1945,7 +1945,7 @@
     },
     {
       "label": "doom",
-      "url": "/iframe.html?url=/storage/ag/echo/doom",
+      "url": "/iframe.html?url=/storage/ag/echo/doom/index.html",
       "imageUrl": "/storage/ag/echo/doom/0B894474-D070-4E9C-B1C1-6908E344DA28.jpeg",
       "categories": [
         "Action"
@@ -1953,7 +1953,7 @@
     },
     {
       "label": "doublewires",
-      "url": "/iframe.html?url=/storage/ag/echo/doublewires",
+      "url": "/iframe.html?url=/storage/ag/echo/doublewires/index.html",
       "imageUrl": "/storage/ag/echo/doublewires/doublewires.png",
       "categories": [
         "Action"
@@ -1961,7 +1961,7 @@
     },
     {
       "label": "dragon vs bricks",
-      "url": "/iframe.html?url=/storage/ag/echo/dragon-vs-bricks",
+      "url": "/iframe.html?url=/storage/ag/echo/dragon-vs-bricks/index.html",
       "imageUrl": "/storage/ag/echo/dragon-vs-bricks/icon.jpg",
       "categories": [
         "Action"
@@ -1969,7 +1969,7 @@
     },
     {
       "label": "drift hunters",
-      "url": "/iframe.html?url=/storage/ag/echo/drift-hunters",
+      "url": "/iframe.html?url=/storage/ag/echo/drift-hunters/index.html",
       "imageUrl": "/storage/ag/echo/drift-hunters/drift-hunters.png",
       "categories": [
         "Action"
@@ -1977,7 +1977,7 @@
     },
     {
       "label": "ducklife1",
-      "url": "/iframe.html?url=/storage/ag/echo/ducklife1",
+      "url": "/iframe.html?url=/storage/ag/echo/ducklife1/index.html",
       "imageUrl": "/storage/ag/echo/ducklife1/ducklife.png",
       "categories": [
         "Action"
@@ -1985,7 +1985,7 @@
     },
     {
       "label": "ducklife2",
-      "url": "/iframe.html?url=/storage/ag/echo/ducklife2",
+      "url": "/iframe.html?url=/storage/ag/echo/ducklife2/index.html",
       "imageUrl": "/storage/ag/echo/ducklife2/ducklife2.png",
       "categories": [
         "Action"
@@ -1993,7 +1993,7 @@
     },
     {
       "label": "ducklife3",
-      "url": "/iframe.html?url=/storage/ag/echo/ducklife3",
+      "url": "/iframe.html?url=/storage/ag/echo/ducklife3/index.html",
       "imageUrl": "/storage/ag/echo/ducklife3/favicon.ico",
       "categories": [
         "Action"
@@ -2001,7 +2001,7 @@
     },
     {
       "label": "ducklife4",
-      "url": "/iframe.html?url=/storage/ag/echo/ducklife4",
+      "url": "/iframe.html?url=/storage/ag/echo/ducklife4/index.html",
       "imageUrl": "/storage/ag/echo/ducklife4/splash.jpg",
       "categories": [
         "Action"
@@ -2009,7 +2009,7 @@
     },
     {
       "label": "duke nukem 2",
-      "url": "/iframe.html?url=/storage/ag/echo/duke-nukem-2",
+      "url": "/iframe.html?url=/storage/ag/echo/duke-nukem-2/index.html",
       "imageUrl": "/storage/ag/echo/duke-nukem-2/favicon.ico",
       "categories": [
         "Action"
@@ -2017,7 +2017,7 @@
     },
     {
       "label": "dumbwaystodie",
-      "url": "/iframe.html?url=/storage/ag/echo/dumbwaystodie",
+      "url": "/iframe.html?url=/storage/ag/echo/dumbwaystodie/index.html",
       "imageUrl": "/storage/ag/echo/dumbwaystodie/image.png",
       "categories": [
         "Action"
@@ -2025,7 +2025,7 @@
     },
     {
       "label": "fancypantsadventures",
-      "url": "/iframe.html?url=/storage/ag/echo/fancypantsadventures",
+      "url": "/iframe.html?url=/storage/ag/echo/fancypantsadventures/index.html",
       "imageUrl": "/storage/ag/echo/fancypantsadventures/fancypantsadventure.png",
       "categories": [
         "Action",
@@ -2034,7 +2034,7 @@
     },
     {
       "label": "fantasy dash",
-      "url": "/iframe.html?url=/storage/ag/echo/fantasy-dash",
+      "url": "/iframe.html?url=/storage/ag/echo/fantasy-dash/index.html",
       "imageUrl": "/storage/ag/echo/fantasy-dash/DF24D85A-B7B5-4CF0-8194-DB6CD89C6975.jpeg",
       "categories": [
         "Racing"
@@ -2042,7 +2042,7 @@
     },
     {
       "label": "fireboywatergirlforesttemple",
-      "url": "/iframe.html?url=/storage/ag/echo/fireboywatergirlforesttemple",
+      "url": "/iframe.html?url=/storage/ag/echo/fireboywatergirlforesttemple/index.html",
       "imageUrl": "/storage/ag/echo/fireboywatergirlforesttemple/logo.jpeg",
       "categories": [
         "Action",
@@ -2052,7 +2052,7 @@
     },
     {
       "label": "flappy plane",
-      "url": "/iframe.html?url=/storage/ag/echo/flappy plane",
+      "url": "/iframe.html?url=/storage/ag/echo/flappy%20plane/index.html",
       "imageUrl": "/storage/ag/echo/flappy plane/E3A4179E-B8E4-4358-BDAD-45AA7637D4D7.jpeg",
       "categories": [
         "Skill"
@@ -2060,7 +2060,7 @@
     },
     {
       "label": "flappy 2048",
-      "url": "/iframe.html?url=/storage/ag/echo/flappy-2048",
+      "url": "/iframe.html?url=/storage/ag/echo/flappy-2048/index.html",
       "imageUrl": "/storage/ag/echo/flappy-2048/favicon.ico",
       "categories": [
         "Skill"
@@ -2068,7 +2068,7 @@
     },
     {
       "label": "flappybird",
-      "url": "/iframe.html?url=/storage/ag/echo/flappybird",
+      "url": "/iframe.html?url=/storage/ag/echo/flappybird/index.html",
       "imageUrl": "/storage/ag/echo/flappybird/logo.png",
       "categories": [
         "Skill"
@@ -2076,7 +2076,7 @@
     },
     {
       "label": "flashtetris",
-      "url": "/iframe.html?url=/storage/ag/echo/flashtetris",
+      "url": "/iframe.html?url=/storage/ag/echo/flashtetris/index.html",
       "imageUrl": "/storage/ag/echo/flashtetris/flashtetris.png",
       "categories": [
         "Action",
@@ -2085,7 +2085,7 @@
     },
     {
       "label": "fleeingthecomplex",
-      "url": "/iframe.html?url=/storage/ag/echo/fleeingthecomplex",
+      "url": "/iframe.html?url=/storage/ag/echo/fleeingthecomplex/index.html",
       "imageUrl": "/storage/ag/echo/fleeingthecomplex/a.png",
       "categories": [
         "Skill"
@@ -2093,7 +2093,7 @@
     },
     {
       "label": "flippy fish",
-      "url": "/iframe.html?url=/storage/ag/echo/flippy-fish",
+      "url": "/iframe.html?url=/storage/ag/echo/flippy-fish/index.html",
       "imageUrl": "/storage/ag/echo/flippy-fish/2022_10_28_0jt_Kleki.png",
       "categories": [
         "Action"
@@ -2101,7 +2101,7 @@
     },
     {
       "label": "fnaw",
-      "url": "/iframe.html?url=/storage/ag/echo/fnaw",
+      "url": "/iframe.html?url=/storage/ag/echo/fnaw/index.html",
       "imageUrl": "/storage/ag/echo/fnaw/favicon.ico",
       "categories": [
         "2 Player"
@@ -2109,7 +2109,7 @@
     },
     {
       "label": "fridaynightfunkin",
-      "url": "/iframe.html?url=/storage/ag/echo/fridaynightfunkin",
+      "url": "/iframe.html?url=/storage/ag/echo/fridaynightfunkin/index.html",
       "imageUrl": "/storage/ag/echo/fridaynightfunkin/favicon.png",
       "categories": [
         "Racing",
@@ -2118,7 +2118,7 @@
     },
     {
       "label": "froggys battle",
-      "url": "/iframe.html?url=/storage/ag/echo/froggys-battle",
+      "url": "/iframe.html?url=/storage/ag/echo/froggys-battle/index.html",
       "imageUrl": "/storage/ag/echo/froggys-battle/banner.jpg",
       "categories": [
         "Action"
@@ -2126,7 +2126,7 @@
     },
     {
       "label": "fruitninja",
-      "url": "/iframe.html?url=/storage/ag/echo/fruitninja",
+      "url": "/iframe.html?url=/storage/ag/echo/fruitninja/index.html",
       "imageUrl": "/storage/ag/echo/fruitninja/FruitNinjaTeaser.jpg",
       "categories": [
         "Action"
@@ -2134,7 +2134,7 @@
     },
     {
       "label": "frying nemo",
-      "url": "/iframe.html?url=/storage/ag/echo/frying-nemo",
+      "url": "/iframe.html?url=/storage/ag/echo/frying-nemo/index.html",
       "imageUrl": "/storage/ag/echo/frying-nemo/icon.png",
       "categories": [
         "Skill"
@@ -2142,7 +2142,7 @@
     },
     {
       "label": "fsucraft",
-      "url": "/iframe.html?url=/storage/ag/echo/fsucraft",
+      "url": "/iframe.html?url=/storage/ag/echo/fsucraft/index.html",
       "imageUrl": "/storage/ag/echo/fsucraft/favicon.ico",
       "categories": [
         "Action"
@@ -2150,7 +2150,7 @@
     },
     {
       "label": "gachalife",
-      "url": "/iframe.html?url=/storage/ag/echo/gachalife",
+      "url": "/iframe.html?url=/storage/ag/echo/gachalife/index.html",
       "imageUrl": "/storage/ag/echo/gachalife/splash.png",
       "categories": [
         "Strategy"
@@ -2158,7 +2158,7 @@
     },
     {
       "label": "generic fishing game",
-      "url": "/iframe.html?url=/storage/ag/echo/generic-fishing-game",
+      "url": "/iframe.html?url=/storage/ag/echo/generic-fishing-game/index.html",
       "imageUrl": "/storage/ag/echo/generic-fishing-game/banner.png",
       "categories": [
         "Sports"
@@ -2166,7 +2166,7 @@
     },
     {
       "label": "geodash",
-      "url": "/iframe.html?url=/storage/ag/echo/geodash",
+      "url": "/iframe.html?url=/storage/ag/echo/geodash/index.html",
       "imageUrl": "/storage/ag/echo/geodash/geoscratchicon.png",
       "categories": [
         "Action"
@@ -2174,7 +2174,7 @@
     },
     {
       "label": "geodashlite",
-      "url": "/iframe.html?url=/storage/ag/echo/geodashlite",
+      "url": "/iframe.html?url=/storage/ag/echo/geodashlite/index.html",
       "imageUrl": "/storage/ag/echo/geodashlite/geodashlite.png",
       "categories": [
         "Action"
@@ -2182,7 +2182,7 @@
     },
     {
       "label": "geojump",
-      "url": "/iframe.html?url=/storage/ag/echo/geojump",
+      "url": "/iframe.html?url=/storage/ag/echo/geojump/index.html",
       "imageUrl": "/storage/ag/echo/geojump/loading3860.png",
       "categories": [
         "Action"
@@ -2190,7 +2190,7 @@
     },
     {
       "label": "geoneondash",
-      "url": "/iframe.html?url=/storage/ag/echo/geoneondash",
+      "url": "/iframe.html?url=/storage/ag/echo/geoneondash/index.html",
       "imageUrl": "/storage/ag/echo/geoneondash/icon-256.png",
       "categories": [
         "Action"
@@ -2198,7 +2198,7 @@
     },
     {
       "label": "glass city",
-      "url": "/iframe.html?url=/storage/ag/echo/glass-city",
+      "url": "/iframe.html?url=/storage/ag/echo/glass-city/index.html",
       "imageUrl": "/storage/ag/echo/glass-city/banner.png",
       "categories": [
         "Action"
@@ -2206,7 +2206,7 @@
     },
     {
       "label": "go ball",
-      "url": "/iframe.html?url=/storage/ag/echo/go-ball",
+      "url": "/iframe.html?url=/storage/ag/echo/go-ball/index.html",
       "imageUrl": "/storage/ag/echo/go-ball/icon-256.png",
       "categories": [
         "Action"
@@ -2214,7 +2214,7 @@
     },
     {
       "label": "goodnight",
-      "url": "/iframe.html?url=/storage/ag/echo/goodnight",
+      "url": "/iframe.html?url=/storage/ag/echo/goodnight/index.html",
       "imageUrl": "/storage/ag/echo/goodnight/goodnight.jpg",
       "categories": [
         "Action"
@@ -2222,7 +2222,7 @@
     },
     {
       "label": "google feud",
-      "url": "/iframe.html?url=/storage/ag/echo/google-feud",
+      "url": "/iframe.html?url=/storage/ag/echo/google-feud/index.html",
       "imageUrl": "/storage/ag/echo/google-feud/splash.png",
       "categories": [
         "Action"
@@ -2230,7 +2230,7 @@
     },
     {
       "label": "gravity soccer",
-      "url": "/iframe.html?url=/storage/ag/echo/gravity-soccer",
+      "url": "/iframe.html?url=/storage/ag/echo/gravity-soccer/index.html",
       "imageUrl": "/storage/ag/echo/gravity-soccer/icon-256.png",
       "categories": [
         "Action"
@@ -2238,7 +2238,7 @@
     },
     {
       "label": "greybox",
-      "url": "/iframe.html?url=/storage/ag/echo/greybox",
+      "url": "/iframe.html?url=/storage/ag/echo/greybox/index.html",
       "imageUrl": "/storage/ag/echo/greybox/ico.png",
       "categories": [
         "Action"
@@ -2246,7 +2246,7 @@
     },
     {
       "label": "hackertype",
-      "url": "/iframe.html?url=/storage/ag/echo/hackertype",
+      "url": "/iframe.html?url=/storage/ag/echo/hackertype/index.html",
       "imageUrl": "/storage/ag/echo/hackertype/favicon.ico",
       "categories": [
         "Action"
@@ -2254,7 +2254,7 @@
     },
     {
       "label": "handshakes",
-      "url": "/iframe.html?url=/storage/ag/echo/handshakes",
+      "url": "/iframe.html?url=/storage/ag/echo/handshakes/index.html",
       "imageUrl": "/storage/ag/echo/handshakes/splaher.png",
       "categories": [
         "Action"
@@ -2262,7 +2262,7 @@
     },
     {
       "label": "happy hop",
-      "url": "/iframe.html?url=/storage/ag/echo/happy-hop",
+      "url": "/iframe.html?url=/storage/ag/echo/happy-hop/index.html",
       "imageUrl": "/storage/ag/echo/happy-hop/loading-logo.png",
       "categories": [
         "Action"
@@ -2270,7 +2270,7 @@
     },
     {
       "label": "happywheels",
-      "url": "/iframe.html?url=/storage/ag/echo/happywheels",
+      "url": "/iframe.html?url=/storage/ag/echo/happywheels/index.html",
       "imageUrl": "/storage/ag/echo/happywheels/b.png",
       "categories": [
         "Action"
@@ -2278,7 +2278,7 @@
     },
     {
       "label": "hardware tycoon",
-      "url": "/iframe.html?url=/storage/ag/echo/hardware-tycoon",
+      "url": "/iframe.html?url=/storage/ag/echo/hardware-tycoon/index.html",
       "imageUrl": "/storage/ag/echo/hardware-tycoon/icon-114.png",
       "categories": [
         "Action"
@@ -2286,7 +2286,7 @@
     },
     {
       "label": "hba",
-      "url": "/iframe.html?url=/storage/ag/echo/hba",
+      "url": "/iframe.html?url=/storage/ag/echo/hba/index.html",
       "imageUrl": "/storage/ag/echo/hba/hoverbotarena.JPG",
       "categories": [
         "Action"
@@ -2294,7 +2294,7 @@
     },
     {
       "label": "helicopter",
-      "url": "/iframe.html?url=/storage/ag/echo/helicopter",
+      "url": "/iframe.html?url=/storage/ag/echo/helicopter/index.html",
       "imageUrl": "/storage/ag/echo/helicopter/helicopter.png",
       "categories": [
         "Action"
@@ -2302,7 +2302,7 @@
     },
     {
       "label": "hexempire",
-      "url": "/iframe.html?url=/storage/ag/echo/hexempire",
+      "url": "/iframe.html?url=/storage/ag/echo/hexempire/index.html",
       "imageUrl": "/storage/ag/echo/hexempire/hexempire.jpg",
       "categories": [
         "Action"
@@ -2310,7 +2310,7 @@
     },
     {
       "label": "hextris",
-      "url": "/iframe.html?url=/storage/ag/echo/hextris",
+      "url": "/iframe.html?url=/storage/ag/echo/hextris/index.html",
       "imageUrl": "/storage/ag/echo/hextris/favicon.ico",
       "categories": [
         "Action"
@@ -2318,7 +2318,7 @@
     },
     {
       "label": "hill climb racing",
-      "url": "/iframe.html?url=/storage/ag/echo/hill-climb-racing",
+      "url": "/iframe.html?url=/storage/ag/echo/hill-climb-racing/index.html",
       "imageUrl": "/storage/ag/echo/hill-climb-racing/splash.jpeg",
       "categories": [
         "Action"
@@ -2326,7 +2326,7 @@
     },
     {
       "label": "hungry lamu",
-      "url": "/iframe.html?url=/storage/ag/echo/hungry-lamu",
+      "url": "/iframe.html?url=/storage/ag/echo/hungry-lamu/index.html",
       "imageUrl": "/storage/ag/echo/hungry-lamu/splash.png",
       "categories": [
         "Action"
@@ -2334,7 +2334,7 @@
     },
     {
       "label": "iceagebaby",
-      "url": "/iframe.html?url=/storage/ag/echo/iceagebaby",
+      "url": "/iframe.html?url=/storage/ag/echo/iceagebaby/index.html",
       "imageUrl": "/storage/ag/echo/iceagebaby/thumb.png",
       "categories": [
         "Action"
@@ -2342,7 +2342,7 @@
     },
     {
       "label": "iceagebaby2",
-      "url": "/iframe.html?url=/storage/ag/echo/iceagebaby2",
+      "url": "/iframe.html?url=/storage/ag/echo/iceagebaby2/index.html",
       "imageUrl": "/storage/ag/echo/iceagebaby2/pinky.jpg",
       "categories": [
         "Action"
@@ -2350,7 +2350,7 @@
     },
     {
       "label": "idle shark",
-      "url": "/iframe.html?url=/storage/ag/echo/idle-shark",
+      "url": "/iframe.html?url=/storage/ag/echo/idle-shark/index.html",
       "imageUrl": "/storage/ag/echo/idle-shark/favicon.ico",
       "categories": [
         "Action"
@@ -2358,7 +2358,7 @@
     },
     {
       "label": "impossiblequiz",
-      "url": "/iframe.html?url=/storage/ag/echo/impossiblequiz",
+      "url": "/iframe.html?url=/storage/ag/echo/impossiblequiz/index.html",
       "imageUrl": "/storage/ag/echo/impossiblequiz/impossiblequiz.png",
       "categories": [
         "Action"
@@ -2366,7 +2366,7 @@
     },
     {
       "label": "interactivebuddy",
-      "url": "/iframe.html?url=/storage/ag/echo/interactivebuddy",
+      "url": "/iframe.html?url=/storage/ag/echo/interactivebuddy/index.html",
       "imageUrl": "/storage/ag/echo/interactivebuddy/interactivebuddy.jpg",
       "categories": [
         "Action"
@@ -2374,7 +2374,7 @@
     },
     {
       "label": "iron dash",
-      "url": "/iframe.html?url=/storage/ag/echo/iron dash",
+      "url": "/iframe.html?url=/storage/ag/echo/iron%20dash/index.html",
       "imageUrl": "/storage/ag/echo/iron dash/9FF39FCC-64B1-491C-97FC-A34357F9583A.jpeg",
       "categories": [
         "Action"
@@ -2382,7 +2382,7 @@
     },
     {
       "label": "jetpack joyride",
-      "url": "/iframe.html?url=/storage/ag/echo/jetpack-joyride",
+      "url": "/iframe.html?url=/storage/ag/echo/jetpack-joyride/index.html",
       "imageUrl": "/storage/ag/echo/jetpack-joyride/splash.jpg",
       "categories": [
         "Action"
@@ -2390,7 +2390,7 @@
     },
     {
       "label": "just fall",
-      "url": "/iframe.html?url=/storage/ag/echo/just-fall",
+      "url": "/iframe.html?url=/storage/ag/echo/just-fall/index.html",
       "imageUrl": "/storage/ag/echo/just-fall/favicon.png",
       "categories": [
         "Action"
@@ -2398,7 +2398,7 @@
     },
     {
       "label": "just one boss",
-      "url": "/iframe.html?url=/storage/ag/echo/just-one-boss",
+      "url": "/iframe.html?url=/storage/ag/echo/just-one-boss/index.html",
       "imageUrl": "/storage/ag/echo/just-one-boss/pv1Gr5.png",
       "categories": [
         "Action"
@@ -2406,7 +2406,7 @@
     },
     {
       "label": "kirkaio",
-      "url": "/iframe.html?url=/storage/ag/echo/kirkaio",
+      "url": "/iframe.html?url=/storage/ag/echo/kirkaio/index.html",
       "imageUrl": "/storage/ag/echo/kirkaio/C0DADB28-2750-4DF9-9499-4BB61119877D.jpeg",
       "categories": [
         "Io"
@@ -2414,7 +2414,7 @@
     },
     {
       "label": "kitchen gun game",
-      "url": "/iframe.html?url=/storage/ag/echo/kitchen-gun-game",
+      "url": "/iframe.html?url=/storage/ag/echo/kitchen-gun-game/index.html",
       "imageUrl": "/storage/ag/echo/kitchen-gun-game/favicon.png",
       "categories": [
         "Shooting"
@@ -2422,7 +2422,7 @@
     },
     {
       "label": "kittencannon",
-      "url": "/iframe.html?url=/storage/ag/echo/kittencannon",
+      "url": "/iframe.html?url=/storage/ag/echo/kittencannon/index.html",
       "imageUrl": "/storage/ag/echo/kittencannon/kittencannon.png",
       "categories": [
         "Shooting"
@@ -2430,7 +2430,7 @@
     },
     {
       "label": "knife master",
-      "url": "/iframe.html?url=/storage/ag/echo/knife-master",
+      "url": "/iframe.html?url=/storage/ag/echo/knife-master/index.html",
       "imageUrl": "/storage/ag/echo/knife-master/512x340.jpg",
       "categories": [
         "Skill"
@@ -2438,7 +2438,7 @@
     },
     {
       "label": "learntofly",
-      "url": "/iframe.html?url=/storage/ag/echo/learntofly",
+      "url": "/iframe.html?url=/storage/ag/echo/learntofly/index.html",
       "imageUrl": "/storage/ag/echo/learntofly/learntofly.png",
       "categories": [
         "Skill"
@@ -2446,7 +2446,7 @@
     },
     {
       "label": "learntofly2",
-      "url": "/iframe.html?url=/storage/ag/echo/learntofly2",
+      "url": "/iframe.html?url=/storage/ag/echo/learntofly2/index.html",
       "imageUrl": "/storage/ag/echo/learntofly2/learn-to-fly-2.jpg",
       "categories": [
         "Skill"
@@ -2454,7 +2454,7 @@
     },
     {
       "label": "level13",
-      "url": "/iframe.html?url=/storage/ag/echo/level13",
+      "url": "/iframe.html?url=/storage/ag/echo/level13/index.html",
       "imageUrl": "/storage/ag/echo/level13/favicon.ico",
       "categories": [
         "Action"
@@ -2462,7 +2462,7 @@
     },
     {
       "label": "linerider",
-      "url": "/iframe.html?url=/storage/ag/echo/linerider",
+      "url": "/iframe.html?url=/storage/ag/echo/linerider/index.html",
       "imageUrl": "/storage/ag/echo/linerider/6954B825-C61C-41E0-BFD9-7EA4FC6D0FE1.jpeg",
       "categories": [
         "Skill"
@@ -2470,7 +2470,7 @@
     },
     {
       "label": "ltf idle",
-      "url": "/iframe.html?url=/storage/ag/echo/ltf-idle",
+      "url": "/iframe.html?url=/storage/ag/echo/ltf-idle/index.html",
       "imageUrl": "/storage/ag/echo/ltf-idle/thumbnail.jpg",
       "categories": [
         "Io"
@@ -2478,7 +2478,7 @@
     },
     {
       "label": "ltf3",
-      "url": "/iframe.html?url=/storage/ag/echo/ltf3",
+      "url": "/iframe.html?url=/storage/ag/echo/ltf3/index.html",
       "imageUrl": "/storage/ag/echo/ltf3/logo.png",
       "categories": [
         "Action"
@@ -2486,7 +2486,7 @@
     },
     {
       "label": "marvinspectrum",
-      "url": "/iframe.html?url=/storage/ag/echo/marvinspectrum",
+      "url": "/iframe.html?url=/storage/ag/echo/marvinspectrum/index.html",
       "imageUrl": "/storage/ag/echo/marvinspectrum/marvinspectrum.png",
       "categories": [
         "Action"
@@ -2494,7 +2494,7 @@
     },
     {
       "label": "matrixrampage",
-      "url": "/iframe.html?url=/storage/ag/echo/matrixrampage",
+      "url": "/iframe.html?url=/storage/ag/echo/matrixrampage/index.html",
       "imageUrl": "/storage/ag/echo/matrixrampage/matrixrampage.jpg",
       "categories": [
         "Action"
@@ -2502,7 +2502,7 @@
     },
     {
       "label": "mcje",
-      "url": "/iframe.html?url=/storage/ag/echo/mcje",
+      "url": "/iframe.html?url=/storage/ag/echo/mcje/index.html",
       "imageUrl": "/storage/ag/echo/mcje/C1B5E635-A242-4D0F-8524-DE4B5164F534.jpeg",
       "categories": [
         "Action"
@@ -2510,7 +2510,7 @@
     },
     {
       "label": "pixel gun survival",
-      "url": "/iframe.html?url=/storage/ag/echo/pixel-gun-survival",
+      "url": "/iframe.html?url=/storage/ag/echo/pixel-gun-survival/index.html",
       "imageUrl": "/storage/ag/echo/pixel-gun-survival/512x512.png",
       "categories": [
         "Shooting"
@@ -2518,7 +2518,7 @@
     },
     {
       "label": "plants vs zombies 1",
-      "url": "/iframe.html?url=/storage/ag/echo/plants vs zombies 1",
+      "url": "/iframe.html?url=/storage/ag/echo/plants%20vs%20zombies%201/index.html",
       "imageUrl": "/storage/ag/echo/plants vs zombies 1/image_proxy.png",
       "categories": [
         "Strategy"
@@ -2526,7 +2526,7 @@
     },
     {
       "label": "polybranch",
-      "url": "/iframe.html?url=/storage/ag/echo/polybranch",
+      "url": "/iframe.html?url=/storage/ag/echo/polybranch/index.html",
       "imageUrl": "/storage/ag/echo/polybranch/Arrow_keys.png",
       "categories": [
         "Action"
@@ -2534,7 +2534,7 @@
     },
     {
       "label": "popcat classic",
-      "url": "/iframe.html?url=/storage/ag/echo/popcat-classic",
+      "url": "/iframe.html?url=/storage/ag/echo/popcat-classic/index.html",
       "imageUrl": "/storage/ag/echo/popcat-classic/favicon.ico",
       "categories": [
         "Action"
@@ -2542,7 +2542,7 @@
     },
     {
       "label": "portalflash",
-      "url": "/iframe.html?url=/storage/ag/echo/portalflash",
+      "url": "/iframe.html?url=/storage/ag/echo/portalflash/index.html",
       "imageUrl": "/storage/ag/echo/portalflash/portaltheflashversion.jpg",
       "categories": [
         "Action"
@@ -2550,13 +2550,13 @@
     },
     {
       "label": "protektor",
-      "url": "/iframe.html?url=/storage/ag/echo/protektor",
+      "url": "/iframe.html?url=/storage/ag/echo/protektor/index.html",
       "imageUrl": "/storage/ag/echo/protektor/icon-256.png",
       "categories": []
     },
     {
       "label": "rabbit samurai",
-      "url": "/iframe.html?url=/storage/ag/echo/rabbit-samurai",
+      "url": "/iframe.html?url=/storage/ag/echo/rabbit-samurai/index.html",
       "imageUrl": "/storage/ag/echo/rabbit-samurai/icon-256.png",
       "categories": [
         "Action",
@@ -2565,7 +2565,7 @@
     },
     {
       "label": "rabbit samurai2",
-      "url": "/iframe.html?url=/storage/ag/echo/rabbit-samurai2",
+      "url": "/iframe.html?url=/storage/ag/echo/rabbit-samurai2/index.html",
       "imageUrl": "/storage/ag/echo/rabbit-samurai2/icon-114.png",
       "categories": [
         "Action",
@@ -2574,49 +2574,49 @@
     },
     {
       "label": "riddleschool",
-      "url": "/iframe.html?url=/storage/ag/echo/riddleschool",
+      "url": "/iframe.html?url=/storage/ag/echo/riddleschool/index.html",
       "imageUrl": "/storage/ag/echo/riddleschool/riddleschool.png",
       "categories": []
     },
     {
       "label": "riddleschool2",
-      "url": "/iframe.html?url=/storage/ag/echo/riddleschool2",
+      "url": "/iframe.html?url=/storage/ag/echo/riddleschool2/index.html",
       "imageUrl": "/storage/ag/echo/riddleschool2/riddleschool2.png",
       "categories": []
     },
     {
       "label": "riddleschool3",
-      "url": "/iframe.html?url=/storage/ag/echo/riddleschool3",
+      "url": "/iframe.html?url=/storage/ag/echo/riddleschool3/index.html",
       "imageUrl": "/storage/ag/echo/riddleschool3/riddleschool3.png",
       "categories": []
     },
     {
       "label": "riddleschool4",
-      "url": "/iframe.html?url=/storage/ag/echo/riddleschool4",
+      "url": "/iframe.html?url=/storage/ag/echo/riddleschool4/index.html",
       "imageUrl": "/storage/ag/echo/riddleschool4/riddleschool4.png",
       "categories": []
     },
     {
       "label": "riddleschool5",
-      "url": "/iframe.html?url=/storage/ag/echo/riddleschool5",
+      "url": "/iframe.html?url=/storage/ag/echo/riddleschool5/index.html",
       "imageUrl": "/storage/ag/echo/riddleschool5/riddleschool5.png",
       "categories": []
     },
     {
       "label": "riddletransfer",
-      "url": "/iframe.html?url=/storage/ag/echo/riddletransfer",
+      "url": "/iframe.html?url=/storage/ag/echo/riddletransfer/index.html",
       "imageUrl": "/storage/ag/echo/riddletransfer/riddletransfer.png",
       "categories": []
     },
     {
       "label": "riddletransfer2",
-      "url": "/iframe.html?url=/storage/ag/echo/riddletransfer2",
+      "url": "/iframe.html?url=/storage/ag/echo/riddletransfer2/index.html",
       "imageUrl": "/storage/ag/echo/riddletransfer2/riddletransfer2.png",
       "categories": []
     },
     {
       "label": "rolling forests",
-      "url": "/iframe.html?url=/storage/ag/echo/rolling-forests",
+      "url": "/iframe.html?url=/storage/ag/echo/rolling-forests/index.html",
       "imageUrl": "/storage/ag/echo/rolling-forests/icon.png",
       "categories": [
         "Action",
@@ -2625,7 +2625,7 @@
     },
     {
       "label": "rolly vortex",
-      "url": "/iframe.html?url=/storage/ag/echo/rolly-vortex",
+      "url": "/iframe.html?url=/storage/ag/echo/rolly-vortex/index.html",
       "imageUrl": "/storage/ag/echo/rolly-vortex/icon-114.png",
       "categories": [
         "Action",
@@ -2634,13 +2634,13 @@
     },
     {
       "label": "ruffle",
-      "url": "/iframe.html?url=/storage/ag/echo/ruffle",
+      "url": "/iframe.html?url=/storage/ag/echo/ruffle/index.html",
       "imageUrl": "/storage/ag/echo/ruffle/favicon-180.png",
       "categories": []
     },
     {
       "label": "run4bootleg",
-      "url": "/iframe.html?url=/storage/ag/echo/run4bootleg",
+      "url": "/iframe.html?url=/storage/ag/echo/run4bootleg/index.html",
       "imageUrl": "/storage/ag/echo/run4bootleg/MoreGames.png",
       "categories": [
         "Action"
@@ -2648,7 +2648,7 @@
     },
     {
       "label": "runner",
-      "url": "/iframe.html?url=/storage/ag/echo/runner",
+      "url": "/iframe.html?url=/storage/ag/echo/runner/index.html",
       "imageUrl": "/storage/ag/echo/runner/loading3860.png",
       "categories": [
         "Action",
@@ -2657,7 +2657,7 @@
     },
     {
       "label": "sand game",
-      "url": "/iframe.html?url=/storage/ag/echo/sand-game",
+      "url": "/iframe.html?url=/storage/ag/echo/sand-game/index.html",
       "imageUrl": "/storage/ag/echo/sand-game/favicon.ico",
       "categories": [
         "Action"
@@ -2665,7 +2665,7 @@
     },
     {
       "label": "sandboxels",
-      "url": "/iframe.html?url=/storage/ag/echo/sandboxels",
+      "url": "/iframe.html?url=/storage/ag/echo/sandboxels/index.html",
       "imageUrl": "/storage/ag/echo/sandboxels/sandboxels.jpg",
       "categories": [
         "Action"
@@ -2673,7 +2673,7 @@
     },
     {
       "label": "santy is home",
-      "url": "/iframe.html?url=/storage/ag/echo/santy-is-home",
+      "url": "/iframe.html?url=/storage/ag/echo/santy-is-home/index.html",
       "imageUrl": "/storage/ag/echo/santy-is-home/splash.png",
       "categories": [
         "Action",
@@ -2682,7 +2682,7 @@
     },
     {
       "label": "scooperia",
-      "url": "/iframe.html?url=/storage/ag/echo/scooperia",
+      "url": "/iframe.html?url=/storage/ag/echo/scooperia/index.html",
       "imageUrl": "/storage/ag/echo/scooperia/scoop.png",
       "categories": [
         "Sports",
@@ -2691,7 +2691,7 @@
     },
     {
       "label": "scratcharia",
-      "url": "/iframe.html?url=/storage/ag/echo/scratcharia",
+      "url": "/iframe.html?url=/storage/ag/echo/scratcharia/index.html",
       "imageUrl": "/storage/ag/echo/scratcharia/splash.png",
       "categories": [
         "Action"
@@ -2699,7 +2699,7 @@
     },
     {
       "label": "shogunshowdown",
-      "url": "/iframe.html?url=/storage/ag/echo/shogunshowdown",
+      "url": "/iframe.html?url=/storage/ag/echo/shogunshowdown/index.html",
       "imageUrl": "/storage/ag/echo/shogunshowdown/19C0D9BB-86C1-4A65-B374-638BD25EE0FC.png",
       "categories": [
         "Action"
@@ -2707,7 +2707,7 @@
     },
     {
       "label": "shotinthedark",
-      "url": "/iframe.html?url=/storage/ag/echo/shotinthedark",
+      "url": "/iframe.html?url=/storage/ag/echo/shotinthedark/index.html",
       "imageUrl": "/storage/ag/echo/shotinthedark/shot.png",
       "categories": [
         "Action"
@@ -2715,7 +2715,7 @@
     },
     {
       "label": "shuttledeck",
-      "url": "/iframe.html?url=/storage/ag/echo/shuttledeck",
+      "url": "/iframe.html?url=/storage/ag/echo/shuttledeck/index.html",
       "imageUrl": "/storage/ag/echo/shuttledeck/splash.png",
       "categories": [
         "Action",
@@ -2724,7 +2724,7 @@
     },
     {
       "label": "sky car stunt",
-      "url": "/iframe.html?url=/storage/ag/echo/sky-car-stunt",
+      "url": "/iframe.html?url=/storage/ag/echo/sky-car-stunt/index.html",
       "imageUrl": "/storage/ag/echo/sky-car-stunt/512x384.jpg",
       "categories": [
         "Action"
@@ -2732,7 +2732,7 @@
     },
     {
       "label": "sleepingbeauty",
-      "url": "/iframe.html?url=/storage/ag/echo/sleepingbeauty",
+      "url": "/iframe.html?url=/storage/ag/echo/sleepingbeauty/index.html",
       "imageUrl": "/storage/ag/echo/sleepingbeauty/sleeping-beauty.png",
       "categories": [
         "Action",
@@ -2741,7 +2741,7 @@
     },
     {
       "label": "slime rush td",
-      "url": "/iframe.html?url=/storage/ag/echo/slime-rush-td",
+      "url": "/iframe.html?url=/storage/ag/echo/slime-rush-td/index.html",
       "imageUrl": "/storage/ag/echo/slime-rush-td/favicon.ico",
       "categories": [
         "Io"
@@ -2749,7 +2749,7 @@
     },
     {
       "label": "slitherio",
-      "url": "/iframe.html?url=/storage/ag/echo/slitherio",
+      "url": "/iframe.html?url=/storage/ag/echo/slitherio/index.html",
       "imageUrl": "/storage/ag/echo/slitherio/7EDEF379-07A2-4604-B552-C0A3DB2D70BE.jpeg",
       "categories": [
         "Action",
@@ -2758,7 +2758,7 @@
     },
     {
       "label": "slope ball",
-      "url": "/iframe.html?url=/storage/ag/echo/slope-ball",
+      "url": "/iframe.html?url=/storage/ag/echo/slope-ball/index.html",
       "imageUrl": "/storage/ag/echo/slope-ball/icon.jpg",
       "categories": [
         "Action"
@@ -2766,7 +2766,7 @@
     },
     {
       "label": "sm64",
-      "url": "/iframe.html?url=/storage/ag/echo/sm64",
+      "url": "/iframe.html?url=/storage/ag/echo/sm64/index.html",
       "imageUrl": "/storage/ag/echo/sm64/logo.png",
       "categories": [
         "Action"
@@ -2774,7 +2774,7 @@
     },
     {
       "label": "smokingbarrels",
-      "url": "/iframe.html?url=/storage/ag/echo/smokingbarrels",
+      "url": "/iframe.html?url=/storage/ag/echo/smokingbarrels/index.html",
       "imageUrl": "/storage/ag/echo/smokingbarrels/smokingbarrels.jpg",
       "categories": [
         "Action",
@@ -2783,7 +2783,7 @@
     },
     {
       "label": "snowrider3d",
-      "url": "/iframe.html?url=/storage/ag/echo/snowrider3d",
+      "url": "/iframe.html?url=/storage/ag/echo/snowrider3d/index.html",
       "imageUrl": "/storage/ag/echo/snowrider3d/favicon.ico",
       "categories": [
         "Action",
@@ -2792,7 +2792,7 @@
     },
     {
       "label": "soccer skills",
-      "url": "/iframe.html?url=/storage/ag/echo/soccer-skills",
+      "url": "/iframe.html?url=/storage/ag/echo/soccer-skills/index.html",
       "imageUrl": "/storage/ag/echo/soccer-skills/android-icon-192x192.png",
       "categories": [
         "Action"
@@ -2800,7 +2800,7 @@
     },
     {
       "label": "solitaire",
-      "url": "/iframe.html?url=/storage/ag/echo/solitaire",
+      "url": "/iframe.html?url=/storage/ag/echo/solitaire/index.html",
       "imageUrl": "/storage/ag/echo/solitaire/screen-shot-win.png",
       "categories": [
         "Action",
@@ -2809,7 +2809,7 @@
     },
     {
       "label": "space company",
-      "url": "/iframe.html?url=/storage/ag/echo/space-company",
+      "url": "/iframe.html?url=/storage/ag/echo/space-company/index.html",
       "imageUrl": "/storage/ag/echo/space-company/SpaceCompanyFavicon.png",
       "categories": [
         "Action",
@@ -2818,7 +2818,7 @@
     },
     {
       "label": "spacegarden",
-      "url": "/iframe.html?url=/storage/ag/echo/spacegarden",
+      "url": "/iframe.html?url=/storage/ag/echo/spacegarden/index.html",
       "imageUrl": "/storage/ag/echo/spacegarden/spl.png",
       "categories": [
         "Action",
@@ -2827,7 +2827,7 @@
     },
     {
       "label": "spelunky",
-      "url": "/iframe.html?url=/storage/ag/echo/spelunky",
+      "url": "/iframe.html?url=/storage/ag/echo/spelunky/index.html",
       "imageUrl": "/storage/ag/echo/spelunky/favicon.ico",
       "categories": [
         "Action",
@@ -2836,7 +2836,7 @@
     },
     {
       "label": "spinningrat",
-      "url": "/iframe.html?url=/storage/ag/echo/spinningrat",
+      "url": "/iframe.html?url=/storage/ag/echo/spinningrat/index.html",
       "imageUrl": "/storage/ag/echo/spinningrat/apple-touch-icon.png",
       "categories": [
         "Action",
@@ -2845,7 +2845,7 @@
     },
     {
       "label": "stack bump 3d",
-      "url": "/iframe.html?url=/storage/ag/echo/stack-bump-3d",
+      "url": "/iframe.html?url=/storage/ag/echo/stack-bump-3d/index.html",
       "imageUrl": "/storage/ag/echo/stack-bump-3d/thumbnail.jpg",
       "categories": [
         "Action",
@@ -2854,7 +2854,7 @@
     },
     {
       "label": "station 141",
-      "url": "/iframe.html?url=/storage/ag/echo/station-141",
+      "url": "/iframe.html?url=/storage/ag/echo/station-141/index.html",
       "imageUrl": "/storage/ag/echo/station-141/icon.png",
       "categories": [
         "Action",
@@ -2863,7 +2863,7 @@
     },
     {
       "label": "stationmeltdown",
-      "url": "/iframe.html?url=/storage/ag/echo/stationmeltdown",
+      "url": "/iframe.html?url=/storage/ag/echo/stationmeltdown/index.html",
       "imageUrl": "/storage/ag/echo/stationmeltdown/image.png",
       "categories": [
         "Action",
@@ -2872,7 +2872,7 @@
     },
     {
       "label": "stealingthediamond",
-      "url": "/iframe.html?url=/storage/ag/echo/stealingthediamond",
+      "url": "/iframe.html?url=/storage/ag/echo/stealingthediamond/index.html",
       "imageUrl": "/storage/ag/echo/stealingthediamond/stealingthediamond.jpg",
       "categories": [
         "Action",
@@ -2881,7 +2881,7 @@
     },
     {
       "label": "stick archers",
-      "url": "/iframe.html?url=/storage/ag/echo/stick-archers",
+      "url": "/iframe.html?url=/storage/ag/echo/stick-archers/index.html",
       "imageUrl": "/storage/ag/echo/stick-archers/splash.jpg",
       "categories": [
         "Action",
@@ -2890,7 +2890,7 @@
     },
     {
       "label": "stick duel battle",
-      "url": "/iframe.html?url=/storage/ag/echo/stick-duel-battle",
+      "url": "/iframe.html?url=/storage/ag/echo/stick-duel-battle/index.html",
       "imageUrl": "/storage/ag/echo/stick-duel-battle/512x340.jpg",
       "categories": [
         "Action",
@@ -2899,7 +2899,7 @@
     },
     {
       "label": "stick merge",
-      "url": "/iframe.html?url=/storage/ag/echo/stick-merge",
+      "url": "/iframe.html?url=/storage/ag/echo/stick-merge/index.html",
       "imageUrl": "/storage/ag/echo/stick-merge/splash.png",
       "categories": [
         "Action",
@@ -2908,7 +2908,7 @@
     },
     {
       "label": "stickman boost",
-      "url": "/iframe.html?url=/storage/ag/echo/stickman-boost",
+      "url": "/iframe.html?url=/storage/ag/echo/stickman-boost/index.html",
       "imageUrl": "/storage/ag/echo/stickman-boost/icon-256.png",
       "categories": [
         "Action",
@@ -2917,7 +2917,7 @@
     },
     {
       "label": "stickman golf",
-      "url": "/iframe.html?url=/storage/ag/echo/stickman-golf",
+      "url": "/iframe.html?url=/storage/ag/echo/stickman-golf/index.html",
       "imageUrl": "/storage/ag/echo/stickman-golf/splash.png",
       "categories": [
         "Action",
@@ -2926,7 +2926,7 @@
     },
     {
       "label": "stickwar",
-      "url": "/iframe.html?url=/storage/ag/echo/stickwar",
+      "url": "/iframe.html?url=/storage/ag/echo/stickwar/index.html",
       "imageUrl": "/storage/ag/echo/stickwar/stickwar.jpg",
       "categories": [
         "Action",
@@ -2935,7 +2935,7 @@
     },
     {
       "label": "stormthehouse2",
-      "url": "/iframe.html?url=/storage/ag/echo/stormthehouse2",
+      "url": "/iframe.html?url=/storage/ag/echo/stormthehouse2/index.html",
       "imageUrl": "/storage/ag/echo/stormthehouse2/stormthehouse2.jpg",
       "categories": [
         "Action",
@@ -2944,7 +2944,7 @@
     },
     {
       "label": "subway surfers ny",
-      "url": "/iframe.html?url=/storage/ag/echo/subway-surfers-ny",
+      "url": "/iframe.html?url=/storage/ag/echo/subway-surfers-ny/index.html",
       "imageUrl": "/storage/ag/echo/subway-surfers-ny/NewYorkIcon.png",
       "categories": [
         "Action",
@@ -2954,7 +2954,7 @@
     },
     {
       "label": "superautopets",
-      "url": "/iframe.html?url=/storage/ag/echo/superautopets",
+      "url": "/iframe.html?url=/storage/ag/echo/superautopets/index.html",
       "imageUrl": "/storage/ag/echo/superautopets/image.png",
       "categories": [
         "Strategy"
@@ -2962,7 +2962,7 @@
     },
     {
       "label": "superfowlist",
-      "url": "/iframe.html?url=/storage/ag/echo/superfowlist",
+      "url": "/iframe.html?url=/storage/ag/echo/superfowlist/index.html",
       "imageUrl": "/storage/ag/echo/superfowlist/fowlist.png",
       "categories": [
         "Strategy"
@@ -2970,7 +2970,7 @@
     },
     {
       "label": "superhot",
-      "url": "/iframe.html?url=/storage/ag/echo/superhot",
+      "url": "/iframe.html?url=/storage/ag/echo/superhot/index.html",
       "imageUrl": "/storage/ag/echo/superhot/hot.jpg",
       "categories": [
         "Action",
@@ -2980,7 +2980,7 @@
     },
     {
       "label": "supermarioconstruct",
-      "url": "/iframe.html?url=/storage/ag/echo/supermarioconstruct",
+      "url": "/iframe.html?url=/storage/ag/echo/supermarioconstruct/index.html",
       "imageUrl": "/storage/ag/echo/supermarioconstruct/textareaimage.png",
       "categories": [
         "Action",
@@ -2989,7 +2989,7 @@
     },
     {
       "label": "sushi unroll",
-      "url": "/iframe.html?url=/storage/ag/echo/sushi-unroll",
+      "url": "/iframe.html?url=/storage/ag/echo/sushi-unroll/index.html",
       "imageUrl": "/storage/ag/echo/sushi-unroll/favicon.png",
       "categories": [
         "Skill"
@@ -2997,7 +2997,7 @@
     },
     {
       "label": "synesthesia",
-      "url": "/iframe.html?url=/storage/ag/echo/synesthesia",
+      "url": "/iframe.html?url=/storage/ag/echo/synesthesia/index.html",
       "imageUrl": "/storage/ag/echo/synesthesia/index.apple-touch-icon.png",
       "categories": [
         "Action"
@@ -3005,7 +3005,7 @@
     },
     {
       "label": "tactical weapon pack 2",
-      "url": "/iframe.html?url=/storage/ag/echo/tactical-weapon-pack-2",
+      "url": "/iframe.html?url=/storage/ag/echo/tactical-weapon-pack-2/index.html",
       "imageUrl": "/storage/ag/echo/tactical-weapon-pack-2/index.png",
       "categories": [
         "Action",
@@ -3014,7 +3014,7 @@
     },
     {
       "label": "tacticalassasin2",
-      "url": "/iframe.html?url=/storage/ag/echo/tacticalassasin2",
+      "url": "/iframe.html?url=/storage/ag/echo/tacticalassasin2/index.html",
       "imageUrl": "/storage/ag/echo/tacticalassasin2/tacticalassassin2.png",
       "categories": [
         "Action",
@@ -3024,7 +3024,7 @@
     },
     {
       "label": "tank trouble 2",
-      "url": "/iframe.html?url=/storage/ag/echo/tank-trouble-2",
+      "url": "/iframe.html?url=/storage/ag/echo/tank-trouble-2/index.html",
       "imageUrl": "/storage/ag/echo/tank-trouble-2/icon-128.png",
       "categories": [
         "Action",
@@ -3033,7 +3033,7 @@
     },
     {
       "label": "temple run 2",
-      "url": "/iframe.html?url=/storage/ag/echo/temple-run-2",
+      "url": "/iframe.html?url=/storage/ag/echo/temple-run-2/index.html",
       "imageUrl": "/storage/ag/echo/temple-run-2/ecb75761cc5768501b9345d4417c76f7.png",
       "categories": [
         "Action",
@@ -3043,7 +3043,7 @@
     },
     {
       "label": "the final earth",
-      "url": "/iframe.html?url=/storage/ag/echo/the-final-earth",
+      "url": "/iframe.html?url=/storage/ag/echo/the-final-earth/index.html",
       "imageUrl": "/storage/ag/echo/the-final-earth/images.png",
       "categories": [
         "Action"
@@ -3051,7 +3051,7 @@
     },
     {
       "label": "the hotel",
-      "url": "/iframe.html?url=/storage/ag/echo/the-hotel",
+      "url": "/iframe.html?url=/storage/ag/echo/the-hotel/index.html",
       "imageUrl": "/storage/ag/echo/the-hotel/splash.png",
       "categories": [
         "Strategy"
@@ -3059,7 +3059,7 @@
     },
     {
       "label": "thebattle",
-      "url": "/iframe.html?url=/storage/ag/echo/thebattle",
+      "url": "/iframe.html?url=/storage/ag/echo/thebattle/index.html",
       "imageUrl": "/storage/ag/echo/thebattle/thebattle.png",
       "categories": [
         "Action"
@@ -3067,7 +3067,7 @@
     },
     {
       "label": "theheist",
-      "url": "/iframe.html?url=/storage/ag/echo/theheist",
+      "url": "/iframe.html?url=/storage/ag/echo/theheist/index.html",
       "imageUrl": "/storage/ag/echo/theheist/theheist.jpg",
       "categories": [
         "Action"
@@ -3075,7 +3075,7 @@
     },
     {
       "label": "there is no game",
-      "url": "/iframe.html?url=/storage/ag/echo/there-is-no-game",
+      "url": "/iframe.html?url=/storage/ag/echo/there-is-no-game/index.html",
       "imageUrl": "/storage/ag/echo/there-is-no-game/logo.png",
       "categories": [
         "Action",
@@ -3084,7 +3084,7 @@
     },
     {
       "label": "thisistheonlylevel",
-      "url": "/iframe.html?url=/storage/ag/echo/thisistheonlylevel",
+      "url": "/iframe.html?url=/storage/ag/echo/thisistheonlylevel/index.html",
       "imageUrl": "/storage/ag/echo/thisistheonlylevel/thisistheonlylevel.png",
       "categories": [
         "Action"
@@ -3092,7 +3092,7 @@
     },
     {
       "label": "throwrocks",
-      "url": "/iframe.html?url=/storage/ag/echo/throwrocks",
+      "url": "/iframe.html?url=/storage/ag/echo/throwrocks/index.html",
       "imageUrl": "/storage/ag/echo/throwrocks/card.png",
       "categories": [
         "Action",
@@ -3101,7 +3101,7 @@
     },
     {
       "label": "tiny islands",
-      "url": "/iframe.html?url=/storage/ag/echo/tiny-islands",
+      "url": "/iframe.html?url=/storage/ag/echo/tiny-islands/index.html",
       "imageUrl": "/storage/ag/echo/tiny-islands/splash.png",
       "categories": [
         "Action"
@@ -3109,7 +3109,7 @@
     },
     {
       "label": "tosstheturtle",
-      "url": "/iframe.html?url=/storage/ag/echo/tosstheturtle",
+      "url": "/iframe.html?url=/storage/ag/echo/tosstheturtle/index.html",
       "imageUrl": "/storage/ag/echo/tosstheturtle/tosstheturtle.png",
       "categories": [
         "Action"
@@ -3117,7 +3117,7 @@
     },
     {
       "label": "tv static",
-      "url": "/iframe.html?url=/storage/ag/echo/tv-static",
+      "url": "/iframe.html?url=/storage/ag/echo/tv-static/index.html",
       "imageUrl": "/storage/ag/echo/tv-static/static.png",
       "categories": [
         "Action"
@@ -3125,7 +3125,7 @@
     },
     {
       "label": "twitch tetris",
-      "url": "/iframe.html?url=/storage/ag/echo/twitch-tetris",
+      "url": "/iframe.html?url=/storage/ag/echo/twitch-tetris/index.html",
       "imageUrl": "/storage/ag/echo/twitch-tetris/logo.png",
       "categories": [
         "Action"
@@ -3133,7 +3133,7 @@
     },
     {
       "label": "unfairmario",
-      "url": "/iframe.html?url=/storage/ag/echo/unfairmario",
+      "url": "/iframe.html?url=/storage/ag/echo/unfairmario/index.html",
       "imageUrl": "/storage/ag/echo/unfairmario/sus.jpg",
       "categories": [
         "Action",
@@ -3142,7 +3142,7 @@
     },
     {
       "label": "veloce",
-      "url": "/iframe.html?url=/storage/ag/echo/veloce",
+      "url": "/iframe.html?url=/storage/ag/echo/veloce/index.html",
       "imageUrl": "/storage/ag/echo/veloce/icon.png",
       "categories": [
         "Action",
@@ -3151,7 +3151,7 @@
     },
     {
       "label": "vex2",
-      "url": "/iframe.html?url=/storage/ag/echo/vex2",
+      "url": "/iframe.html?url=/storage/ag/echo/vex2/index.html",
       "imageUrl": "/storage/ag/echo/vex2/BC5ADE2D-5F7A-4352-A7FD-579517F823E4.jpeg",
       "categories": [
         "Action",
@@ -3160,7 +3160,7 @@
     },
     {
       "label": "vex3",
-      "url": "/iframe.html?url=/storage/ag/echo/vex3",
+      "url": "/iframe.html?url=/storage/ag/echo/vex3/index.html",
       "imageUrl": "/storage/ag/echo/vex3/vex3.png",
       "categories": [
         "Action",
@@ -3169,7 +3169,7 @@
     },
     {
       "label": "vex4",
-      "url": "/iframe.html?url=/storage/ag/echo/vex4",
+      "url": "/iframe.html?url=/storage/ag/echo/vex4/index.html",
       "imageUrl": "/storage/ag/echo/vex4/vex4.png",
       "categories": [
         "Action",
@@ -3178,7 +3178,7 @@
     },
     {
       "label": "vex5",
-      "url": "/iframe.html?url=/storage/ag/echo/vex5",
+      "url": "/iframe.html?url=/storage/ag/echo/vex5/index.html",
       "imageUrl": "/storage/ag/echo/vex5/vex.jpeg",
       "categories": [
         "Action"
@@ -3186,7 +3186,7 @@
     },
     {
       "label": "vex7",
-      "url": "/iframe.html?url=/storage/ag/echo/vex7",
+      "url": "/iframe.html?url=/storage/ag/echo/vex7/index.html",
       "imageUrl": "/storage/ag/echo/vex7/favicon.ico",
       "categories": [
         "Action"
@@ -3194,7 +3194,7 @@
     },
     {
       "label": "wallsmash",
-      "url": "/iframe.html?url=/storage/ag/echo/wallsmash",
+      "url": "/iframe.html?url=/storage/ag/echo/wallsmash/index.html",
       "imageUrl": "/storage/ag/echo/wallsmash/thumb.png",
       "categories": [
         "Strategy"
@@ -3202,7 +3202,7 @@
     },
     {
       "label": "waterworks",
-      "url": "/iframe.html?url=/storage/ag/echo/waterworks",
+      "url": "/iframe.html?url=/storage/ag/echo/waterworks/index.html",
       "imageUrl": "/storage/ag/echo/waterworks/banner.png",
       "categories": [
         "Racing"
@@ -3210,7 +3210,7 @@
     },
     {
       "label": "weavesilk",
-      "url": "/iframe.html?url=/storage/ag/echo/weavesilk",
+      "url": "/iframe.html?url=/storage/ag/echo/weavesilk/index.html",
       "imageUrl": "/storage/ag/echo/weavesilk/thumb.png",
       "categories": [
         "Io"
@@ -3218,7 +3218,7 @@
     },
     {
       "label": "webgl fluid simulation",
-      "url": "/iframe.html?url=/storage/ag/echo/webgl-fluid-simulation",
+      "url": "/iframe.html?url=/storage/ag/echo/webgl-fluid-simulation/index.html",
       "imageUrl": "/storage/ag/echo/webgl-fluid-simulation/logo.png",
       "categories": [
         "Action"
@@ -3226,7 +3226,7 @@
     },
     {
       "label": "win the whitehouse",
-      "url": "/iframe.html?url=/storage/ag/echo/win-the-whitehouse",
+      "url": "/iframe.html?url=/storage/ag/echo/win-the-whitehouse/index.html",
       "imageUrl": "/storage/ag/echo/win-the-whitehouse/splash.png",
       "categories": [
         "Action"
@@ -3234,7 +3234,7 @@
     },
     {
       "label": "worlds hardest game 2",
-      "url": "/iframe.html?url=/storage/ag/echo/worlds-hardest-game-2",
+      "url": "/iframe.html?url=/storage/ag/echo/worlds-hardest-game-2/index.html",
       "imageUrl": "/storage/ag/echo/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
       "categories": [
         "Strategy"
@@ -3242,7 +3242,7 @@
     },
     {
       "label": "x trial racing",
-      "url": "/iframe.html?url=/storage/ag/echo/x-trial-racing",
+      "url": "/iframe.html?url=/storage/ag/echo/x-trial-racing/index.html",
       "imageUrl": "/storage/ag/echo/x-trial-racing/icon-256.png",
       "categories": [
         "Action",
@@ -3251,7 +3251,7 @@
     },
     {
       "label": "xx142 b2exe",
-      "url": "/iframe.html?url=/storage/ag/echo/xx142-b2exe",
+      "url": "/iframe.html?url=/storage/ag/echo/xx142-b2exe/index.html",
       "imageUrl": "/storage/ag/echo/xx142-b2exe/splash.png",
       "categories": [
         "Action"
@@ -3259,7 +3259,7 @@
     },
     {
       "label": "yohoho",
-      "url": "/iframe.html?url=/storage/ag/echo/yohoho",
+      "url": "/iframe.html?url=/storage/ag/echo/yohoho/index.html",
       "imageUrl": "/storage/ag/echo/yohoho/yohoho.png",
       "categories": [
         "Sports"
@@ -3267,7 +3267,7 @@
     },
     {
       "label": "yoshifabrication",
-      "url": "/iframe.html?url=/storage/ag/echo/yoshifabrication",
+      "url": "/iframe.html?url=/storage/ag/echo/yoshifabrication/index.html",
       "imageUrl": "/storage/ag/echo/yoshifabrication/flowwatertm0.png",
       "categories": [
         "Action",
@@ -3276,7 +3276,7 @@
     },
     {
       "label": "zigzag",
-      "url": "/iframe.html?url=/storage/ag/echo/zigzag",
+      "url": "/iframe.html?url=/storage/ag/echo/zigzag/index.html",
       "imageUrl": "/storage/ag/echo/zigzag/4EEE71BF-A06E-478D-B1E0-F67600291BDC.jpeg",
       "categories": [
         "Action",
@@ -3285,7 +3285,7 @@
     },
     {
       "label": "zombs royale",
-      "url": "/iframe.html?url=/storage/ag/echo/zombs-royale",
+      "url": "/iframe.html?url=/storage/ag/echo/zombs-royale/index.html",
       "imageUrl": "/storage/ag/echo/zombs-royale/zomb.png",
       "categories": [
         "Action"
@@ -3293,7 +3293,7 @@
     },
     {
       "label": "ResentCli",
-      "url": "/iframe.html?url=/storage/ag/originals/ResentCli",
+      "url": "/iframe.html?url=/storage/ag/originals/ResentCli/index.html",
       "imageUrl": "/storage/ag/originals/ResentCli/favicon.png",
       "categories": [
         "Action",
@@ -3302,7 +3302,7 @@
     },
     {
       "label": "adofai",
-      "url": "/iframe.html?url=/storage/ag/originals/adofai",
+      "url": "/iframe.html?url=/storage/ag/originals/adofai/index.html",
       "imageUrl": "/storage/ag/originals/adofai/splash.png",
       "categories": [
         "Action",
@@ -3311,7 +3311,7 @@
     },
     {
       "label": "age of war",
-      "url": "/iframe.html?url=/storage/ag/originals/age-of-war",
+      "url": "/iframe.html?url=/storage/ag/originals/age-of-war/index.html",
       "imageUrl": "/storage/ag/originals/age-of-war/icon.jpg",
       "categories": [
         "Action",
@@ -3320,31 +3320,31 @@
     },
     {
       "label": "angrybirds",
-      "url": "/iframe.html?url=/storage/ag/originals/angrybirds",
+      "url": "/iframe.html?url=/storage/ag/originals/angrybirds/index.html",
       "imageUrl": "/storage/ag/originals/angrybirds/logo.webp",
       "categories": []
     },
     {
       "label": "asmallworldcup",
-      "url": "/iframe.html?url=/storage/ag/originals/asmallworldcup",
+      "url": "/iframe.html?url=/storage/ag/originals/asmallworldcup/index.html",
       "imageUrl": "/storage/ag/originals/asmallworldcup/icon-256.png",
       "categories": []
     },
     {
       "label": "basketrandom",
-      "url": "/iframe.html?url=/storage/ag/originals/basketrandom",
+      "url": "/iframe.html?url=/storage/ag/originals/basketrandom/index.html",
       "imageUrl": "/storage/ag/originals/basketrandom/test.png",
       "categories": []
     },
     {
       "label": "bite",
-      "url": "/iframe.html?url=/storage/ag/originals/bite",
+      "url": "/iframe.html?url=/storage/ag/originals/bite/index.html",
       "imageUrl": "/storage/ag/originals/bite/logo.png",
       "categories": []
     },
     {
       "label": "blockblast",
-      "url": "/iframe.html?url=/storage/ag/originals/blockblast",
+      "url": "/iframe.html?url=/storage/ag/originals/blockblast/index.html",
       "imageUrl": "/storage/ag/originals/blockblast/s.png",
       "categories": [
         "Action",
@@ -3353,7 +3353,7 @@
     },
     {
       "label": "blocky snakes",
-      "url": "/iframe.html?url=/storage/ag/originals/blocky-snakes",
+      "url": "/iframe.html?url=/storage/ag/originals/blocky-snakes/index.html",
       "imageUrl": "/storage/ag/originals/blocky-snakes/icon.png",
       "categories": [
         "Io",
@@ -3362,7 +3362,7 @@
     },
     {
       "label": "bloonstd3",
-      "url": "/iframe.html?url=/storage/ag/originals/bloonstd3",
+      "url": "/iframe.html?url=/storage/ag/originals/bloonstd3/index.html",
       "imageUrl": "/storage/ag/originals/bloonstd3/IMG_5313.jpeg",
       "categories": [
         "Strategy"
@@ -3370,7 +3370,7 @@
     },
     {
       "label": "bloonstd4",
-      "url": "/iframe.html?url=/storage/ag/originals/bloonstd4",
+      "url": "/iframe.html?url=/storage/ag/originals/bloonstd4/index.html",
       "imageUrl": "/storage/ag/originals/bloonstd4/IMG_5314.jpeg",
       "categories": [
         "Strategy"
@@ -3378,7 +3378,7 @@
     },
     {
       "label": "bloxorz",
-      "url": "/iframe.html?url=/storage/ag/originals/bloxorz",
+      "url": "/iframe.html?url=/storage/ag/originals/bloxorz/index.html",
       "imageUrl": "/storage/ag/originals/bloxorz/bloxorz.webp",
       "categories": [
         "Skill"
@@ -3386,7 +3386,7 @@
     },
     {
       "label": "bounceback",
-      "url": "/iframe.html?url=/storage/ag/originals/bounceback",
+      "url": "/iframe.html?url=/storage/ag/originals/bounceback/index.html",
       "imageUrl": "/storage/ag/originals/bounceback/screenshot.png",
       "categories": [
         "Action",
@@ -3395,7 +3395,7 @@
     },
     {
       "label": "btd6",
-      "url": "/iframe.html?url=/storage/ag/originals/btd6",
+      "url": "/iframe.html?url=/storage/ag/originals/btd6/index.html",
       "imageUrl": "/storage/ag/originals/btd6/uwu.png",
       "categories": [
         "Strategy"
@@ -3403,7 +3403,7 @@
     },
     {
       "label": "cookieclicker",
-      "url": "/iframe.html?url=/storage/ag/originals/cookieclicker",
+      "url": "/iframe.html?url=/storage/ag/originals/cookieclicker/index.html",
       "imageUrl": "/storage/ag/originals/cookieclicker/splash.png",
       "categories": [
         "Strategy"
@@ -3411,13 +3411,13 @@
     },
     {
       "label": "crazygames",
-      "url": "/iframe.html?url=/storage/ag/originals/crazygames",
+      "url": "/iframe.html?url=/storage/ag/originals/crazygames/index.html",
       "imageUrl": "/storage/ag/originals/crazygames/logo.png",
       "categories": []
     },
     {
       "label": "ducklife",
-      "url": "/iframe.html?url=/storage/ag/originals/ducklife",
+      "url": "/iframe.html?url=/storage/ag/originals/ducklife/index.html",
       "imageUrl": "/storage/ag/originals/ducklife/IMG_5307.png",
       "categories": [
         "Sports",
@@ -3426,13 +3426,13 @@
     },
     {
       "label": "fc",
-      "url": "/iframe.html?url=/storage/ag/originals/fc",
+      "url": "/iframe.html?url=/storage/ag/originals/fc/index.html",
       "imageUrl": "/storage/ag/originals/fc/IMG_5312.webp",
       "categories": []
     },
     {
       "label": "funnyshooter",
-      "url": "/iframe.html?url=/storage/ag/originals/funnyshooter",
+      "url": "/iframe.html?url=/storage/ag/originals/funnyshooter/index.html",
       "imageUrl": "/storage/ag/originals/funnyshooter/favicon.ico",
       "categories": [
         "Shooting"
@@ -3440,7 +3440,7 @@
     },
     {
       "label": "gunmayhem2",
-      "url": "/iframe.html?url=/storage/ag/originals/gunmayhem2",
+      "url": "/iframe.html?url=/storage/ag/originals/gunmayhem2/index.html",
       "imageUrl": "/storage/ag/originals/gunmayhem2/gh2.webp",
       "categories": [
         "Shooting"
@@ -3448,7 +3448,7 @@
     },
     {
       "label": "gunmayhemredux",
-      "url": "/iframe.html?url=/storage/ag/originals/gunmayhemredux",
+      "url": "/iframe.html?url=/storage/ag/originals/gunmayhemredux/index.html",
       "imageUrl": "/storage/ag/originals/gunmayhemredux/gunmayhemredux.jpeg",
       "categories": [
         "Shooting"
@@ -3456,7 +3456,7 @@
     },
     {
       "label": "guymayhem",
-      "url": "/iframe.html?url=/storage/ag/originals/guymayhem",
+      "url": "/iframe.html?url=/storage/ag/originals/guymayhem/index.html",
       "imageUrl": "/storage/ag/originals/guymayhem/icon.png",
       "categories": [
         "Io",
@@ -3465,19 +3465,19 @@
     },
     {
       "label": "krunker",
-      "url": "/iframe.html?url=/storage/ag/originals/krunker",
+      "url": "/iframe.html?url=/storage/ag/originals/krunker/index.html",
       "imageUrl": "/storage/ag/originals/krunker/IMG_5299.png",
       "categories": []
     },
     {
       "label": "littlealchemy",
-      "url": "/iframe.html?url=/storage/ag/originals/littlealchemy",
+      "url": "/iframe.html?url=/storage/ag/originals/littlealchemy/index.html",
       "imageUrl": "/storage/ag/originals/littlealchemy/favicon.ico",
       "categories": []
     },
     {
       "label": "littlealchemy2",
-      "url": "/iframe.html?url=/storage/ag/originals/littlealchemy2",
+      "url": "/iframe.html?url=/storage/ag/originals/littlealchemy2/index.html",
       "imageUrl": "/storage/ag/originals/littlealchemy2/a2.png",
       "categories": [
         "Io"
@@ -3485,7 +3485,7 @@
     },
     {
       "label": "lolbeans",
-      "url": "/iframe.html?url=/storage/ag/originals/lolbeans",
+      "url": "/iframe.html?url=/storage/ag/originals/lolbeans/index.html",
       "imageUrl": "/storage/ag/originals/lolbeans/IMG_5301.jpeg",
       "categories": [
         "Action",
@@ -3494,7 +3494,7 @@
     },
     {
       "label": "ma",
-      "url": "/iframe.html?url=/storage/ag/originals/ma",
+      "url": "/iframe.html?url=/storage/ag/originals/ma/index.html",
       "imageUrl": "/storage/ag/originals/ma/IMG_5320.jpeg",
       "categories": [
         "Racing"
@@ -3502,7 +3502,7 @@
     },
     {
       "label": "melonplayground",
-      "url": "/iframe.html?url=/storage/ag/originals/melonplayground",
+      "url": "/iframe.html?url=/storage/ag/originals/melonplayground/index.html",
       "imageUrl": "/storage/ag/originals/melonplayground/IMG_5304.jpeg",
       "categories": [
         "Action"
@@ -3510,7 +3510,7 @@
     },
     {
       "label": "polytrack",
-      "url": "/iframe.html?url=/storage/ag/originals/polytrack",
+      "url": "/iframe.html?url=/storage/ag/originals/polytrack/index.html",
       "imageUrl": "/storage/ag/originals/polytrack/splash.png",
       "categories": [
         "Shooting"
@@ -3518,7 +3518,7 @@
     },
     {
       "label": "racesurvival",
-      "url": "/iframe.html?url=/storage/ag/originals/racesurvival",
+      "url": "/iframe.html?url=/storage/ag/originals/racesurvival/index.html",
       "imageUrl": "/storage/ag/originals/racesurvival/logo.jpeg",
       "categories": [
         "Shooting"
@@ -3526,7 +3526,7 @@
     },
     {
       "label": "redball",
-      "url": "/iframe.html?url=/storage/ag/originals/redball",
+      "url": "/iframe.html?url=/storage/ag/originals/redball/index.html",
       "imageUrl": "/storage/ag/originals/redball/IMG_5315.jpeg",
       "categories": [
         "Shooting"
@@ -3534,7 +3534,7 @@
     },
     {
       "label": "rooftopsnipers",
-      "url": "/iframe.html?url=/storage/ag/originals/rooftopsnipers",
+      "url": "/iframe.html?url=/storage/ag/originals/rooftopsnipers/index.html",
       "imageUrl": "/storage/ag/originals/rooftopsnipers/logo.png",
       "categories": [
         "Action",
@@ -3543,7 +3543,7 @@
     },
     {
       "label": "rooftopsnipers2",
-      "url": "/iframe.html?url=/storage/ag/originals/rooftopsnipers2",
+      "url": "/iframe.html?url=/storage/ag/originals/rooftopsnipers2/index.html",
       "imageUrl": "/storage/ag/originals/rooftopsnipers2/icon.png",
       "categories": [
         "Racing"
@@ -3551,7 +3551,7 @@
     },
     {
       "label": "run3",
-      "url": "/iframe.html?url=/storage/ag/originals/run3",
+      "url": "/iframe.html?url=/storage/ag/originals/run3/index.html",
       "imageUrl": "/storage/ag/originals/run3/run3.png",
       "categories": [
         "Io",
@@ -3560,7 +3560,7 @@
     },
     {
       "label": "shellshockers",
-      "url": "/iframe.html?url=/storage/ag/originals/shellshockers",
+      "url": "/iframe.html?url=/storage/ag/originals/shellshockers/index.html",
       "imageUrl": "/storage/ag/originals/shellshockers/IMG_5300.png",
       "categories": [
         "Sports"
@@ -3568,7 +3568,7 @@
     },
     {
       "label": "skribbl",
-      "url": "/iframe.html?url=/storage/ag/originals/skribbl",
+      "url": "/iframe.html?url=/storage/ag/originals/skribbl/index.html",
       "imageUrl": "/storage/ag/originals/skribbl/IMG_5303.jpeg",
       "categories": [
         "Action"
@@ -3576,7 +3576,7 @@
     },
     {
       "label": "slope2",
-      "url": "/iframe.html?url=/storage/ag/originals/slope2",
+      "url": "/iframe.html?url=/storage/ag/originals/slope2/index.html",
       "imageUrl": "/storage/ag/originals/slope2/fullscreen-button.png",
       "categories": [
         "Action"
@@ -3584,7 +3584,7 @@
     },
     {
       "label": "slowroads",
-      "url": "/iframe.html?url=/storage/ag/originals/slowroads",
+      "url": "/iframe.html?url=/storage/ag/originals/slowroads/index.html",
       "imageUrl": "/storage/ag/originals/slowroads/splash.jpeg",
       "categories": [
         "Action"
@@ -3592,7 +3592,7 @@
     },
     {
       "label": "smashkarts",
-      "url": "/iframe.html?url=/storage/ag/originals/smashkarts",
+      "url": "/iframe.html?url=/storage/ag/originals/smashkarts/index.html",
       "imageUrl": "/storage/ag/originals/smashkarts/smashkarts.webp",
       "categories": [
         "Shooting"
@@ -3600,7 +3600,7 @@
     },
     {
       "label": "soccerrandom",
-      "url": "/iframe.html?url=/storage/ag/originals/soccerrandom",
+      "url": "/iframe.html?url=/storage/ag/originals/soccerrandom/index.html",
       "imageUrl": "/storage/ag/originals/soccerrandom/unnamed.png",
       "categories": [
         "Shooting"
@@ -3608,7 +3608,7 @@
     },
     {
       "label": "spacehuggers",
-      "url": "/iframe.html?url=/storage/ag/originals/spacehuggers",
+      "url": "/iframe.html?url=/storage/ag/originals/spacehuggers/index.html",
       "imageUrl": "/storage/ag/originals/spacehuggers/screenshot.png",
       "categories": [
         "Action",
@@ -3617,7 +3617,7 @@
     },
     {
       "label": "spidermanvenomsvengence",
-      "url": "/iframe.html?url=/storage/ag/originals/spidermanvenomsvengence",
+      "url": "/iframe.html?url=/storage/ag/originals/spidermanvenomsvengence/index.html",
       "imageUrl": "/storage/ag/originals/spidermanvenomsvengence/splash.png",
       "categories": [
         "Action"
@@ -3625,19 +3625,19 @@
     },
     {
       "label": "stickslasher",
-      "url": "/iframe.html?url=/storage/ag/originals/stickslasher",
+      "url": "/iframe.html?url=/storage/ag/originals/stickslasher/index.html",
       "imageUrl": "/storage/ag/originals/stickslasher/favicon.ico",
       "categories": []
     },
     {
       "label": "tinyfishing",
-      "url": "/iframe.html?url=/storage/ag/originals/tinyfishing",
+      "url": "/iframe.html?url=/storage/ag/originals/tinyfishing/index.html",
       "imageUrl": "/storage/ag/originals/tinyfishing/thumb.png",
       "categories": []
     },
     {
       "label": "totm",
-      "url": "/iframe.html?url=/storage/ag/originals/totm",
+      "url": "/iframe.html?url=/storage/ag/originals/totm/index.html",
       "imageUrl": "/storage/ag/originals/totm/progressEmpty.Dark.png",
       "categories": [
         "Action"
@@ -3645,7 +3645,7 @@
     },
     {
       "label": "tunnelrush",
-      "url": "/iframe.html?url=/storage/ag/originals/tunnelrush",
+      "url": "/iframe.html?url=/storage/ag/originals/tunnelrush/index.html",
       "imageUrl": "/storage/ag/originals/tunnelrush/tunnel.jpg",
       "categories": [
         "Action",
@@ -3654,7 +3654,7 @@
     },
     {
       "label": "venge",
-      "url": "/iframe.html?url=/storage/ag/originals/venge",
+      "url": "/iframe.html?url=/storage/ag/originals/venge/index.html",
       "imageUrl": "/storage/ag/originals/venge/IMG_5229.jpeg",
       "categories": [
         "Io"
@@ -3662,7 +3662,7 @@
     },
     {
       "label": "wordle",
-      "url": "/iframe.html?url=/storage/ag/originals/wordle",
+      "url": "/iframe.html?url=/storage/ag/originals/wordle/index.html",
       "imageUrl": "/storage/ag/originals/wordle/icon.png",
       "categories": [
         "Shooting"
@@ -3670,7 +3670,7 @@
     },
     {
       "label": "zombocalypse",
-      "url": "/iframe.html?url=/storage/ag/originals/zombocalypse",
+      "url": "/iframe.html?url=/storage/ag/originals/zombocalypse/index.html",
       "imageUrl": "/storage/ag/originals/zombocalypse/zombocalypse-2.webp",
       "categories": [
         "Shooting"
@@ -3678,7 +3678,7 @@
     },
     {
       "label": "zombsroyale",
-      "url": "/iframe.html?url=/storage/ag/originals/zombsroyale",
+      "url": "/iframe.html?url=/storage/ag/originals/zombsroyale/index.html",
       "imageUrl": "/storage/ag/originals/zombsroyale/zombsroyale.webp",
       "categories": [
         "Action",

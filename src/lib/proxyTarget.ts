@@ -64,8 +64,36 @@ export function unwrapPlayUrl(raw: string): string {
   if (!/^https?:\/\//i.test(url) && !url.startsWith("/")) {
     url = "https://" + url.replace(/^\/+/, "");
   }
+  url = ensureStorageAgIndex(url);
   if (isMochiHref(url)) return publicMochiHref(url);
   return url;
+}
+
+const FILE_EXT = /\.[a-z0-9]{1,8}$/i;
+
+export function ensureStorageAgIndex(raw: string): string {
+  const url = String(raw || "").trim();
+  if (!url) return url;
+  try {
+    const abs = /^https?:\/\//i.test(url)
+      ? new URL(url)
+      : url.startsWith("/")
+        ? new URL(url, "https://storage.invalid")
+        : null;
+    if (!abs) return url;
+    if (!/\/storage\/ag\//i.test(abs.pathname)) return url;
+    const last = abs.pathname.split("/").filter(Boolean).pop() || "";
+    if (FILE_EXT.test(last)) return url;
+    let path = abs.pathname.replace(/\/+$/, "");
+    path += "/index.html";
+    if (/^https?:\/\//i.test(url)) {
+      abs.pathname = path;
+      return abs.toString();
+    }
+    return path + abs.search + abs.hash;
+  } catch {
+    return url;
+  }
 }
 
 export function resolveGameViaHref(url: string, via?: unknown): string {

@@ -2,15 +2,12 @@ import { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { defaultBrandSrc, hrefs } from "@/lib/uiMarks";
 import { publicMochiHref } from "@/lib/mochiPath";
+import { generateGameId } from "@/lib/gameId";
 
 type Cover = { label: string; imageUrl: string };
 
 let coverCache: Cover[] | null = null;
 let coverPromise: Promise<Cover[]> | null = null;
-
-function generateGameId(game: { label: string; url?: string }) {
-  return `${game.label || ""}-${game.url || ""}`.replace(/[^a-zA-Z0-9]/g, "-").toLowerCase();
-}
 
 function safeImg(url: string) {
   if (!url || typeof url !== "string") return "";
