@@ -250,6 +250,7 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@rivet": path.resolve(__dirname, "./packages/rivet/src"),
     },
   },
 }));

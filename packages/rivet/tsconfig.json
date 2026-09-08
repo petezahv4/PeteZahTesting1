@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["src/router/RivetRouter.ts", "src/router/swEntry.ts"]
+}

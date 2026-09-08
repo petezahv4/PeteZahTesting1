@@ -30,6 +30,7 @@ import {
   ChevronUp,
   Wrench,
   Code2,
+  Star,
 } from "lucide-react";
 import { Tab } from "@/hooks/useBrowserState";
 import {
@@ -40,6 +41,10 @@ import {
 import { formatShortcut, loadShortcuts } from "@/lib/shortcuts";
 import { hrefs, marks } from "@/lib/uiMarks";
 import ObfuscatedText from "@/components/ObfuscatedText";
+import { isBookmarked, toggleBookmark } from "@/components/BookmarksPage";
+import ExtensionPopup from "@/components/ExtensionPopup";
+import { ensureBuiltinExtensions } from "@/components/ExtensionsPage";
+import { findUblockExtensionId, getRivet } from "@/lib/rivet/host";
 
 interface ToolbarProps {
   activeTab: Tab | undefined;
@@ -113,10 +118,61 @@ export default function Toolbar({
   const suggestTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const suggestAbort = useRef<AbortController | null>(null);
   const [mapsReady, setMapsReady] = useState(false);
+  const [bookmarked, setBookmarked] = useState(false);
+  const [shieldOpen, setShieldOpen] = useState(false);
+  const [shieldOn, setShieldOn] = useState(true);
+  const shieldBtnRef = useRef<HTMLButtonElement>(null);
+  const shieldScopeRef = useRef(`${activeTab?.id || ""}:${activeTab?.url || ""}`);
+
+  useEffect(() => {
+    const scope = `${activeTab?.id || ""}:${activeTab?.url || ""}`;
+    if (shieldScopeRef.current === scope) return;
+    shieldScopeRef.current = scope;
+    setShieldOpen(false);
+  }, [activeTab?.id, activeTab?.url]);
 
   useEffect(() => {
     loadFontMaps().then(() => setMapsReady(true));
   }, []);
+
+  useEffect(() => {
+    ensureBuiltinExtensions();
+    let unsub: (() => void) | undefined;
+    const sync = () => {
+      try {
+        const rivet = getRivet();
+        const id = findUblockExtensionId();
+        const ext = id ? rivet?.getInstalledExtensions().find((e) => e.id === id) : null;
+        setShieldOn(ext ? ext.enabled !== false : true);
+      } catch {
+        setShieldOn(true);
+      }
+      try {
+        const url = activeTab?.url || "";
+        setBookmarked(!!url && !url.startsWith("petezah://") && isBookmarked(url));
+      } catch {
+        setBookmarked(false);
+      }
+    };
+    sync();
+    const onReady = () => {
+      const rivet = getRivet();
+      if (!rivet) return;
+      unsub?.();
+      unsub = rivet.onChange(sync);
+      sync();
+    };
+    window.addEventListener("petezah-extensions-updated", sync);
+    window.addEventListener("rivet-ready", onReady);
+    window.addEventListener("storage", sync);
+    onReady();
+    return () => {
+      unsub?.();
+      window.removeEventListener("petezah-extensions-updated", sync);
+      window.removeEventListener("rivet-ready", onReady);
+      window.removeEventListener("storage", sync);
+    };
+  }, [activeTab?.url]);
 
   useEffect(() => {
     if (isUrlFocused && inputRef.current) {
@@ -417,6 +473,25 @@ export default function Toolbar({
           </span>
         )}
 
+        {!isNewTab && activeTab?.url && !activeTab.url.startsWith("petezah://") ? (
+          <button
+            type="button"
+            title={bookmarked ? "Remove bookmark" : "Bookmark this tab"}
+            onMouseDown={(e) => e.preventDefault()}
+            onClick={(e) => {
+              e.stopPropagation();
+              const url = activeTab.url;
+              const title = activeTab.title || url;
+              const next = toggleBookmark(url, title);
+              setBookmarked(next);
+            }}
+            className="p-1 rounded-md hover:bg-white/5 transition-colors flex-shrink-0"
+            style={{ color: bookmarked ? "hsla(45, 90%, 62%, 0.95)" : "hsla(0,0%,100%,0.42)" }}
+          >
+            <Star size={12} fill={bookmarked ? "currentColor" : "none"} />
+          </button>
+        ) : null}
+
         <AnimatePresence>
           {isUrlFocused && suggestOpen && suggestions.length > 0 && (
             <motion.div
@@ -501,6 +576,30 @@ export default function Toolbar({
       </div>
 
       <div className="flex items-center gap-0.5 flex-shrink-0" style={{ color: "hsla(0,0%,100%,0.78)" }}>
+        <button
+          ref={shieldBtnRef}
+          type="button"
+          className="p-1.5 rounded-lg hover:bg-white/5 transition-colors toolbar-hide-sm relative"
+          title="uBlock Origin"
+          aria-expanded={shieldOpen}
+          onClick={() => setShieldOpen((v) => !v)}
+          style={{ color: shieldOn ? "hsla(145, 55%, 62%, 0.92)" : "hsla(0,0%,100%,0.55)" }}
+        >
+          <img
+            src="/b/rivet/ublock.png"
+            alt=""
+            width={14}
+            height={14}
+            style={{
+              display: "block",
+              width: 14,
+              height: 14,
+              borderRadius: 3,
+              objectFit: "contain",
+              opacity: shieldOn ? 1 : 0.45,
+            }}
+          />
+        </button>
         <button
           className="p-1.5 rounded-lg hover:bg-white/5 transition-colors toolbar-hide-sm"
           title={marks.a()}
@@ -703,6 +802,14 @@ export default function Toolbar({
           </AnimatePresence>
         </div>
       </div>
+      <ExtensionPopup
+        open={shieldOpen}
+        anchorEl={shieldBtnRef.current}
+        onClose={() => setShieldOpen(false)}
+        onManage={() => onNavigate("petezah://extensions")}
+        tabId={activeTab?.id}
+        tabUrl={activeTab?.url}
+      />
     </div>
   );
 }

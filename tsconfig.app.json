@@ -24,8 +24,9 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@rivet/*": ["./packages/rivet/src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "packages/rivet/src"]
 }

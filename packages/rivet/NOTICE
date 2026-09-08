@@ -1,0 +1,6 @@
+This directory vendors Rivet (Chrome-extension runtime) originally developed for Lyra
+(https://github.com/gayq/lyra), itself AGPL-3.0 licensed and based in part on Sapphire.
+
+PeteZah is licensed AGPL-3.0-only. Source for this package is included in this repository
+under packages/rivet/. Corresponding source for network use is available via the same
+distribution channels as the PeteZah service.

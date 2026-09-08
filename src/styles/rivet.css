@@ -1,0 +1,178 @@
+body.browser-view .main-nav {
+  z-index: 10000;
+}
+
+body.browser-view .main-nav::before {
+  position: absolute;
+}
+
+.rivet-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rivet-toolbar-trigger {
+  position: relative;
+  z-index: 10002;
+  box-sizing: content-box;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-icon);
+  cursor: pointer;
+  transition:
+    background-color 0.1s ease,
+    color 0.1s ease,
+    transform 0.1s ease;
+}
+
+.rivet-toolbar-trigger:hover,
+.rivet-toolbar-trigger.active {
+  background: var(--hover-bg);
+  color: var(--text-white);
+  transform: scale(var(--motion-hover-scale, 1.05));
+}
+
+.rivet-toolbar-trigger:active {
+  transform: scale(1);
+}
+
+.rivet-toolbar-extension-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.rivet-toolbar-badge {
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  min-width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 3px;
+  border-radius: 999px;
+  background: var(--notif-badge-bg);
+  color: var(--notif-badge-text);
+  font-size: 8px;
+  line-height: 1;
+}
+
+.rivet-toolbar-panel {
+  position: fixed;
+  z-index: 10001;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid hsla(220, 16%, 40%, 0.18);
+  border-radius: 14px;
+  background: #ffffff;
+  color: #1a1a1a;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  animation: rivet-popup-in 0.12s ease-out;
+  transition: none;
+  transform-origin: var(--rivet-popup-anchor-x) top;
+}
+
+.rivet-toolbar-panel.measuring {
+  visibility: hidden;
+  pointer-events: none;
+  animation: none;
+}
+
+.rivet-popup-backdrop {
+  position: fixed;
+  z-index: 10000;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  pointer-events: auto;
+}
+
+.rivet-toolbar-panel::before {
+  position: absolute;
+  z-index: 0;
+  top: -8px;
+  left: calc(var(--rivet-popup-anchor-x) - 8px);
+  width: 16px;
+  height: 16px;
+  border-top: 1px solid hsla(220, 16%, 40%, 0.18);
+  border-left: 1px solid hsla(220, 16%, 40%, 0.18);
+  border-radius: 4px 0 0;
+  background: #ffffff;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.rivet-toolbar-panel iframe {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 13px;
+  background: #ffffff;
+}
+
+@keyframes rivet-popup-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.rivet-context-menu {
+  position: fixed;
+  z-index: 10100;
+  min-width: 210px;
+  display: grid;
+  gap: 2px;
+  padding: 6px;
+  border: 1px solid var(--border-faint);
+  border-radius: 10px;
+  background: var(--bg-surface-5);
+}
+
+.rivet-context-menu button {
+  border: 0;
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: transparent;
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+}
+
+.rivet-context-menu button:hover {
+  background: var(--hover-bg);
+}
+
+.rivet-context-menu button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.rivet-context-menu hr {
+  width: 100%;
+  margin: 3px 0;
+  border: 0;
+  border-top: 1px solid var(--border-faint);
+}

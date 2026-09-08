@@ -52,7 +52,7 @@ const OPEN_EXACT = new Set([
   '/4f66ddd48bf4ee436b4ca095a86f40ff.html',
 ]);
 
-const OPEN_PREFIX = ['/cap/', '/api/verify-email', '/api/legal', '/api/study/', '/api/flashcards/', '/api/quiz/', '/vendor/', '/fonts/', '/fx/', '/storage/ag/'];
+const OPEN_PREFIX = ['/cap/', '/api/verify-email', '/api/legal', '/api/study/', '/api/flashcards/', '/api/quiz/', '/vendor/', '/fonts/', '/fx/', '/storage/ag/', '/b/', '/f/__rivet__/'];
 
 function isOpenPath(p) {
   if (OPEN_EXACT.has(p)) return true;
@@ -85,6 +85,7 @@ export function createCapGateMiddleware() {
     if (isOpenPath(p)) return next();
     if (shouldBypassGateForCrawler(req)) return next();
     if (hasValidGate(req) && hasValidLegal(req)) return next();
+    if (hasValidGate(req)) return next();
 
     if (p.startsWith('/api/') || p.startsWith('/n/m/') || p.startsWith('/f/g/') || p.startsWith('/!!/') || p.startsWith('/!cover!/') || p.startsWith('/f/c/')) {
       return res.status(403).json({ error: 'Verification required' });
@@ -116,5 +117,5 @@ export function sendVerifyPage(req, res) {
 }
 
 export function requireGateUpgrade(req) {
-  return hasValidGate(req) && hasValidLegal(req);
+  return hasValidGate(req);
 }

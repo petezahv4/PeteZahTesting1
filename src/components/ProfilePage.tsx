@@ -48,6 +48,10 @@ function normalizeHandle(raw: string) {
   return h;
 }
 
+function isValidPublicHandle(handle: string) {
+  return /^[a-zA-Z0-9_]{3,32}$/.test(handle) && !/^[0-9]+$/.test(handle);
+}
+
 export default function ProfilePage({
   username,
   onNavigate,
@@ -65,21 +69,36 @@ export default function ProfilePage({
 
   useEffect(() => {
     let cancelled = false;
-    const load = () => {
+    const load = async () => {
       setLoading(true);
       setError("");
-      fetch(`/api/user/${encodeURIComponent(handle)}`, { credentials: "include" })
-        .then(async (r) => {
-          const d = await r.json();
-          if (!r.ok) throw new Error(d.error || "Not found");
-          if (!cancelled) setUser(d.user);
-        })
-        .catch((e) => {
-          if (!cancelled) setError(e.message || "Failed to load profile");
-        })
-        .finally(() => {
-          if (!cancelled) setLoading(false);
-        });
+      if (!isValidPublicHandle(handle)) {
+        if (!cancelled) {
+          setUser(null);
+          setError("Invalid username");
+          setLoading(false);
+        }
+        return;
+      }
+      try {
+        const r = await fetch(`/api/user/${encodeURIComponent(handle)}`, { credentials: "include" });
+        const text = await r.text();
+        let d: any = null;
+        try {
+          d = text ? JSON.parse(text) : null;
+        } catch {
+          throw new Error(r.ok ? "Invalid response" : "User not found");
+        }
+        if (!r.ok) throw new Error(d?.error || "Not found");
+        if (!cancelled) setUser(d.user);
+      } catch (e: any) {
+        if (!cancelled) {
+          setUser(null);
+          setError(e?.message || "Failed to load profile");
+        }
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
     };
     load();
     const onUpdated = (e: Event) => {

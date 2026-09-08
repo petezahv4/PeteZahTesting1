@@ -47,6 +47,7 @@ import ObfuscatedText from "./ObfuscatedText";
 import { installFrameOpenTrap, parseAdTabUrl } from "@/lib/openTabBridge";
 import { recordHistory } from "./HistoryPage";
 import { runExtensionsOnFrame } from "./ExtensionsPage";
+import { injectRivetIntoFrame, syncRivetTab } from "@/lib/rivet/host";
 import { requestSyncSoon } from "@/lib/settingsSync";
 import { openTrendingOverlay } from "@/lib/homeUrl";
 import { hrefs, isGHref, marks } from "@/lib/uiMarks";
@@ -1164,7 +1165,20 @@ function RemotePaneHost({ tab, isVisible }: { tab: Tab; isVisible: boolean }) {
     const iframe = tab.frame.frame as HTMLIFrameElement;
 
     const inject = (url?: string) => {
-      runExtensionsOnFrame(iframe, url || tab.url);
+      const pageUrl = url || tab.url;
+      runExtensionsOnFrame(iframe, pageUrl);
+      syncRivetTab({
+        id: tab.id,
+        url:
+          !pageUrl || pageUrl.startsWith("petezah://")
+            ? "about:blank"
+            : pageUrl,
+        title: tab.title,
+        favicon: tab.favicon,
+        iframe,
+        active: isVisible,
+      });
+      void injectRivetIntoFrame(iframe, tab.id, pageUrl);
       installFrameOpenTrap(iframe);
     };
 
@@ -1177,6 +1191,7 @@ function RemotePaneHost({ tab, isVisible }: { tab: Tab; isVisible: boolean }) {
       if (detail?.tabId === tab.id && detail?.url) {
         try {
           (iframe as any).__pzExtRan = new Set();
+          (iframe as any).__pzShieldRan = new Set();
         } catch {}
         setTimeout(() => inject(detail.url), 250);
       }
@@ -1230,7 +1245,10 @@ function ExtensionAwareIframe({
     if (!isVisible) return;
     const iframe = ref.current;
     if (!iframe) return;
-    const inject = () => runExtensionsOnFrame(iframe, pageUrl);
+    const inject = () => {
+      runExtensionsOnFrame(iframe, pageUrl);
+      void injectRivetIntoFrame(iframe, "legacy", pageUrl);
+    };
     inject();
     iframe.addEventListener("load", inject);
     const pollMs = extensionPollMs();

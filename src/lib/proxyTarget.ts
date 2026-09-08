@@ -113,12 +113,12 @@ export async function applyMuxForUrl(url: string): Promise<boolean> {
       await armPx();
       const root = getMuxRoot();
       if (!root) {
-        await new Promise((r) => setTimeout(r, 50));
+        await new Promise((r) => setTimeout(r, 28));
         continue;
       }
       const conn = openMuxConnection(PX.muxWorker);
       if (!conn) {
-        await new Promise((r) => setTimeout(r, 50));
+        await new Promise((r) => setTimeout(r, 28));
         continue;
       }
       try {
@@ -129,7 +129,7 @@ export async function applyMuxForUrl(url: string): Promise<boolean> {
       boundStream = streamUrl;
       return true;
     } catch {
-      await new Promise((r) => setTimeout(r, 50));
+      await new Promise((r) => setTimeout(r, 28));
     }
   }
   return false;

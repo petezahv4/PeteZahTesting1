@@ -10,6 +10,8 @@ import { themeById, applyBrowserIdentity } from "./lib/siteThemes";
 import { isLiteDevice } from "./lib/liteDevice";
 import { startCampusPulse } from "./lib/campusPulse";
 import { syncBgEffectAttr } from "./lib/bgEffects";
+import { ensureBuiltinExtensions } from "./components/ExtensionsPage";
+import "./styles/rivet.css";
 
 const lite = isLiteDevice();
 if (lite) {
@@ -133,36 +135,85 @@ try {
 } catch {}
 syncBgEffectAttr();
 applyStoredSettings();
+try {
+  ensureBuiltinExtensions();
+} catch {}
+try {
+  localStorage.setItem("focusCloaking", "false");
+} catch {}
 
-function cloakInAboutBlank(iframeSrc: string): boolean {
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function cloakShellHtml(title: string, icon: string, iframeSrc: string): string {
+  return `<!doctype html><html><head><title>${escapeHtml(title)}</title><link rel="icon" href="${escapeHtml(icon)}"></head><body style="margin:0;overflow:hidden"><iframe title="app" style="height:100%;width:100%;border:0;position:fixed;inset:0" src="${escapeHtml(iframeSrc)}" allow="fullscreen; clipboard-read; clipboard-write; display-capture"></iframe></body></html>`;
+}
+
+function cloakInPopup(iframeSrc: string, mode: string): boolean {
   if (window !== window.top) return false;
   if (/Firefox/.test(navigator.userAgent)) return false;
-  const w = window.open("about:blank", "_blank");
-  if (!w || w.closed) return false;
-  w.document.title = localStorage.getItem("siteTitle") || "Home";
-  const link = w.document.createElement("link");
-  link.rel = "icon";
-    link.href = localStorage.getItem("siteLogo") || defaultBrandSrc();
-  if (link.href.startsWith("/")) link.href = window.location.origin + link.href;
-  w.document.head.appendChild(link);
-  const iframe = w.document.createElement("iframe");
-  iframe.src = iframeSrc;
-  iframe.setAttribute("allow", "fullscreen; clipboard-read; clipboard-write; display-capture");
-  iframe.style.cssText = "width:100vw;height:100vh;border:none;";
-  w.document.body.style.margin = "0";
-  w.document.body.style.overflow = "hidden";
-  w.document.body.appendChild(iframe);
+  const title = localStorage.getItem("siteTitle") || "Home - Classroom";
+  let icon = localStorage.getItem("siteLogo") || defaultBrandSrc();
+  if (icon.startsWith("/")) icon = window.location.origin + icon;
+  const html = cloakShellHtml(title, icon, iframeSrc);
+  let w: Window | null = null;
+  let blobUrl: string | null = null;
+  if (mode === "blob:") {
+    blobUrl = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+    w = window.open(blobUrl, "_blank");
+    if (!w || w.closed) {
+      if (blobUrl) URL.revokeObjectURL(blobUrl);
+      return false;
+    }
+    w.addEventListener("load", () => {
+      if (blobUrl) URL.revokeObjectURL(blobUrl);
+    }, { once: true });
+  } else {
+    w = window.open("about:blank", "_blank");
+    if (!w || w.closed) return false;
+    try {
+      w.document.open();
+      w.document.write(html);
+      w.document.close();
+    } catch {
+      try {
+        w.document.title = title;
+        const link = w.document.createElement("link");
+        link.rel = "icon";
+        link.href = icon;
+        w.document.head.appendChild(link);
+        const iframe = w.document.createElement("iframe");
+        iframe.src = iframeSrc;
+        iframe.setAttribute("allow", "fullscreen; clipboard-read; clipboard-write; display-capture");
+        iframe.style.cssText = "width:100vw;height:100vh;border:none;";
+        w.document.body.style.margin = "0";
+        w.document.body.style.overflow = "hidden";
+        w.document.body.appendChild(iframe);
+      } catch {
+        return false;
+      }
+    }
+  }
   return true;
 }
 
 {
   const blankHash = (window.location.hash || "").toLowerCase() === "#blank";
   const autocloak = localStorage.getItem("autocloak") === "true";
-  if (blankHash || autocloak) {
+  const linkMode = localStorage.getItem("linkCloaking") || "none";
+  const shouldCloak = blankHash || autocloak || (linkMode !== "none");
+  if (shouldCloak) {
     const cleanUrl =
       window.location.origin + window.location.pathname + window.location.search;
     const iframeSrc = blankHash ? cleanUrl : window.location.origin + "/";
-    if (cloakInAboutBlank(iframeSrc)) {
+    const mode = linkMode === "about:blank" ? "about:blank" : "blob:";
+    if (cloakInPopup(iframeSrc, mode)) {
       window.location.href =
         localStorage.getItem("panicUrl") || "https://classroom.google.com";
     } else if (blankHash && window.location.hash) {

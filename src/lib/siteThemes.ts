@@ -160,49 +160,49 @@ export const UA_PRESETS: { id: string; label: string; group: string; ua: string 
     id: "chrome-win",
     label: "Chrome · Windows",
     group: "Desktop",
-    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
   },
   {
     id: "chrome-mac",
     label: "Chrome · macOS",
     group: "Desktop",
-    ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
   },
   {
     id: "safari-mac",
     label: "Safari · macOS",
     group: "Desktop",
-    ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15",
+    ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
   },
   {
     id: "firefox-win",
     label: "Firefox · Windows",
     group: "Desktop",
-    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0",
   },
   {
     id: "edge-win",
     label: "Edge · Windows",
     group: "Desktop",
-    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
   },
   {
     id: "safari-iphone",
     label: "Safari · iPhone",
     group: "Mobile",
-    ua: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1",
+    ua: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
   },
   {
     id: "chrome-android",
     label: "Chrome · Android",
     group: "Mobile",
-    ua: "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+    ua: "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
   },
   {
     id: "chromecast",
     label: "Smart TV · Chromecast",
     group: "Living room",
-    ua: "Mozilla/5.0 (CrKey armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.132 Safari/537.36",
+    ua: "Mozilla/5.0 (CrKey armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6261.132 Safari/537.36",
   },
   {
     id: "ps5",
@@ -231,7 +231,7 @@ export const UA_PRESETS: { id: string; label: string; group: string; ua: string 
 ];
 
 const SYNTHETIC_UA =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
 export function resolveUserAgent(): string {
   try {
@@ -252,20 +252,35 @@ export function applyBrowserIdentity() {
   try {
     const identity = localStorage.getItem("browserIdentity") || "mirror";
     const ua = resolveUserAgent();
-    if (identity === "disguise" || (localStorage.getItem("uaPreset") || "auto") !== "auto" || localStorage.getItem("customUserAgent")) {
-      try {
-        Object.defineProperty(Navigator.prototype, "userAgent", {
-          get: () => ua,
-          configurable: true,
-        });
-      } catch {}
-      try {
-        Object.defineProperty(navigator, "userAgent", {
-          get: () => ua,
-          configurable: true,
-        });
-      } catch {}
-    }
+    const shouldPatch =
+      identity === "disguise" ||
+      (localStorage.getItem("uaPreset") || "auto") !== "auto" ||
+      !!localStorage.getItem("customUserAgent");
+    if (!shouldPatch) return;
+    try {
+      Object.defineProperty(Navigator.prototype, "userAgent", {
+        get: () => ua,
+        configurable: true,
+      });
+    } catch {}
+    try {
+      Object.defineProperty(navigator, "userAgent", {
+        get: () => ua,
+        configurable: true,
+      });
+    } catch {}
+    try {
+      Object.defineProperty(Navigator.prototype, "appVersion", {
+        get: () => ua.replace(/^Mozilla\//, ""),
+        configurable: true,
+      });
+    } catch {}
+    try {
+      Object.defineProperty(Navigator.prototype, "vendor", {
+        get: () => "Google Inc.",
+        configurable: true,
+      });
+    } catch {}
   } catch {}
 }
 

@@ -92,7 +92,7 @@ export function ensureDefaultBookmarks() {
 export function addBookmark(url: string, title: string) {
   const data = getBookmarks();
   const clean = isBookmarklet(url) ? normalizeBookmarklet(url) : url;
-  if (data.items.some((b) => b.url === clean)) return;
+  if (data.items.some((b) => b.url === clean)) return false;
   data.items.push({
     id: String(Date.now()),
     title: title || (isBookmarklet(clean) ? "Bookmarklet" : url),
@@ -104,6 +104,35 @@ export function addBookmark(url: string, title: string) {
     createdAt: Date.now(),
   });
   saveBookmarks(data);
+  return true;
+}
+
+export function isBookmarked(url: string) {
+  try {
+    const clean = isBookmarklet(url) ? normalizeBookmarklet(url) : url;
+    return getBookmarks().items.some((b) => b.url === clean);
+  } catch {
+    return false;
+  }
+}
+
+export function removeBookmarkByUrl(url: string) {
+  const data = getBookmarks();
+  const clean = isBookmarklet(url) ? normalizeBookmarklet(url) : url;
+  const next = data.items.filter((b) => b.url !== clean);
+  if (next.length === data.items.length) return false;
+  data.items = next;
+  saveBookmarks(data);
+  return true;
+}
+
+export function toggleBookmark(url: string, title: string) {
+  if (isBookmarked(url)) {
+    removeBookmarkByUrl(url);
+    return false;
+  }
+  addBookmark(url, title);
+  return true;
 }
 
 const S = {

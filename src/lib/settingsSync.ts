@@ -9,6 +9,8 @@ const SYNC_KEYS = [
   'beforeUnload',
   'disableRightClick',
   'autocloak',
+  'linkCloaking',
+  'focusCloaking',
   'backgroundColor',
   'backgroundImage',
   'bgNetwork',

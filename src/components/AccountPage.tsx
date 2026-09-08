@@ -428,21 +428,46 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
   const bgImgRef = useRef<HTMLInputElement>(null);
 
   function openAboutBlank() {
-    const w = window.open("about:blank", "_blank");
-    if (!w || w.closed) { alert("Please allow popups for about:blank to work."); return; }
-    w.document.title = localStorage.getItem("siteTitle") || "Home";
-    const link = w.document.createElement("link");
-    link.rel = "icon";
-    link.href = localStorage.getItem("siteLogo") || defaultBrandSrc();
-    if (link.href.startsWith("/")) link.href = window.location.origin + link.href;
-    w.document.head.appendChild(link);
-    const iframe = w.document.createElement("iframe");
-    iframe.src = window.location.origin + "/";
-    iframe.setAttribute("allow", "fullscreen; clipboard-read; clipboard-write; display-capture");
-    iframe.style.cssText = "width:100vw;height:100vh;border:none;";
-    w.document.body.style.margin = "0";
-    w.document.body.style.overflow = "hidden";
-    w.document.body.appendChild(iframe);
+    const mode = localStorage.getItem("linkCloaking") === "about:blank" ? "about:blank" : "blob:";
+    const title = localStorage.getItem("siteTitle") || "Home - Classroom";
+    let icon = localStorage.getItem("siteLogo") || defaultBrandSrc();
+    if (icon.startsWith("/")) icon = window.location.origin + icon;
+    const appUrl = window.location.origin + "/";
+    const html = `<!doctype html><html><head><title>${title.replace(/</g, "")}</title><link rel="icon" href="${icon}"></head><body style="margin:0;overflow:hidden"><iframe style="height:100%;width:100%;border:0;position:fixed;inset:0" src="${appUrl}" allow="fullscreen; clipboard-read; clipboard-write; display-capture"></iframe></body></html>`;
+    let w: Window | null = null;
+    if (mode === "blob:") {
+      const blobUrl = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+      w = window.open(blobUrl, "_blank");
+      if (w && !w.closed) w.addEventListener("load", () => URL.revokeObjectURL(blobUrl), { once: true });
+      else URL.revokeObjectURL(blobUrl);
+    } else {
+      w = window.open("about:blank", "_blank");
+      if (w && !w.closed) {
+        try {
+          w.document.open();
+          w.document.write(html);
+          w.document.close();
+        } catch {
+          w.document.title = title;
+          const link = w.document.createElement("link");
+          link.rel = "icon";
+          link.href = icon;
+          w.document.head.appendChild(link);
+          const iframe = w.document.createElement("iframe");
+          iframe.src = appUrl;
+          iframe.setAttribute("allow", "fullscreen; clipboard-read; clipboard-write; display-capture");
+          iframe.style.cssText = "width:100vw;height:100vh;border:none;";
+          w.document.body.style.margin = "0";
+          w.document.body.style.overflow = "hidden";
+          w.document.body.appendChild(iframe);
+        }
+      }
+    }
+    if (!w || w.closed) {
+      alert("Please allow popups for cloaking to work.");
+      return;
+    }
+    window.location.href = localStorage.getItem("panicUrl") || "https://classroom.google.com";
   }
 
   const [s, setS] = useState<Record<string, string>>({});
@@ -661,7 +686,7 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
 
   const loadLocalSettings = useCallback(() => {
     const keys = [
-      "theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","autocloak",
+      "theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","autocloak","focusCloaking","linkCloaking",
       "backgroundColor","backgroundImage","bgNetwork","debugHud","searchEdgeGlow","horizontalTabs","trendingHomescreen",hrefs.gf(),"quickRelaunch",hrefs.rp(),"lowPowerBg","rainBackdrop","rainScene","bgEffect",
       "searchEngine","browserIdentity","uaPreset","customUserAgent","proxServer","extensionsEnabled","stripTrackers","preferHttps",
     ];
@@ -675,6 +700,7 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
     if (!loaded.uaPreset) loaded.uaPreset = "auto";
     if (!loaded.extensionsEnabled) loaded.extensionsEnabled = "true";
     if (loaded.searchEdgeGlow === undefined) loaded.searchEdgeGlow = "true";
+    if (loaded.focusCloaking === undefined) loaded.focusCloaking = "false";
     setS(loaded);
   }, []);
 
@@ -1560,7 +1586,7 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
         loadLocalSettings();
         const loaded: Record<string, string> = {};
         [
-          "theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","autocloak",
+          "theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","autocloak","focusCloaking","linkCloaking",
           "backgroundColor","backgroundImage","bgNetwork","debugHud","searchEdgeGlow","horizontalTabs","trendingHomescreen",hrefs.gf(),"quickRelaunch",hrefs.rp(),"lowPowerBg","rainBackdrop","rainScene","bgEffect",
           "searchEngine","browserIdentity","uaPreset","customUserAgent","proxServer","extensionsEnabled","stripTrackers","preferHttps",
         ].forEach(k => {
@@ -1593,7 +1619,7 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
         const data = JSON.parse(ev.target?.result as string);
         if (data.localStorage) {
           Object.entries(data.localStorage).forEach(([k, v]) => localStorage.setItem(k, String(v)));
-          const keys = ["theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","disableParticles","autocloak"];
+          const keys = ["theme","siteTitle","siteLogo","panicKey","panicUrl","beforeUnload","disableRightClick","disableParticles","autocloak","focusCloaking","linkCloaking"];
           const loaded: Record<string,string> = {};
           keys.forEach(k => { const v = localStorage.getItem(k); if (v !== null) loaded[k] = v; });
           setS(loaded); applySettingsNow(loaded);
@@ -2872,6 +2898,12 @@ export default function AccountPage({ onNavigate }: { onNavigate: (url: string) 
                   <Field label="Custom tab title" value={s.siteTitle || ""} onChange={(e: any) => setVal("siteTitle", e.target.value)} placeholder="e.g. Google Classroom" />
                   <Field label="Custom favicon URL" value={s.siteLogo || ""} onChange={(e: any) => setVal("siteLogo", e.target.value)} placeholder="https://..." icon={Lock} />
                 </div>
+
+                <Divider />
+                <p style={{ fontSize: "10px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: C.textMuted, margin: "14px 0 6px" }}>About:blank / blob cloak</p>
+                <p style={{ fontSize: "11px", color: C.textSub, margin: "0 0 10px" }}>
+                  Use Behavior → Autocloak for the Classroom leftover-tab trick. Focus-based title swapping is off.
+                </p>
 
                 <Divider />
                 <p style={{ fontSize: "10px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: C.textMuted, margin: "14px 0 6px" }}>About:Blank</p>

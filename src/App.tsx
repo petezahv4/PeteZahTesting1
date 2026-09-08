@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import ProfilePage from "./components/ProfilePage";
 import SharedAiPage from "./components/SharedAiPage";
 import SvgAccessGate from "./components/SvgAccessGate";
+import LegalReagreeModal from "./components/LegalReagreeModal";
 import { isSvgShell } from "./lib/siteOrigin";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
       <Sonner />
       <Router>
         <SvgAccessGate>
+          <LegalReagreeModal />
           <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/user/:username" element={<PublicProfileRoute />} />

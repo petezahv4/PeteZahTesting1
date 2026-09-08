@@ -7,6 +7,7 @@ export function legalStatusHandler(req, res) {
     version: LEGAL_VERSION,
     gate: hasValidGate(req),
     accepted: hasValidLegal(req),
+    needsReagree: hasValidGate(req) && !hasValidLegal(req),
   });
 }
 

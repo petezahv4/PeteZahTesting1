@@ -25,6 +25,7 @@ import {
   type OpenTabRequest,
 } from "@/lib/openTabBridge";
 import { hrefs } from "@/lib/uiMarks";
+import { setRivetNavigateHandler } from "@/lib/rivet/host";
 
 function getPresenceClientId() {
   try {
@@ -77,6 +78,12 @@ export default function ArcBrowser() {
   const zoomIn = useCallback(() => setZoomLevel((z) => Math.min(z + 10, 200)), []);
   const zoomOut = useCallback(() => setZoomLevel((z) => Math.max(z - 10, 50)), []);
   const resetZoom = useCallback(() => setZoomLevel(100), []);
+
+  useEffect(() => {
+    setRivetNavigateHandler((url) => {
+      state.navigateToUrl(url);
+    });
+  }, [state.navigateToUrl]);
 
   useEffect(() => {
     const open = () => setTrendingOpen(true);

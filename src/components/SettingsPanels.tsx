@@ -725,15 +725,60 @@ export function BehaviorSettings(props: Props) {
           <ToggleRow
             C={C}
             label="Autocloak"
-            desc="Open inside about:blank on load"
+            desc="Open in a cloaked blob:/about:blank window and leave Classroom in the original tab"
             checked={s.autocloak === "true"}
             onChange={() => {
               const next = s.autocloak !== "true";
               setVal("autocloak", next ? "true" : "false");
               localStorage.setItem("autocloak", next ? "true" : "false");
-              if (next) openAboutBlank();
+              if (next) {
+                if (!localStorage.getItem("linkCloaking") || localStorage.getItem("linkCloaking") === "none") {
+                  localStorage.setItem("linkCloaking", "blob:");
+                  setVal("linkCloaking", "blob:");
+                }
+                openAboutBlank();
+              }
             }}
           />
+        </div>
+        <div style={{ borderBottom: `1px solid ${C.border}`, padding: "10px 14px" }}>
+          <div style={{ fontSize: 12, fontWeight: 650, color: C.text, marginBottom: 4 }}>Link cloak mode</div>
+          <div style={{ fontSize: 10, color: C.textSub, marginBottom: 8 }}>How autocloak / #blank wraps the session</div>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+            {[
+              { id: "blob:", label: "blob: (stronger)" },
+              { id: "about:blank", label: "about:blank" },
+              { id: "none", label: "Off" },
+            ].map((opt) => {
+              const active = (s.linkCloaking || "none") === opt.id;
+              return (
+                <button
+                  key={opt.id}
+                  type="button"
+                  onClick={() => {
+                    setVal("linkCloaking", opt.id);
+                    localStorage.setItem("linkCloaking", opt.id);
+                    if (opt.id === "none") {
+                      setVal("autocloak", "false");
+                      localStorage.setItem("autocloak", "false");
+                    }
+                  }}
+                  style={{
+                    padding: "6px 10px",
+                    borderRadius: 8,
+                    border: `1px solid ${active ? C.borderFocus : C.border}`,
+                    background: active ? C.accentDim : "transparent",
+                    color: active ? C.accent : C.textSub,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    cursor: "pointer",
+                  }}
+                >
+                  {opt.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
         <div style={{ borderBottom: `1px solid ${C.border}` }}>
           <ToggleRow C={C} label="Block right-click" desc="Disable the page context menu" checked={s.disableRightClick === "true"} onChange={() => toggle("disableRightClick")} />
