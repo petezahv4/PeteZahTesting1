@@ -8,7 +8,7 @@ import { CoverImg } from "@/lib/mediaCover";
 import { pxEncode, pxReady } from "@/lib/px";
 import { applyVpnRegion, isSignedIn } from "@/lib/vpn";
 import { setPendingAuth } from "@/lib/authPending";
-import { AdResponsiveBanner } from "@/components/ads/Adsterra";
+import { AdResponsiveBanner, AdNativeBarAlt } from "@/components/ads/Adsterra";
 import { sealPlayerPopups, setPopupLock } from "@/lib/sealPlayerPopups";
 import { sealPollMs } from "@/lib/liteDevice";
 
@@ -1480,6 +1480,7 @@ export default function MoviesPage({
                   <>
                     <div style={{ padding: "0 0 12px" }}>
                       <AdResponsiveBanner />
+                      <AdNativeBarAlt />
                     </div>
                     <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 8, scrollbarWidth: "none" }}>
                       {shelfCatalog.map((item) => {

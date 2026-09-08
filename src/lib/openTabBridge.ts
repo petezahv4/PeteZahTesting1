@@ -8,10 +8,10 @@ export type OpenTabRequest = {
 };
 
 const AD_HOST_RE =
-  /(^|\.)(senty\.com\.au|highperformanceformat\.com|effectivecpmnetwork\.com|profitablegatecpm\.com|adsterra\.com|adserving\.|popads\.|propellerads\.|doubleclick\.net|googlesyndication\.com|googletagservices\.com|googleadservices\.com|adnxs\.com|adsrvr\.org|advertising\.com|adform\.net|casalemedia\.com|rubiconproject\.com|pubmatic\.com|openx\.net|lijit\.com|smaato\.net|contextweb\.com|criteo\.com|taboola\.com|outbrain\.com|mgid\.com|revcontent\.com|exoclick\.com|magsrv\.com|juicyads\.com|trafficjunky\.net|popcash\.net|bidvertiser\.com|rfihub\.com|inmobi\.com|smartadserver\.com|a-mo\.net|tapad\.com|lkqd\.net|adotmob\.com|iqm\.com|quantserve\.com|loopme\.me|admanmedia\.com|everesttech\.net|omnitagjs\.com|360yield\.com|ssp\.wp\.pl|adthrive\.com|raptive\.com|amazon-adsystem\.com|googletagmanager\.com)(\/|:|$)/i;
+  /(^|\.)(senty\.com\.au|highperformanceformat\.com|effectivecpmnetwork\.com|profitableratecpmnetwork\.com|profitablegatecpm\.com|adsterra\.com|adserving\.|popads\.|propellerads\.|doubleclick\.net|googlesyndication\.com|googletagservices\.com|googleadservices\.com|adnxs\.com|adsrvr\.org|advertising\.com|adform\.net|casalemedia\.com|rubiconproject\.com|pubmatic\.com|openx\.net|lijit\.com|smaato\.net|contextweb\.com|criteo\.com|taboola\.com|outbrain\.com|mgid\.com|revcontent\.com|exoclick\.com|magsrv\.com|juicyads\.com|trafficjunky\.net|popcash\.net|bidvertiser\.com|rfihub\.com|inmobi\.com|smartadserver\.com|a-mo\.net|tapad\.com|lkqd\.net|adotmob\.com|iqm\.com|quantserve\.com|loopme\.me|admanmedia\.com|everesttech\.net|omnitagjs\.com|360yield\.com|ssp\.wp\.pl|adthrive\.com|raptive\.com|amazon-adsystem\.com|googletagmanager\.com)(\/|:|$)/i;
 
 const AD_HINT_RE =
-  /senty\.com\.au|highperformanceformat|effectivecpmnetwork|profitablegatecpm|adsterra|doubleclick|googlesyndication|googleadservices|popads|propellerads|exoclick|magsrv|juicyads|adnxs|adsrvr|casalemedia|rubiconproject|taboola|outbrain|adthrive|raptive|amazon-adsystem|safeframe\.googlesyndication/i;
+  /senty\.com\.au|highperformanceformat|effectivecpmnetwork|profitableratecpmnetwork|profitablegatecpm|adsterra|doubleclick|googlesyndication|googleadservices|popads|propellerads|exoclick|magsrv|juicyads|adnxs|adsrvr|casalemedia|rubiconproject|taboola|outbrain|adthrive|raptive|amazon-adsystem|safeframe\.googlesyndication/i;
 
 function fromCodes(codes: number[]): string {
   return codes.map((c) => String.fromCharCode(c)).join("");

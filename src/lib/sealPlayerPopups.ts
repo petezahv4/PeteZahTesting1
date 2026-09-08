@@ -1,7 +1,7 @@
 const LOCK_ATTR = "data-pz-lock-popups";
 
 const AD_HREF_RE =
-  /popads|propeller|exoclick|magsrv|juicyads|popcash|adsterra|doubleclick|googlesyndication|googleadservices|adnxs|adsrvr|outbrain|taboola|onclick|onclickgenius|ad-maven|clickadu|trafficjunky|bidvertiser|popunder|push-notification|notif|offertoro|adgate|adscend|ogury|zeropark|highperformanceformat|effectivecpmnetwork|profitablegatecpm|opera\.com|operagx|gx\.opera/i;
+  /popads|propeller|exoclick|magsrv|juicyads|popcash|adsterra|doubleclick|googlesyndication|googleadservices|adnxs|adsrvr|outbrain|taboola|onclick|onclickgenius|ad-maven|clickadu|trafficjunky|bidvertiser|popunder|push-notification|notif|offertoro|adgate|adscend|ogury|zeropark|highperformanceformat|effectivecpmnetwork|profitableratecpmnetwork|profitablegatecpm|opera\.com|operagx|gx\.opera/i;
 
 const OPERA_GX_RE =
   /opera\s*gx|operagx|opera\.com\/gx|gx\.opera|download\s*opera|install\s*opera|get\s*opera|gaming browser|faster browser/i;

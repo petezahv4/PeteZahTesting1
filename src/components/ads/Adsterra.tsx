@@ -5,6 +5,8 @@ const KEY_728 = "5aed292251276d82b269fc3b8ecc354d";
 const KEY_320 = "fee48967b89db2d0bd32a6c670ffa744";
 const NATIVE_ID = "1f9ef1ea03eb9743ae2feb0b3f839a92";
 const NATIVE_SRC = `https://pl25832426.effectivecpmnetwork.com/${NATIVE_ID}/invoke.js`;
+const NATIVE2_ID = "49296616653e0fc0c3a7aa4792bb1d80";
+const NATIVE2_SRC = `https://pl31174667.profitableratecpmnetwork.com/${NATIVE2_ID}/invoke.js`;
 const LOADING_SRC =
   "https://pl27983175.effectivecpmnetwork.com/c1/07/27/c10727dadb32856a5f427df5cc7f44ab.js";
 const MONETAG_SRC = "https://quge5.com/88/tag.min.js";
@@ -159,10 +161,43 @@ export function AdNativeBar() {
   );
 }
 
+/** Compact native unit for content pages (games/apps/media) — not homepage. */
+export function AdNativeBarAlt() {
+  const id = useId().replace(/:/g, "");
+  const containerId = `container-${NATIVE2_ID}`;
+  const mounted = useRef(false);
+  useEffect(() => {
+    if (mounted.current) return;
+    mounted.current = true;
+    if (document.querySelector(`script[data-pz-native="${NATIVE2_ID}"]`)) return;
+    const script = document.createElement("script");
+    script.async = true;
+    script.dataset.cfasync = "false";
+    script.dataset.pzNative = NATIVE2_ID;
+    script.src = NATIVE2_SRC;
+    document.body.appendChild(script);
+  }, []);
+  return (
+    <div style={{ width: "100%", padding: "2px 0 10px" }} data-ad-slot={id}>
+      <AdLabel />
+      <div
+        id={containerId}
+        style={{
+          width: "100%",
+          minHeight: 40,
+          maxHeight: 100,
+          overflow: "hidden",
+          marginTop: 4,
+        }}
+      />
+    </div>
+  );
+}
+
 const LOADING_HOST_ID = "pz-adsterra-loading-host";
 const MONETAG_HOST_ID = "pz-monetag-loading-host";
 const AD_BLEED_SRC_RE =
-  /effectivecpmnetwork\.com|highperformanceformat\.com|profitablegatecpm\.com|adsterra\.com|senty\.com\.au|quge5\.com|monetag/i;
+  /effectivecpmnetwork\.com|profitableratecpmnetwork\.com|highperformanceformat\.com|profitablegatecpm\.com|adsterra\.com|senty\.com\.au|quge5\.com|monetag/i;
 
 function scrubHost(id: string) {
   try {
@@ -197,7 +232,7 @@ export function scrubAdsterraLoadingArtifacts() {
       const tag = el.tagName;
       if (tag === "SCRIPT") {
         const src = (el as HTMLScriptElement).src || "";
-        if (AD_BLEED_SRC_RE.test(src) && !src.includes(NATIVE_ID)) {
+        if (AD_BLEED_SRC_RE.test(src) && !src.includes(NATIVE_ID) && !src.includes(NATIVE2_ID)) {
           try {
             el.remove();
           } catch {}
@@ -416,4 +451,4 @@ export function playLoaderNetworkAdsBehind(
   });
 }
 
-export { LOADING_SRC, KEY_728, KEY_320, NATIVE_ID, INVOKE_HOST, MONETAG_SRC, MONETAG_ZONE };
+export { LOADING_SRC, KEY_728, KEY_320, NATIVE_ID, NATIVE2_ID, INVOKE_HOST, MONETAG_SRC, MONETAG_ZONE };
